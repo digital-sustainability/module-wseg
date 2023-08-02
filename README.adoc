@@ -1,12 +1,14 @@
 image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[BFH]
 
-= Modulkonzept <Modul Bezeichnung> (<Modul Kürzel>)
+= Modulkonzept
 
-=== Autor:
+== Software Engineering (WSEG)
 
-=== Version: 
+=== Autor: Jörg Berkel
 
-=== Gültig ab:
+=== link:https://semver.org[Version]: 1.0.0
+
+=== Gültig ab: HS 2023 (1.8.2023)
 
 == Formale Beschreibung
 
@@ -14,34 +16,35 @@ image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[B
 |===
 
 | Modulname und -kürzel 
-| 
+| WSEG - Software Engineering
 
 | Verantwortliches Institut, ggfs. Fachgruppe
-| 
+| https://www.bfh.ch/en/research/research-areas/public-sector-transformation/[Institut Public Sector Transformation (IPST)], https://www.bfh.ch/de/forschung/forschungsbereiche/digital-sustainability-lab/[Digital Sustainability Lab]
 
 | Studiengang
-| 
+| Bachelor of Science Wirtschaftsinformatik (BWI)
 
 | Stufe
-| 
+| Hauptstudium
 
 | ggfs. Vertiefung / Wahlpflichtgruppe
-| 
+| n/a
 
 | Semester
-| 
+| 5. Semester Vollzeit, . Semester Teilzeit
 
 | Durchführungsmodus & Hinweise für Stundenplan
-| 
+| Jede Woche 4-Lektionenblock
 
 | ECTS-Credits
-| 
+| 6 ECTS
 
 | Sprache
-| 
+| Deutsch
 
 | Zielgruppe inkl. Eignung für Incoming-Stud.
-| 
+| primär ausgerichtet auf BWI-Studierende
+offen für Studierende anderer Studiengänge oder Incoming-Studierende (mit Interesse an Open Source Software)
 
 |
 |===
@@ -53,38 +56,107 @@ image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[B
 
 | Kurzbeschreibung +
 (öffentlich, für IS-A) 
-| 
+| Im Modul "Software Engineering" lernen die Studierenden, wie sie allein und in einer Gruppe Software entwickeln können. Das Modul beinhaltet theoretische Inhalte, sowie ein Praxisprojekt, in dem die Studierenden das Gelernte umsetzen und vertiefen. Im Praxisprojekt geht es neben der Programmierung und dem Einsatz von standardisierten Webtechnologien darum, ein wertschöpfendes Produkt (bzw. Prototyp) zu gestalten.
 
 | Detaillierte Beschreibung 
-| 
+| siehe Modulinhalte und Vermittelte Kompetenzen
 
 | Modulinhalte und Zusammenarbeit +
 (Modulaufbau, Fachinhalte, Methoden, Praxisfälle, Forschungsbezug)
-| 
+a| Modulaufbau
+wöchentlicher 4-Lektionenblock während des Semesters mit einer Durchführung pro Klasse.
+Der 4-Lektionenblock besteht aus theoretischen und praktischen Inhalten.
+
+Zentrale Inhalte
+
+- Grundlagen Softwareentwicklung
+- Agile Softwareentwicklung im Team
+- Grundlagen Objektorientierte Programmierung
+- Praxisprojekt: Entwicklung einer Web-Applikation mit Frontend und Backend (z.B. mit Angular und Strapi)
+- Kennenlernen und Einsatz von Werkzeugen wie z.B Git zur Codeverwaltung und Dokumentation
+
+Methoden
+Lesen, Verstehen und Besprechen von Lehrbuchtexten, Fachartikeln und Softwaredokumentationen
+Lösen von Entwicklungsaufgaben durch die Dozierenden, durch einzelne Studierende und durch Gruppen von vier bis fünf Studierenden
+
+Praxisfälle
+aus der Arbeitserfahrung der beteiligten Dozierenden
+
+Forschungsbezug
+aus der Forschungserfahrung der beteiligten Dozierenden
 
 | Lehr- und Lernformen
-| 
+| Präsenzstudium
+Wissenserarbeitung, Entwicklungsaufgaben, Lehrgespräch, Coaching
+
+Selbststudium
+Literaturstudium, Videos, Projektarbeit: Einzel-/Gruppenarbeiten
 
 | Verwendete Tools
-| 
+a| - Visual Studio Code / VSCodium
+- Node.js
+- Git
 
 | Literatur
-| 
+| Sommerville, I. (2020): Modernes Software-Engineering. Entwurf und Entwicklung von Softwareprodukten. Pearson Deutschland. ISBN: 978-3868943962.
 
 | Eingangskompetenzen +
 (Fachkompetenzen und Kompetenzen gemäss Kompetenzmodell BFH-W)
-| 
+| Fachkompetenzen und Kompetenzen der Berufsmaturität der Typen «Technik, Architektur, Life Sciences» oder «Wirtschaft und Dienstleistungen»
 
 | Vermittelte Kompetenzen +
 (Fachkompetenzen und Kompetenzen gemäss Kompetenzmodell BFH-W)
-| 
+a| Fachkompetenzen: Die Studierenden können...
+
+- Grundbegriffe und Herausforderungen des modernen Software Engineerings erklären.
+- Phasen und Aktivitäten in der Entwicklung von Softwareprodukten erläutern.
+- Qualitätsmerkmale von Softwareprodukten beschreiben.
+- Methoden und Werkzeuge zur arbeitsteiligen Entwicklung von Softwareprodukten anwenden.
+- Quellcode mit Git verwalten
+- Techniken zur Komplexitätsreduktion einer Software erklären.
+- Aus einer Produktidee ein Konzept erstellen und daraus einen Prototyp umsetzen.
+- Wireframes auf Papier und mit einer Software erstellen.
+- Eine einfache Single Page Application (Web-Applikation) entwickeln.
+- Die Dokumentationen verwendeter Webtechnologien und -frameworks konsultieren.
+
+Kompetenzen gemäss Kompetenzmodell BFH-W
+
+Problemsolving/Design Thinking (verwandt: Methodenkompetenz): Die Studierenden...
+
+- erkennen, dass im Software Engineering eine Kombination von kreativ-spielerischem und logisch-stringentem Vorgehen nötig ist.
+
+Kollaboration (verwandt: Sozialkompetenzen): Die Studierenden...
+
+- erleben und reflektieren die Voraussetzungen für eine erfolgreiche, effiziente und effektive Zusammenarbeit.
+- bringen ihre persönlichen Ressourcen in Teams ein.
+- kommunizieren als Team mit Aussenstehenden durch Präsentationen und schriftliche Beiträge
+
+Selbstmanagement (verwandt: Selbstkompetenzen): Die Studierenden...
+
+- lernen mit Autonomie und Selbstorganisation umzugehen.
+- lernen und arbeiten selbständig, erkennen Kenntnislücken frühzeitig und füllen diese selbständig.
+- können ihre Denk- und Arbeitsprozesse kritisch hinterfragen und mögliche Handlungsoptionen entwickeln.
+- entwickeln realistische Selbst- und Zeiteinschätzungen.
+
+Umgang mit Komplexität: Die Studierenden...
+
+- reflektieren die Komplexität von modernen, verteilten Softwareanwendungen.
+- reflektieren die Komplexität von arbeitsteiliger Softwareentwicklung.
 
 | Schnittstellen zu anderen Modulen +
 (zuführende, parallele, weiterführende)
-| 
+a| - WSEN 3. Semester, Grundlagen Programmieren
+- WDDA 3. Semester, Datenmodelle
+- https://github.com/digital-sustainability/module-eoss[EOSS] 3. Semester 
+- EWEB 5. Semester
 
 | Kompetenznachweis*
-| 
+| Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
+ - Semesterwochen
+
+Teil 2: Schlussprüfung (50%), Moodle-Prüfung, 60 Minuten
+- In den offiziellen Prüfungswochen
+- elektronische PC-Prüfung mit Lernstick EXAM oder Campla
 
 |
 |===
