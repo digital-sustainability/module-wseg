@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>module/wseg</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/bfh.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+        <div class="reveal">
+            <div class="slides">
+                  <!-- Logo: https://commons.wikimedia.org/wiki/File:BFH_Logo_deutsch.png -->
+                  
+                  <section data-markdown="03/01.md"
+                          data-separator="^---"
+                          data-separator-vertical="^--"
+                          data-separator-notes="^Note:"
+                          data-charset="UTF-8"
+                          
+                          data-background-image="https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png" 
+                          data-background-size="130px" 
+                          data-background-repeat="no-repeat"
+                          data-background-position="5% 90%">
+                  </section>
+            </div>
+        </div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: 'c/t',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
