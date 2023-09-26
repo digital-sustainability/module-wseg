@@ -1,5 +1,7 @@
 image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[BFH]
 
+link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[image:https://gitpod.io/button/open-in-gitpod.svg[Open IDE]]
+
 = Modulkonzept
 
 == Software Engineering (WSEG)
