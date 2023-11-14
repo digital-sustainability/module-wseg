@@ -1,4 +1,6 @@
-image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[BFH]
+link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Berner_Fachhochschule_Logo_small.svg/128px-Berner_Fachhochschule_Logo_small.svg.png[BFH]]
+
+link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[image:https://gitpod.io/button/open-in-gitpod.svg[Open IDE]]
 
 = Modulkonzept
 
