@@ -6,7 +6,7 @@ image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[B
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.0
+=== link:https://semver.org[Version]: 1.0.1
 
 === Gültig ab: HS 2023 (1.8.2023)
 
@@ -22,7 +22,7 @@ image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[B
 | https://www.bfh.ch/en/research/research-areas/public-sector-transformation/[Institut Public Sector Transformation (IPST)], https://www.bfh.ch/de/forschung/forschungsbereiche/digital-sustainability-lab/[Digital Sustainability Lab]
 
 | Studiengang
-| Bachelor of Science Wirtschaftsinformatik (BWI)
+| https://bfh.ch/bachelor-digitalbusiness-ai[Bachelor in Digital Business & AI]
 
 | Stufe
 | Hauptstudium
@@ -31,7 +31,7 @@ image:https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png[B
 | n/a
 
 | Semester
-| 5. Semester Vollzeit, . Semester Teilzeit
+| 3. Semester Vollzeit, 4. Semester Teilzeit
 
 | Durchführungsmodus & Hinweise für Stundenplan
 | Jede Woche 4-Lektionenblock
@@ -148,7 +148,8 @@ Umgang mit Komplexität: Die Studierenden...
 a| - WSEN 3. Semester, Grundlagen Programmieren
 - WDDA 3. Semester, Datenmodelle
 - https://github.com/digital-sustainability/module-eoss[EOSS] 3. Semester 
-- EWEB 5. Semester
+- EWEB 5. Semester, Webtechnologien
+- EUID 5. Semester, UI Design
 
 | Kompetenznachweis*
 | Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
