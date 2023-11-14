@@ -147,7 +147,7 @@ Umgang mit Komplexität: Die Studierenden...
 
 | Schnittstellen zu anderen Modulen +
 (zuführende, parallele, weiterführende)
-a| - WSEN 3. Semester, Grundlagen Programmieren
+a| - WSEN 1. Semester, Grundlagen Programmieren
 - WDDA 3. Semester, Datenmodelle
 - https://github.com/digital-sustainability/module-eoss[EOSS] 3. Semester 
 - EWEB 5. Semester, Webtechnologien
