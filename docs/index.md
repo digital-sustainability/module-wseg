@@ -1,6 +1,6 @@
 # WSEG
 
-## Termine
+## Inhalt(e)
 
 ### #1
 
