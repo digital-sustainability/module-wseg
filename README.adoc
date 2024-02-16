@@ -8,9 +8,9 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.1
+=== link:https://semver.org[Version]: 1.0.2
 
-=== Gültig ab: HS 2023 (1.8.2023)
+=== Gültig ab: FS 2024 (1.2.2024)
 
 == Formale Beschreibung
 
@@ -21,7 +21,7 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 | WSEG - Software Engineering
 
 | Verantwortliches Institut, ggfs. Fachgruppe
-| https://www.bfh.ch/en/research/research-areas/public-sector-transformation/[Institut Public Sector Transformation (IPST)], https://www.bfh.ch/de/forschung/forschungsbereiche/digital-sustainability-lab/[Digital Sustainability Lab]
+| https://www.bfh.ch/de/forschung/forschungsbereiche/public-sector-transformation/[Institut Public Sector Transformation (IPST)], https://www.bfh.ch/de/forschung/forschungsbereiche/digital-sustainability-lab/[Digital Sustainability Lab]
 
 | Studiengang
 | https://bfh.ch/bachelor-digitalbusiness-ai[Bachelor in Digital Business & AI]
@@ -147,19 +147,22 @@ Umgang mit Komplexität: Die Studierenden...
 
 | Schnittstellen zu anderen Modulen +
 (zuführende, parallele, weiterführende)
-a| - WSEN 1. Semester, Grundlagen Programmieren
-- WDDA 3. Semester, Datenmodelle
-- https://github.com/digital-sustainability/module-eoss[EOSS] 3. Semester 
-- EWEB 5. Semester, Webtechnologien
-- EUID 5. Semester, UI Design
+a| - WSEN Softwareentwicklung, Grundlagen Programmieren
+- WDDA Data Management & Data Analysis, Datenmodelle
+- WREQ Requirements Engineering, RE & UML
+- https://github.com/digital-sustainability/module-eoss[EOSS] Open Source Software
+Management, Git
+- EWEB Web Engineering, Webtechnologien
+- EUID Hands-on UI Design, UI Design
+- ERAP Hackathon & Rapid Prototyping, APIs bauen/verwenden
 
 | Kompetenznachweis*
 | Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
  - Semesterwochen
 
-Teil 2: Schlussprüfung (50%), Moodle-Prüfung, 60 Minuten
+Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
 - In den offiziellen Prüfungswochen
-- elektronische PC-Prüfung mit Lernstick EXAM oder Campla
+- elektronische PC-Prüfung mit https://www.lernstick.ch/[Lernstick EXAM] oder https://campla.github.io/[CAMPLA]
 
 |
 |===
