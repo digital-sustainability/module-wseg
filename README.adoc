@@ -171,7 +171,7 @@ Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minut
 
 === Timing
 
-image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-eoss/24/fs/docs/timing.puml[timing]
+image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/24/fs/docs/timing.puml[timing]
 
 === Zweck des Dokuments
 
