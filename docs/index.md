@@ -44,7 +44,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Mithilfe von HTML und der Dokumentation Inhalte und Struktur einer Website gestalten können.
 - Mithilfe von CSS und der Dokumentation das Styling einer Website gestalten können.
 
-## #3 Codemanagement 🗃️ (MT)
+## [#3 Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/03/) (MT)
 
  - Einstieg in die Versionsverwaltung (mit git)
  - Basissetup: Initialisieren und Zugriff (Clonen via SSH)
