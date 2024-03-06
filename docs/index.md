@@ -46,6 +46,19 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #3 Codemanagement 🗃️ (MT)
 
+ - Einstieg in die Versionsverwaltung (mit git)
+ - Basissetup: Initialisieren und Zugriff (Clonen via SSH)
+ - Basisbefehle: push, pull, status, commit
+ - Erweiterte Befehle: branch, merge, rebase
+ - Kollaborationsplattform Gitlab & Modelle
+
+### Lernziele
+
+ - Die Grundprinzipien und Gründe für den Einsatz einer Versionsverwaltung benennen können
+ - Ein neues Repository anlegen, sowie im Team gemeinsam clonen können
+ - Erste Transaktionen (Commits) vornehmen und publizieren können
+ - Änderungen in der Versionsverwaltung einsehen und nachvollziehen können 
+
 ## #4 Softwarearchitektur 📦 (JB)
 
 ## #5 Objektorientierte Programmierung ⌨ (JB)
