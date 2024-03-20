@@ -46,30 +46,64 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## [#3 Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/03/) (MT)
 
- - Einstieg in die Versionsverwaltung (mit git)
- - Basissetup: Initialisieren und Zugriff (Clonen via SSH)
- - Basisbefehle: push, pull, status, commit
- - Erweiterte Befehle: branch, merge, rebase
- - Kollaborationsplattform Gitlab & Modelle
+- Einstieg in die Versionsverwaltung (mit git)
+- Basissetup: Initialisieren und Zugriff (Clonen via SSH)
+- Basisbefehle: push, pull, status, commit
+- Erweiterte Befehle: branch, merge, rebase
+- Kollaborationsplattform Gitlab & Modelle
 
 ### Lernziele
 
- - Die Grundprinzipien und Gründe für den Einsatz einer Versionsverwaltung benennen können
- - Ein neues Repository anlegen, sowie im Team gemeinsam clonen können
- - Erste Transaktionen (Commits) vornehmen und publizieren können
- - Änderungen in der Versionsverwaltung einsehen und nachvollziehen können 
+- Die Grundprinzipien und Gründe für den Einsatz einer Versionsverwaltung benennen können
+- Ein neues Repository anlegen, sowie im Team gemeinsam clonen können
+- Erste Transaktionen (Commits) vornehmen und publizieren können
+- Änderungen in der Versionsverwaltung einsehen und nachvollziehen können
 
-## #4 Softwarearchitektur 📦 (JB)
+## #4 [Softwarearchitektur](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/04/) 📦 (JB)
 
-## #5 Objektorientierte Programmierung ⌨ (JB)
+- Softwarearchitektur: Entwurf, Architekturen
+- Komponenten und Bezug zu Angular
+- Node.js und praktischer Einstieg Angular
+- Infos Deliverable "Pitch"
 
-### 🏃 1. Pitch-Präsentation
+### Lernziele
 
-## #6 Agiles Arbeiten / Einführung Strapi ✈️ (MT/JB im BBB 💻) !! Remote-only !!
+- Den Begriff Softwarearchitektur erklären und verschiedene Architekturtypen aufzählen können
+- Eine (Web-)Applikation in Komponenten zerlegen können
+- Die Architektur des eigenen Projekts in einfachen Worten erklären
+- Ein Angular-Projekt (oder anderes JS-Frontend) aufsetzen können und dessen wichtigste Module kennen
+
+## #5 [Objektorientierte Programmierung ⌨ / Einführung Strapi ✈️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/05/) (JB)
+
+- Typescript/JavaScript
+  - Typen, Objekte
+  - Funktionen / this
+- OOP \* Klassen
+- Strapi (Headless CMS) aufsetzen
+- Infos Deliverable "Blog"
+- Auftrag: Umfrage "Mentor-Bot"
+
+### 🏃 1. Pitch-Präsentation 📣 (JB/MT)
+
+### Lernziele
+
+- grundlegendes Verständnis zu OOP (Begriffe Objekt, Instanz, Klasse, Attribut)
+- OOP-Konzepte Abstraktion, Enkapsulation, Vererbung, Polymorphismus kennen
+- OOP-Modellierung einer Lösung zu einer einfachen Problemstellung
+- Die Verwendung von REST APIs und CRUD-Operationen erläutern können
+- Erstellung eines einfachen Datenmodells in Strapi
+
+## #6 [Agiles Arbeiten 🎯 / BFH-Forschungsprojekt 🤖](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/06/) (MT + Gäste im BBB 💻) !! Remote-only !!
+
+### Lernziele
+
+- "die Prinzipien des agilen Vorgehens verstehen und Anwendungsmöglichkeiten im eigenen Beruf erkennen"
+- REST APIs mit eigenständigem API-Client konsumieren (testen/verwenden)
+- Verwendung von Markdown als Auszeichnungssprache für Dokumentationen in Gitlab
 
 ## #7 !! nur Freitag: Coaching, Teamarbeit (JB/DSL) -- !! AUSFALL Do. Careerday !!
 
-### 🏃 2. Deliverable Blog
+### 🏃 2. Deliverable Blog 📰
 
 ## #8 DevOps kennenlernen / Cloudbasierte Software ☁ (JB/MT remote)
 
@@ -83,7 +117,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #12 OPs & Monitoring / Software Evaluation ✅ (JB im BBB 💻) !! Remote-only !!
 
-### 🏃 4. Deliverable Blog mit GitLab Pages
+### 🏃 4. Deliverable Blog 📰✅ mit GitLab Pages 🌐
 
 ## #13 Projektabschluss 🏁 / Prüfungsumgebung (MT/JB)
 
