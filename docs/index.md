@@ -75,13 +75,14 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #5 [Objektorientierte Programmierung ⌨ / Einführung Strapi ✈️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/05/) (JB)
 
+- REST APIs
 - Typescript/JavaScript
   - Typen, Objekte
   - Funktionen / this
-- OOP \* Klassen
+- OOP / Klassen
 - Strapi (Headless CMS) aufsetzen
 - Infos Deliverable "Blog"
-- Auftrag: Umfrage "Mentor-Bot"
+- Auftrag: Umfrage "Mentor-Bot", ...
 
 ### 🏃 1. Pitch-Präsentation 📣 (JB/MT)
 
@@ -93,7 +94,9 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Die Verwendung von REST APIs und CRUD-Operationen erläutern können
 - Erstellung eines einfachen Datenmodells in Strapi
 
-## #6 [Agiles Arbeiten 🎯 / BFH-Forschungsprojekt 🤖](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/06/) (MT + Gäste im BBB 💻) !! Remote-only !!
+## #6 [Agiles Arbeiten 🎯 / BFH-Forschungsprojekt 🤖💬](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/06/) (MT + Gäste im BBB 💻) !! Remote-only !!
+
+- Infos zu Markdown und Merge-Requests (für 2. Deliverable)
 
 ### Lernziele
 
