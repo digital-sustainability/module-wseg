@@ -104,9 +104,14 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - REST APIs mit eigenständigem API-Client konsumieren (testen/verwenden)
 - Verwendung von Markdown als Auszeichnungssprache für Dokumentationen in Gitlab
 
-## #7 !! nur Freitag: Coaching, Teamarbeit (JB/DSL) -- !! AUSFALL Do. Careerday !!
+## #7 [!! nur Freitag: Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB/DSL) -- !! AUSFALL Do. Careerday !!
 
 ### 🏃 2. Deliverable Blog 📰
+
+### Lernziele
+
+- den Begriff CI/CD und die Funktion eines Staging Servers erklären können
+- eine Gitlab Pipeline anhand der Datei .gitlab-ci.yml verwenden
 
 ## #8 DevOps kennenlernen / Cloudbasierte Software ☁ (JB/MT remote)
 
