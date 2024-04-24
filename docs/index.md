@@ -106,14 +106,32 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #7 [!! nur Freitag: Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB/DSL) -- !! AUSFALL Do. Careerday !!
 
+- Demo: Vertiefung Strapi und REST-Client
+
+### 1. Coaching
+
 ### 🏃 2. Deliverable Blog 📰
 
 ### Lernziele
 
-- den Begriff CI/CD und die Funktion eines Staging Servers erklären können
-- eine Gitlab Pipeline anhand der Datei .gitlab-ci.yml verwenden
+- Private APIs mit JSON-Web-Token (JWT) abfragen
+- Strapi-Relationen durch Parameter "populate" befüllen lassen
+- Typescript-Datenmodell an Strapi-Antwort anpassen
 
 ## #8 DevOps kennenlernen / Cloudbasierte Software ☁ (JB/MT remote)
+
+- Demo: Angular HTTP-Kommunikation mit Strapi
+- DevOps organisatorisch und technisch
+- Hands-on: Persönlicher Fork und Gitlab-Pipeline
+- "Operations und Cloudbasierte (open source) Software"
+
+### Lernziele
+
+- den Begriff CI/CD und die Funktion eines Integration Servers erklären können
+- eine Gitlab Pipeline anhand der Datei .gitlab-ci.yml verwenden
+- den Einsatz der verschiedenen as-a-Service Angebote bezogen auf ein Produkt beurteilen können und die Vor- und Nachteile beschreiben
+- Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das Praxisprojekt abzuschätzen können
+- (die Begriffe Virtualisierung und Containerisierung und die Eigenschaften von Cloudsoftware erklären können)
 
 ## #9 Software Validierung ✅ / Container (MT)
 
