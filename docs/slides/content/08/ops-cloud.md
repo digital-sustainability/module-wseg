@@ -64,11 +64,11 @@ https://xkcd.com/2347/
 
 [![](https://i0.wp.com/techsprobe.com/wp-content/uploads/2020/02/macOS-Catalina-10.15-2020-02-24-21-23-37.png?w=1440&ssl=1)](https://techsprobe.com/install-windows-10-on-virtualbox-on-macos-catalina/)
 --
-[![](https://www.claranet.de/sites/all/assets/de/infografik-1_was-sind-container.png)](https://www.claranet.de/blog/wie-funktionieren-docker-container)
+[![](https://www.claranet.com/de/sites/all/assets/de/infografik-1_was-sind-container.png)](https://www.claranet.de/blog/wie-funktionieren-docker-container)
 --
 ## Virtuelle Maschinen <-> Container
 
-[![](https://images.contentstack.io/v3/assets/blt300387d93dabf50e/bltb6200bc085503718/5e1f209a63d1b6503160c6d5/containers-vs-virtual-machines.jpg)](https://www.weave.works/blog/a-practical-guide-to-choosing-between-docker-containers-and-vms)
+[![](https://kubernetes.io/images/docs/Container_Evolution.svg)](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do)
 --
 ### Virtuelle Maschinen (VMs)
 
@@ -85,10 +85,6 @@ Nur das nötigste, weniger Fähigkeiten und **kleiner Overhead**
 Läuft **auf** einem Betriebssystem
 
 Isolation: nur Betriebssystem-relevante Funktionen für den Container
---
-![](https://kubernetes.io/images/docs/Container_Evolution.svg)
-
-[Kubernetes](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do) & Co
 ---
 # Skalierung
 
