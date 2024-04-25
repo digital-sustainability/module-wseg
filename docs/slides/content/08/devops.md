@@ -14,7 +14,7 @@ WSEG / FS24<br />
    - organisatorisch
    - technisch
 4. Hands-on "Persönliches" git 🛠️
-5. "Operations und Cloudbasierte (open source) Software"
+5. "Operations und Cloudbasierte Systeme"
 
 --
 
@@ -22,15 +22,103 @@ WSEG / FS24<br />
 
 - Merge-Requests
   - kann MR nachträglich [geöffnet werden?](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/8352)
-- Reminder MentorBot (Ioana hat "[contributet](https://github.com/digital-sustainability/module-wseg/commit/ae553c577b554b57340c74d68de878313099edbb)")
+  - DIY: Ready to merge! -> Delete source branch & merge
+- Reminder MentorBot + Checkliste
   - reflektierte Fragen ins Forum oder persönlich an Dozierende
+- JWT Intro (siehe Aufzeichnung)
 - Fragen euerseits?
 
 ---
 
-### Demo: Angular-HTTP -> Strapi-Restaurant
+### Demo 🛠️
 
-siehe Repository als Vorlage
+#### Angular-HTTP -> Strapi-Restaurant
+
+--
+
+### Angular v17 mit Standalone [(Quelle)](https://dev.to/this-is-angular/how-to-fetch-data-using-the-providehttpclient-in-angular-5h47)
+
+#### app.config.ts
+
+- `provider:` um `, provideHttpClient()` erweitern
+
+### Service erstellen
+
+- `ng g service service/restaurant`
+- -> wird RestaurantService heissen..
+
+--
+
+### restaurant.service.ts
+
+- HttpClient importieren
+- .. und im Konstruktor initialisieren
+- Hol-Funktion mit GET-Request:
+  <br/><br/>
+
+```
+  getAllRestaurants() {
+   return this.http.get('http://localhost:1337/api/restaurants');
+ }
+
+```
+
+--
+
+### app.component.ts
+
+- RestaurantService importieren
+- Datenmodell anhand Strapi-Antwort definieren:
+
+```
+interface Restaurant {
+  id: number;
+  attributes: {
+    name: string;
+    description: string;
+  }
+}
+```
+
+- ... damit leeren Array initialisieren:
+  `  restaurants: Restaurant[] = [];`
+
+--
+
+### app.component.ts
+
+- `restaurantService: RestaurantService = inject(RestaurantService)`
+- **http**-Rückgabe ist ein `Observable`
+- Array `restaurants` befüllen ab Key "data"
+
+```
+constructor() {
+    this.restaurantService.getAllRestaurants().subscribe({
+      next: (results: any) => {
+        this.restaurants = results.data;
+      },
+      error: (error) => {
+        console.log(error);
+      },
+      complete: () => {
+        console.log("finished");
+      }
+    });
+  }
+```
+
+--
+
+### app.component.html
+
+```
+{{ title }} Demo
+
+<ul *ngFor="let restaurant of restaurants">
+  <li>{{ restaurant.attributes.name }}</li>
+  <li>{{ restaurant.attributes.description }}</li>
+</ul>
+```
 
 ---
 
@@ -65,10 +153,12 @@ siehe Repository als Vorlage
 
 #### Andere Kombinationen
 
-- [DevSecOps](https://about.gitlab.com/topics/devops/)
+- [DevSecOps](https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/)
 - [GitOps](https://about.gitlab.com/topics/gitops/)
 - BizDev(Ops)
   - [Paper 2017](https://www.sciencedirect.com/science/article/abs/pii/S0164121215001430?via%3Dihub)
+
+> ❓ Gibt es andere Methoden / Frameworks, die ähnliche Ziele wie DevOps verfolgen? Falls ja, ...
 
 ---
 
@@ -80,7 +170,11 @@ oder PLAN, CODE, BUILD, TEST, RELEASE, DEPLOY, OPERATE, MONITOR
 
 --
 
-### lokale Entwicklungsumgebung vs. automatisierter Integrationsserver
+### lokale Entwicklungsumgebung
+
+#### vs.
+
+### automatisierter Integrationsserver
 
 --
 
@@ -88,72 +182,108 @@ oder PLAN, CODE, BUILD, TEST, RELEASE, DEPLOY, OPERATE, MONITOR
 
 <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*57INuyf56018l0Y_Pel0ig.png" height="600px" />
 
----
-
-<!-- .slide: data-background="#fff5c1" -->
-
-### Hands-on: Gitlab Page mit Pipeline
-
-#### im persönlichen Namespace erzeugen
-
-- Unterschied **forken** 🍴 zu clonen
-
-  - "Personal Project" unter https://gitlab.ti.bfh.ch/abcd1/
-  - Original ist _upstream_, der Fork **downstream**
-
-- "Pull-Request":
-  - Anfrage an upstream..
-  - ..Änderungen von downstream zu integrieren
-
 --
 
-<!-- .slide: data-background="#fff5c1" -->
+### ❓
 
-### .. Basis für 4. Deliverable
-
-```
- * "Page" veröffentlichen auf Gitlab
-   * CI-Pipeline kennenlernen
-   * Konvertierung Markdown -> HTML
-```
-
-- Bitte [ci-demo](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs/ci-demo/) nach abcd1 forken
-
-[Gitlab: CI Quickstart](https://docs.gitlab.com/ee/ci/quick_start/)
+> Welche Strategien und Werkzeuge würdest du empfehlen, um die Kluft zwischen Entwicklung (Dev) und Betrieb (Ops) in einem Unternehmen zu überbrücken und eine effektive DevOps-Kultur zu fördern?
 
 ---
 
-### Demo: Das Frontend bauen
+### Beispiel: Single-Page-Application "updaten"
 
-- Was macht "npm build"?
+![](https://suresoft.dev/assets/workshops/continuous-integration/img/ci-gitlab.JPG)
+
+- [Gitlab CI Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)
+  (Github nennt das [Actions](https://github.com/actions/) )
 
 --
 
-### SPA-Frontend auf Gitlab Pages deployen
+### Demo: ... für Produktionsumgebung bauen
+
+- Was machen `ng build` bzw. `npm build`?
+- z.B. TypeScript ➡️ JavaScript
+- 📁 dist/.../browser mit:
+  - index.html
+  - main.js
+  - polyfills.js
+  - styles.css
+
+--
+
+#### Example: https://osamaelhariri.gitlab.io/TechBlog/
+
+### Ausschnitt .gitlab-ci.yml
 
 ```yml
-# ...Vorbereitungsteil wird auch benötigt!
+...
 pages:
  script:
 - cd frontend
 - npm run build
  artifacts:
  paths:
- - frontend/dist
- publish: frontend/dist
+ - frontend/dist/demo-app/browser
+ publish: frontend/dist/demo-app/browser
 ```
 
-(Github nennt das [Actions](https://github.com/actions/) )
+--
+
+### ❓
+
+> Welche Vorteile bietet die kontinuierliche Integration im Kontext der DevOps-Automatisierung?
+
+---
+
+<!-- .slide: data-background="#fff5c1" -->
+
+### Hands-on: Gitlab Page mit Pipeline
+
+```
+ * HTML-"Page" veröffentlichen auf Gitlab
+   * CI-Pipeline kennenlernen
+   * Konvertierung Markdown -> HTML
+```
+
+--
+
+<!-- .slide: data-background="#fff5c1" -->
+
+#### Fork im persönlichen Namespace
+
+- Unterschied **forken** 🍴 zu clonen
+
+  - Original ist _upstream_, der Fork **downstream**
+
+- **Pull-Request**:
+  - Eine Anfrage an upstream..
+  - ..bestimmte Änderungen von downstream zu integrieren
+
+--
+
+<!-- .slide: data-background="#fff5c1" -->
+
+### Kurze Übung 🛠️
+
+#### ..als Basis für 4. Deliverable
+
+https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs/ci-demo/
+
+- Bitte [ci-demo](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs/ci-demo/) nach abcd1 forken
+- wird "Personal Project"<br/>
+  https://gitlab.ti.bfh.ch/abcd1/ci-demo/
 
 ---
 
 ### Fragen?
 
-> Wie interagieren automatisierte Problemverfolgungssysteme mit anderen Aspekten der DevOps-Automatisierung im Hinblick auf die Verbesserung der Effizienz und Zuverlässigkeit des gesamten SE-Prozesses?
+--
 
-- [Issue-Ablauf](https://youtu.be/kTNfi5z6Uvk?feature=shared&t=1530)
-- [Beispiel zum Nachspielen](https://gitlab.com/missionimpossiblecode/what-and-why-of-devops/what-and-why-devops-instructions-and-exercises/-/blob/main/.gitlab/issue_templates/Lab%202%20See%20CI%20In%20Action.md?ref_type=heads)
-- [Git-Commit schliesst Issue](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+> Wie könnte die Implementierung von GitLab CI/CD in einem Startup die Produktentwicklungszyklen beeinflussen und welche praktischen Vorteile könnte das Team erwarten?
+
+--
+
+> Nachfrage: Was sind die wichtigsten Herausforderungen, denen sich Unternehmen bei der Einführung von KI und maschinellem Lernen stellen müssen und wie können diese überwinden werden?
 
 ---
 
@@ -166,11 +296,13 @@ pages:
 z.B. für Deployment-Tokens, ...<br />
 [Gitlab: CI Variables](https://docs.gitlab.com/ee/ci/variables/)
 
+--
+
 ### Incident? Git-history verändern
 
 [Github: Removing Sensitive Data](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 
----
+--
 
 ### Sicherheitslücken, Compliance Lizenzmodelle
 
@@ -187,19 +319,3 @@ z.B. für Deployment-Tokens, ...<br />
 - #10 📺 (Auffahrt)
 - #11 Accessibility & UX Design (Tommi 🇫🇮)
   - ggf. Coaching 3
-
---
-
-#### Zwischenpräsentation
-
-- Rückblick und Ausblick
-
-  - Welche Ziele haben wir uns für das Produkt gesetzt?
-  - Bisher erreicht / Anpassungen der Ziele?
-  - Grössten Schwierigkeiten?
-
-- Live Demonstration
-
-- Fragen
-  - mindestens zwei vorbereitete Fragen um Feedback einzuholen.
-    (dazu sind auch Onlinetools einsetzbar)
