@@ -4,17 +4,21 @@
 --
 ![](https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/248728814/original/554dd35b41ef56392d0ababb471da1b8ead892ff/help-with-gitlab-ci-kubernetes-gcp-or-devops-related-work.png)
 
-<< [gitlab](https://twitter.com/pedromscom/status/1065609628216672256?s=61&t=aRiEd6p3AoVew1WYGQ2tpg) >>
+<< [gitlab](https://twitter.com/pedromscom/status/1065609628216672256?s=61&t=aRiEd6p3AoVew1WYGQ2tpg) >> **Ziel**: automatisierte Prozesse, kleine Inkremente, Qualität++
 ---
 # cloudbasierte Systeme
 
-[primär](https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module2#what-are-the-major-open-source-business-models) Open Source Software
+[primär](https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module2#what-are-the-major-open-source-business-models) **Open Source Software** > [module-eoss](https://github.com/digital-sustainability/module-eoss/tree/main?tab=readme-ov-file#inhaltliche-beschreibung)
+--
+<img src="https://imgs.xkcd.com/comics/dependency_2x.png" height="500px">
+
+https://xkcd.com/2347/
 --
 ![](https://i.imgflip.com/2x3gah.jpg)
 --
 [![](https://images.unsplash.com/photo-1643042945810-1119948eeabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80)](https://unsplash.com/de/fotos/oaeyvk5USJY)
 
-Black Friday: 0 ... ∞
+[Black Friday](https://aws.amazon.com/de/blogs/aws/how-aws-powered-amazons-biggest-day-ever/): 0 ... ∞
 --
 ![](https://scaledagileframework.com/wp-content/uploads/2022/11/Cloud_F03.svg)
 
@@ -37,10 +41,6 @@ gitlab
 Facebook
 
 [...]
---
-<img src="https://imgs.xkcd.com/comics/dependency_2x.png" height="500px">
-
-https://xkcd.com/2347/
 ---
 # On-Premise <-> Cloud
 
