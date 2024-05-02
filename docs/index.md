@@ -118,7 +118,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Strapi-Relationen durch Parameter "populate" befüllen lassen
 - Typescript-Datenmodell an Strapi-Antwort anpassen
 
-## #8 DevOps kennenlernen / Cloudbasierte Software ☁ (JB/MT remote)
+## [#8 DevOps kennenlernen / Cloudbasierte Software](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/08/) ☁ (JB/MT remote)
 
 - Demo: Angular HTTP-Kommunikation mit Strapi
 - DevOps organisatorisch und technisch
@@ -133,7 +133,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das Praxisprojekt abzuschätzen können
 - (die Begriffe Virtualisierung und Containerisierung und die Eigenschaften von Cloudsoftware erklären können)
 
-## #9 Software Testing ✅ (MT)
+## [#9 Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/09/) (MT)
 
  - Software Validierung & Verifikation inkl. Fragen
  - Demo: Cypress, Insomnia, Strapi & DevOps Pipeline Spell-Check
