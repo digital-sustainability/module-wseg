@@ -133,9 +133,21 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das Praxisprojekt abzuschätzen können
 - (die Begriffe Virtualisierung und Containerisierung und die Eigenschaften von Cloudsoftware erklären können)
 
-## #9 Software Validierung ✅ / Container (MT)
+## #9 Software Testing ✅ (MT)
 
-### 🏃 3. Zwischenpräsentation
+ - Software Validierung & Verifikation inkl. Fragen
+ - Demo: Cypress, Insomnia, Strapi & DevOps Pipeline Spell-Check
+
+### Lernziele
+
+ - Software Verifikation und Validierung verstehen
+ - Warum braucht es überhaupt Testing?
+ - Unit-, Feature-, System-, Release-Tests verstehen
+ - Test Automation - was steckt dahinter
+ - Test-driven Development (TDD) als Methodologie verstehen
+ - Code Reviews
+
+### 🏃 3. Deliverable: Zwischenpräsentation
 
 ## #10 !! AUSFALL: Auftrag 📺 Cloudbasierte Software ☁ !!
 
