@@ -104,7 +104,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - REST APIs mit eigenständigem API-Client konsumieren (testen/verwenden)
 - Verwendung von Markdown als Auszeichnungssprache für Dokumentationen in Gitlab
 
-## #7 [!! nur Freitag: Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB/DSL) -- !! AUSFALL Do. Careerday !!
+## #7 [!! nur Freitag: Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB) -- !! AUSFALL Do. Careerday !!
 
 - Demo: Vertiefung Strapi und REST-Client
 
@@ -135,17 +135,17 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## [#9 Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/09/) (MT)
 
- - Software Validierung & Verifikation inkl. Fragen
- - Demo: Cypress, Insomnia, Strapi & DevOps Pipeline Spell-Check
+- Software Validierung & Verifikation inkl. Fragen
+- Demo: Cypress, Insomnia, Jest (Strapi) & DevOps Pipeline Spell-Check
 
 ### Lernziele
 
- - Software Verifikation und Validierung verstehen
- - Warum braucht es überhaupt Testing?
- - Unit-, Feature-, System-, Release-Tests verstehen
- - Test Automation - was steckt dahinter
- - Test-driven Development (TDD) als Methodologie verstehen
- - Code Reviews
+- Software Verifikation und Validierung verstehen
+- Warum braucht es überhaupt Testing?
+- Unit-, Feature-, System-, Release-Tests verstehen
+- Test Automation - was steckt dahinter
+- Test-driven Development (TDD) als Methodologie verstehen
+- Code Reviews
 
 ### 🏃 3. Deliverable: Zwischenpräsentation
 
@@ -153,10 +153,41 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #11 Accessibility and UX Design (T. Saksa) 🇫🇮 (+JB)
 
-## #12 OPs & Monitoring / Software Evaluation ✅ (JB im BBB 💻) !! Remote-only !!
+- Accessibility
+- UX Design
+- Double Degree HAMK ↔️ BFH
+- Quiz
+
+### 2. Coaching
+
+## #12 Software Evaluation ✅ / OPs & Monitoring ⚙️🔍 (JB)
+
+- Modulevaluation (= per Mail) ausfüllen ✍🏼
+
+### 3. Coaching
 
 ### 🏃 4. Deliverable Blog 📰✅ mit GitLab Pages 🌐
 
-## #13 Projektabschluss 🏁 / Prüfungsumgebung (MT/JB)
+### Lernziele
+
+- Gründe für die Durchführung von Usability Tests kennen.
+- Unterschiede zwischen moderierten und unmoderierten Usability Tests kennen.
+
+## #13 Projektabschluss 🏁 / Prüfungsumgebung (JB)
+
+- Probelauf Prüfungsumgebung mit CAMPLA
+
+### 4. Coaching
+
+### Lernziele
+
+- verstehen, wann ein Projekt als abgeschlossen gilt
+- das Prinzip "Definition of Done" verstehen
 
 ## #14 Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓ (MT/JB)
+
+- MentorBot
+- Agile Aktivität
+- Nachbesprechung Evaluationsergebnisse
+- Fragen zur Prüfung
+- ab xx.yy Uhr, Gruppenreihenfolge wird festgelegt
