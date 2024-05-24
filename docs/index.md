@@ -162,11 +162,14 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #12 Software Evaluation ✅ / OPs & Monitoring ⚙️🔍 (JB)
 
+- Qualitative Methoden: - Expert\*innen / Nutzer\*innen
+- Nachtrag DevSecOps: Security
+- DevOps: Operation & Monitoring
 - Modulevaluation (= per Mail) ausfüllen ✍🏼
 
 ### 3. Coaching
 
-### 🏃 4. Deliverable Blog 📰✅ mit GitLab Pages 🌐
+### 🏃 4. Deliverable Blog/README 📰✅ mit GitLab Pages 🌐
 
 ### Lernziele
 
@@ -176,6 +179,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 ## #13 Projektabschluss 🏁 / Prüfungsumgebung (JB)
 
 - Probelauf Prüfungsumgebung mit CAMPLA
+- Reihenfolge Präsentationen festlegen
 
 ### 4. Coaching
 
