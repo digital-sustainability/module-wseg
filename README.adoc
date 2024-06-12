@@ -70,6 +70,7 @@ wöchentlicher 4-Lektionenblock während des Semesters mit einer Durchführung p
 Der 4-Lektionenblock besteht aus theoretischen (⅓) und praktischen Inhalten (⅔).
 
 Zentrale Inhalte
+
 - Grundlagen Softwareentwicklung
 - Praxisprojekt: Entwicklung einer Web-Applikation mit Frontend und Backend (z.B. mit Vue.js und Strapi)
 - Agile Softwareentwicklung im Team
@@ -146,6 +147,7 @@ a| - WSEN Softwareentwicklung, Grundlagen Programmieren
 - WREQ Requirements Engineering, RE & UML
 
 Wahlpflichtmodule
+
 - EWEB Web Engineering, Webtechnologien
 - ERAP Hackathon & Rapid Prototyping, APIs bauen/verwenden
 - https://github.com/digital-sustainability/module-eoss[EOSS] Open Source Software
@@ -154,13 +156,16 @@ Management, Softwarelizenzen/Git
 - ECYS Cybersecurity, Authentifikation
 
 Vertiefung
+
 - SDA1,2,3 Software Design & Architecture
 
 | Kompetenznachweis*
 a| Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
+
 - Semesterwochen
 
 Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
+
 - In den offiziellen Prüfungswochen
 - elektronische PC-Prüfung mit https://www.lernstick.ch/[Lernstick EXAM] oder https://campla.github.io/[CAMPLA]
 
@@ -168,6 +173,7 @@ Gemäss RRS Art. 11 müssen alle Teilkompetenznachweise bestanden sein.
 Die Teilkompetenznachweise werden auf halbe Noten gerundet.
 
 Hilfsmittel bei schriftlicher Prüfung
+
 - Open Book, erweitert durch digitale Dokumente auf USB-Stick oder hochgeladen auf Moodle bzw. CAMPLA-Plattform
 - Wörterbuch Muttersprache - Sprache Kompetenznachweis
 - BFH-Taschenrechner
