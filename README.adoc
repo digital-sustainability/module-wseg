@@ -8,9 +8,9 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.2
+=== link:https://semver.org[Version]: 1.0.3
 
-=== Gültig ab: FS 2024 (1.2.2024)
+=== Gültig ab: HS 2024 (1.8.2024)
 
 == Formale Beschreibung
 
@@ -39,7 +39,7 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 | Jede Woche 4-Lektionenblock
 
 | ECTS-Credits
-| 6 ECTS
+| 6 ECTS (180 Stunden)
 
 | Sprache
 | Deutsch
@@ -58,7 +58,7 @@ offen für Studierende anderer Studiengänge oder Incoming-Studierende (mit Inte
 
 | Kurzbeschreibung +
 (öffentlich, für IS-A) 
-| Im Modul "Software Engineering" lernen die Studierenden, wie sie allein und in einer Gruppe Software entwickeln können. Das Modul beinhaltet theoretische Inhalte, sowie ein Praxisprojekt, in dem die Studierenden das Gelernte umsetzen und vertiefen. Im Praxisprojekt geht es neben der Programmierung und dem Einsatz von standardisierten Webtechnologien darum, ein wertschöpfendes Produkt (bzw. Prototyp) zu gestalten.
+| Im Modul "Software Engineering" lernen die Studierenden, wie sie in einer Gruppe agil Software entwickeln. Das Modul beinhaltet theoretische Inhalte, sowie ein semesterbegleitendes Praxisprojekt pro Gruppe, an dem die Studierenden das Gelernte anwenden und selbständig vertiefen. Im Praxisprojekt geht es neben der Programmierung und dem Einsatz von standardisierten Webtechnologien darum, gemeinsam ein wertschöpfendes Produkt (bzw. Minimal viable Product) zu gestalten und DevOps-Praktiken rund um Gitlab kennenzulernen.
 
 | Detaillierte Beschreibung 
 | siehe Modulinhalte und Vermittelte Kompetenzen
@@ -67,25 +67,24 @@ offen für Studierende anderer Studiengänge oder Incoming-Studierende (mit Inte
 (Modulaufbau, Fachinhalte, Methoden, Praxisfälle, Forschungsbezug)
 a| Modulaufbau
 wöchentlicher 4-Lektionenblock während des Semesters mit einer Durchführung pro Klasse.
-Der 4-Lektionenblock besteht aus theoretischen und praktischen Inhalten.
+Der 4-Lektionenblock besteht aus theoretischen (⅓) und praktischen Inhalten (⅔).
 
 Zentrale Inhalte
-
 - Grundlagen Softwareentwicklung
+- Praxisprojekt: Entwicklung einer Web-Applikation mit Frontend und Backend (z.B. mit Vue.js und Strapi)
 - Agile Softwareentwicklung im Team
 - Grundlagen Objektorientierte Programmierung
-- Praxisprojekt: Entwicklung einer Web-Applikation mit Frontend und Backend (z.B. mit Angular und Strapi)
-- Kennenlernen und Einsatz von Werkzeugen wie z.B Git zur Codeverwaltung und Dokumentation
+- Kennenlernen und Einsatz von Werkzeugen wie z.B. Gitlab zur Quellcodeverwaltung/Dokumentation und IDEs wie Visual Studio Code/VSCodium
 
 Methoden
 Lesen, Verstehen und Besprechen von Lehrbuchtexten, Fachartikeln und Softwaredokumentationen
 Lösen von Entwicklungsaufgaben durch die Dozierenden, durch einzelne Studierende und durch Gruppen von vier bis fünf Studierenden
 
 Praxisfälle
-aus der Arbeitserfahrung der beteiligten Dozierenden
+aus der Arbeitserfahrung der beteiligten Dozierenden und Gäste
 
 Forschungsbezug
-aus der Forschungserfahrung der beteiligten Dozierenden
+aus der Forschungserfahrung der beteiligten Dozierenden und Gäste
 
 | Lehr- und Lernformen
 | Präsenzstudium
@@ -93,11 +92,6 @@ Wissenserarbeitung, Entwicklungsaufgaben, Lehrgespräch, Coaching
 
 Selbststudium
 Literaturstudium, Videos, Projektarbeit: Einzel-/Gruppenarbeiten
-
-| Verwendete Tools
-a| - Visual Studio Code / VSCodium
-- Node.js
-- Git
 
 | Literatur
 | Sommerville, I. (2020): Modernes Software-Engineering. Entwurf und Entwicklung von Softwareprodukten. Pearson Deutschland. ISBN: 978-3868943962.
@@ -108,20 +102,20 @@ a| - Visual Studio Code / VSCodium
 
 | Vermittelte Kompetenzen +
 (Fachkompetenzen und Kompetenzen gemäss Kompetenzmodell BFH-W)
-a| Fachkompetenzen: Die Studierenden können...
+a| +++Fachkompetenzen:+++ Die Studierenden können...
 
+- aus einer Produktidee ein Konzept erstellen und daraus einen Prototyp umsetzen.
+- Wireframes auf Papier und mit einer Software erstellen.
 - Grundbegriffe und Herausforderungen des modernen Software Engineerings erklären.
 - Phasen und Aktivitäten in der Entwicklung von Softwareprodukten erläutern.
-- Qualitätsmerkmale von Softwareprodukten beschreiben.
 - Methoden und Werkzeuge zur arbeitsteiligen Entwicklung von Softwareprodukten anwenden.
 - Quellcode mit Git verwalten
+- eine einfache Single Page Application (Web-Applikation) entwickeln.
 - Techniken zur Komplexitätsreduktion einer Software erklären.
-- Aus einer Produktidee ein Konzept erstellen und daraus einen Prototyp umsetzen.
-- Wireframes auf Papier und mit einer Software erstellen.
-- Eine einfache Single Page Application (Web-Applikation) entwickeln.
-- Die Dokumentationen verwendeter Webtechnologien und -frameworks konsultieren.
+- Qualitätsmerkmale von Softwareprodukten beschreiben.
+- die Dokumentationen verwendeter Webtechnologien und -frameworks konsultieren.
 
-Kompetenzen gemäss Kompetenzmodell BFH-W
++++Kompetenzen gemäss Kompetenzmodell BFH-W:+++
 
 Problemsolving/Design Thinking (verwandt: Methodenkompetenz): Die Studierenden...
 
@@ -150,20 +144,33 @@ Umgang mit Komplexität: Die Studierenden...
 a| - WSEN Softwareentwicklung, Grundlagen Programmieren
 - WDDA Data Management & Data Analysis, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
-- https://github.com/digital-sustainability/module-eoss[EOSS] Open Source Software
-Management, Git
+
+Wahlpflichtmodule
 - EWEB Web Engineering, Webtechnologien
-- EUID Hands-on UI Design, UI Design
 - ERAP Hackathon & Rapid Prototyping, APIs bauen/verwenden
+- https://github.com/digital-sustainability/module-eoss[EOSS] Open Source Software
+Management, Softwarelizenzen/Git
+- EUID Hands-on UI Design, UX/UI Design
+- ECYS Cybersecurity, Authentifikation
+
+Vertiefung
+- SDA1,2,3 Software Design & Architecture
 
 | Kompetenznachweis*
-| Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
- - Semesterwochen
+a| Teil 1: Projektabgabe mit Zwischenergebnissen (Pitch, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
+- Semesterwochen
 
 Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
 - In den offiziellen Prüfungswochen
 - elektronische PC-Prüfung mit https://www.lernstick.ch/[Lernstick EXAM] oder https://campla.github.io/[CAMPLA]
 
+Gemäss RRS Art. 11 müssen alle Teilkompetenznachweise bestanden sein.
+Die Teilkompetenznachweise werden auf halbe Noten gerundet.
+
+Hilfsmittel bei schriftlicher Prüfung
+- Open Book, erweitert durch digitale Dokumente auf USB-Stick oder hochgeladen auf Moodle bzw. CAMPLA-Plattform
+- Wörterbuch Muttersprache - Sprache Kompetenznachweis
+- BFH-Taschenrechner
 |
 |===
 
