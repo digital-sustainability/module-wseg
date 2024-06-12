@@ -3,7 +3,7 @@
 [zum Quell-Repository](https://github.com/digital-sustainability/module-wseg)
 ![GitHub](https://img.shields.io/github/license/digital-sustainability/module-wseg)
 
-Donnerstags 4o (H213) meistens von 09.05 - 12.30 Uhr
+Donnerstags 4o (H213) meistens von 09.05 - 12.30 Uhr<br />
 Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## Wichtige Links
@@ -12,7 +12,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - BigBlueButton: [https://bbb.ch-open.ch/rooms/jsg-khd-mbk-zcg/join](https://bbb.ch-open.ch/rooms/jsg-khd-mbk-zcg/join)
 - BFH-GitLab: [https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs)
 
-# Inhalt(e)
+# Inhalte
 
 ## [#1 Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/01/01.md) (JB/MT remote)
 
@@ -108,7 +108,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 - Demo: Vertiefung Strapi und REST-Client
 
-### 1. Coaching
+### 💬 1. Coaching
 
 ### 🏃 2. Deliverable Blog 📰
 
@@ -151,23 +151,23 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 
 ## #10 !! AUSFALL: Auftrag 📺 Cloudbasierte Software ☁ !!
 
-## #11 Accessibility and UX Design (T. Saksa) 🇫🇮 (+JB)
+## [#11 Accessibility and UX Design](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/11/) (T. Saksa) 🇫🇮 (+JB)
 
 - Accessibility
 - UX Design
 - Double Degree HAMK ↔️ BFH
 - Quiz
 
-### 2. Coaching
+### 💬 2. Coaching
 
-## #12 Software Evaluation ✅ / OPs & Monitoring ⚙️🔍 (JB)
+## [#12 Software Evaluation ✅ / OPs & Monitoring ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/12/) (JB)
 
 - Qualitative Methoden: - Expert\*innen / Nutzer\*innen
 - Nachtrag DevSecOps: Security
 - DevOps: Operation & Monitoring
 - Modulevaluation (= per Mail) ausfüllen ✍🏼
 
-### 3. Coaching
+### 💬 3. Coaching
 
 ### 🏃 4. Deliverable Blog/README 📰✅ mit GitLab Pages 🌐
 
@@ -176,22 +176,22 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Gründe für die Durchführung von Usability Tests kennen.
 - Unterschiede zwischen moderierten und unmoderierten Usability Tests kennen.
 
-## #13 Projektabschluss 🏁 / Prüfungsumgebung (JB)
+## [#13 Projektabschluss 🏁 / Prüfungsumgebung](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/13/) (JB)
 
+- Agile Aktivität
 - Probelauf Prüfungsumgebung mit CAMPLA
 - Reihenfolge Präsentationen festlegen
 
-### 4. Coaching
+### 💬 4. Coaching
 
 ### Lernziele
 
 - verstehen, wann ein Projekt als abgeschlossen gilt
 - das Prinzip "Definition of Done" verstehen
 
-## #14 Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓ (MT/JB)
+## [#14 Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/14/) (MT/JB)
 
-- MentorBot
-- Agile Aktivität
+- Virtuelle Akademie: Learning Companion
 - Nachbesprechung Evaluationsergebnisse
 - Fragen zur Prüfung
-- ab xx.yy Uhr, Gruppenreihenfolge wird festgelegt
+- ab 10.30 Uhr, festgelegte Gruppenreihenfolge
