@@ -1,7 +1,5 @@
 # Iterations
 
-## ♻️ Iteration 0
-
 ```bash
 
 glab issue create \
@@ -18,6 +16,7 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ei
 
 ```
 
+## ♻️ Iteration 0
 
 ## ♻️ Iteration 1
 
