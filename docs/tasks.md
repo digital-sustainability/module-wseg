@@ -1,19 +1,18 @@
 # Iterations
 
 ```bash
-
+for i in {1..5}; do \
 glab issue create \
- --title "Gitlab Projekt anlegen - Gruppe 01" \
+ --title "Gitlab Projekt anlegen - Gruppe $i" \
  --description " \
  `echo " \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
-- [ ] Gitlab Projekt als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
 - [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
 - [ ] Teammitglieder hinzufügen\n \
-- [ ] Avatare setzen\n \
-- [ ] ...\n \
-"`"  --label important --no-editor -R wseg-group-demo/sandbox
-
+- [ ] Avatare aller Teammitglieder setzen\n \
+"`"  --label important --no-editor -R wseg-group-demo/sandbox \
+; done
 ```
 
 ## ♻️ Iteration 0
