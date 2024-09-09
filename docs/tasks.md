@@ -15,6 +15,37 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ei
 ; done
 ```
 
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+  for i in {0..4}; do \
+    glab issue create \
+      --title "Iteration $i - Review" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Planung der nächsten Iteration" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Retrospektive" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Wrap-Up: Review, Planung, Retrospektive" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+   ; done \
+; done
+```
+
 ## ♻️ Iteration 0
 
 ## ♻️ Iteration 1
