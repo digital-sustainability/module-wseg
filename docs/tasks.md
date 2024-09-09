@@ -1,3 +1,32 @@
+# Iterations
+
+## ♻️ Iteration 0
+
+```bash
+
+glab issue create \
+ --title "Gitlab Projekt anlegen - Gruppe 01" \
+ --description " \
+ `echo " \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] Gitlab Projekt als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
+- [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
+- [ ] Teammitglieder hinzufügen\n \
+- [ ] Avatare setzen\n \
+- [ ] ...\n \
+"`"  --label important --no-editor -R wseg-group-demo/sandbox
+
+```
+
+
+## ♻️ Iteration 1
+
+## ♻️ Iteration 2
+
+## ♻️ Iteration 3
+
+## ♻️ Iteration 4
+
 # Deliverables
 
 ## 2 - [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline
