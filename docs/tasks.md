@@ -1,9 +1,67 @@
+# Iterations
+
+```bash
+for i in {1..5}; do \
+glab issue create \
+ --title "Gitlab Projekt anlegen - Gruppe $i" \
+ --description " \
+ `echo " \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
+- [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
+- [ ] Teammitglieder hinzufügen\n \
+- [ ] Avatare aller Teammitglieder setzen\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
+; done
+```
+
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+  for i in {0..4}; do \
+    glab issue create \
+      --title "Iteration $i - Review" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Planung der nächsten Iteration" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Retrospektive" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+    glab issue create \
+      --title "Iteration $i - Wrap-Up: Review, Planung, Retrospektive" \
+      --description " \
+`echo " \
+abcde\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+   ; done \
+; done
+```
+
+## ♻️ Iteration 0
+
+## ♻️ Iteration 1
+
+## ♻️ Iteration 2
+
+## ♻️ Iteration 3
+
+## ♻️ Iteration 4
+
 # Deliverables
 
 ## 2 - [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline
 
 ```bash
-
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
  --title "Deliverable 2: Blogbeitrag mit Merge-Request" \
  --description " \
@@ -32,15 +90,15 @@ Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
 Als Referenz dient: https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html?tab=Merge+request+and+branch#from-an-issue \n \
 \n \
 Der Blog-Beitrag mitsamt Merge-Request muss spätestens zum oben angegebenen Datum bis 23:59 Uhr im Repository ersichtlich sein.
-"`"  --label important --no-editor -R dsl-student-projects/agiles-arbeiten
-
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+; done
 ```
 
 ## 3 - [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline
 
 ```bash
-
-for group in {4p-llcc,glink,4p-lesfribourgeois,4p-tillwedie,4o-Passionsfrucht,4o-gruppenname,4p-8,4p-http418,4p-http429,4p-paj,praxisprojekt-setup,4o-lar,4o-thoerims_goerkemousse}; do glab issue create \
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+glab issue create \
  --title "Deliverable 3: Zwischenpräsentation mit Feedback" \
  --description " \
  `echo " \
@@ -58,6 +116,6 @@ Inhalt:\n \
 3. Fragen: Mindestens zwei vorbereitete Fragen um Feedback einzuholen - dazu können auch Onlinetools eingesetzt werden! \n \
 \n \
 Ladet die **Folien als PDF (ggf. auch Quellformat)** ins Git Repository bis spätestens 23:59 Uhr am Präsentationstag auf den Main Branch.
-"`"  --label important --no-editor -R dsl-student-projects/wseg-24-fs/$group; done
-
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+; done
 ```
