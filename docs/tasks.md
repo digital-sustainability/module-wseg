@@ -22,25 +22,30 @@ for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
       --title "Iteration $i - Review" \
       --description " \
 `echo " \
-abcde\n \
+Bitte bereitet ein kurzes, im Plenum stattfindendes, [Iteration Review](https://scaledagileframework.com/iteration-review/) vor.\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
     glab issue create \
       --title "Iteration $i - Planung der nächsten Iteration" \
       --description " \
 `echo " \
-abcde\n \
+Bitte plant eure kommende Iteration im Rahmen eines [Iteration Plannings](https://scaledagileframework.com/iteration-planning/) in Form eines vorbereiteten Iterations [Team Backlogs](https://scaledagileframework.com/team-backlog/).\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
     glab issue create \
       --title "Iteration $i - Retrospektive" \
       --description " \
 `echo " \
-abcde\n \
+Bitte reflektiert die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
     glab issue create \
       --title "Iteration $i - Wrap-Up: Review, Planung, Retrospektive" \
       --description " \
 `echo " \
-abcde\n \
+Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (max. 15'):\n \
+ - [ ] Iteration Review: bitte stellt die fachlichen Ergebnisse eurer aktuellen Iteration vor.\n \
+ - [ ] Iteration Planning: bitte stellt (kurz) die Planung eurer kommenden Iteration vor.\n \
+ - [ ] Iteration Retrospektive: bitte stellt (kurz) eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
+\n \
+Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/wseg-group-demo/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Legt dazu am besten jeweils einfach eine neue Wiki-Seite pro "Iteration Wrap-Up" an. \n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
    ; done \
 ; done
