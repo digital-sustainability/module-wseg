@@ -1,20 +1,21 @@
 @startuml
 Title Semester - Timing
-header: FS24
-footer: "https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/timing.puml"
+header: HS24
+footer: "https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/timing.puml"
 caption CC-BY-4.0
 
 legend
 X-Axis: (relative) week numbers
 
-PRP Preparation
+IW: Iteration Wrap-Up
 end legend
 
 concise "Module WSEG" as module
+concise "Iterationen" as iter
 robust "Studierende" as studi
 concise "Deliverables" as tasks
-concise "Dozent" as dozent
-scale 1 as 80 pixels
+concise "Dozenten" as dozent
+scale 1 as 90 pixels
 
 @-1
 studi is EINGESCHRIEBEN
@@ -24,85 +25,89 @@ dozent is supporting
 tasks is Start
 
 @1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "1"
+iter is "0"
 tasks is "Pitch-Präsentation"
 studi is "GRUPPEN & Kick-Off"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "2"
+iter is "1"
 studi is "Web"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "3"
 studi is "Code"
-@7 <-> @11 : {10 x 5-10 min Vorstellung(en)}
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "4"
 studi is "Architektur"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "5"
+iter is "2"
 tasks is "Blog"
 studi is "Objektorientierung"
 
 @+1
-module is "OSTERN"
-
-@+2
-dozent -> module: BBB
+dozent -> module: P107
 module is "6"
 studi is "Agilität"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "7"
 tasks is "Zwischenpräsentation"
 studi is "Coaching"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "8 "
+iter is "3"
 studi is "DevOps 1"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "9"
 studi is "Testing"
 tasks is "Blog mit GitLab Pages"
 
 @+1
-module is "Ausfall"
+dozent -> module: P107
+module is "10"
 studi is "Cloud"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "11"
+iter is "4"
 studi is "UX"
 
 @+1
-dozent -> module: BBB
+dozent -> module: P107
 module is "12"
 studi is "DevOps 2"
 tasks is "Abschluss"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "13"
 studi is "Abschluss"
 
 @+1
-dozent -> module: Treffen
+dozent -> module: P107
 module is "14"
+iter is "5"
 studi is "Präsentation"
 
 @+1
 module is {-}
+iter is {-}
 tasks is {-}
 
 @+1
@@ -115,11 +120,10 @@ dozent is {-}
 module -> studi: Prüfung
 module is {-}
 
-highlight 1.5 to 2 #lightgreen : PRP
-highlight 2.5 to 3 #lightgreen : PRP
-highlight 3.5 to 4 #lightgreen : PRP
-highlight 4.5 to 5 #lightgreen : PRP
-highlight 5.5 to 6 #lightgreen : PRP
-highlight 8.5 to 9 #lightgreen : PRP
+highlight 1.5 to 2 #lightgreen : IW
+highlight 4.5 to 5 #lightgreen : IW
+highlight 7.5 to 8 #lightgreen : IW
+highlight 10.5 to 11 #lightgreen : IW
+highlight 13.5 to 14 #lightgreen : IW
 
 @enduml

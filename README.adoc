@@ -184,7 +184,7 @@ Hilfsmittel bei schriftlicher Prüfung
 
 === Timing
 
-image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/24/fs/docs/timing.puml[timing]
+image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/24/hs/docs/timing.puml[timing]
 
 === Zweck des Dokuments
 
