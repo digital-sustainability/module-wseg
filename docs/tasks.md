@@ -55,9 +55,9 @@ Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots,
 ## ♻️ Iteration 0
 
 ```bash
-for i in {1..5}; do \
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Gitlab Projekt und Profil konfigurieren - Gruppe $i" \
+ --title "Gitlab Projekt und Profil konfigurieren" \
  --description " \
  `echo " \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
@@ -85,7 +85,7 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt v
   - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
 
