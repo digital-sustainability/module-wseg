@@ -85,7 +85,25 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt v
   - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+glab issue create \
+ --title "Pitch der Projektidee" \
+ --description " \
+ `echo " \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten "Iteration Wrap-Ups" Review 0 einen gemeinsamen, ersten Einblick eurer Projektidee bekommen.\n \
+\n \
+Im Rahmen des Iterations-Reviews präsentiert ihr eure Produktidee in maximal 10min. Stellt euch vor ihr seid auf der Suche nach Finanzierung und euer Publikum besteht aus Investoren oder Mitgliedern eines Förderfonds.\n \
+\n \
+Zeigt dabei den aktuellen Stand der Entwicklungen durch Wireframes, Mock-ups oder sogar vielleicht durch einen ersten HTML/CSS-Prototyp. Ihr seid frei bei der Verwendung des Präsentationsmittels (Powerpoint, Canva, Figma, reveal.js ...)!\n \
+\n \
+Wenn eure Präsentation und die Produktidee folgende Fragen beantwortet seid ihr gut unterwegs:\n \
+ - Welches Problem haben meine Nutzer?\n \
+ - Wie löst euer Produkt dieses Problem?\n \
+ - Welches sind eure Nutzergruppen? Erstellt doch zwei Personas dazu!\n \
+ - Was kann der Nutzer in eurer Applikation machen und wie kann er damit sein Problem lösen? (Hier könnt ihr eure Prototypen einsetzen)\n \
+\n \
+Ladet die Folien als PDF (ggf. zusätzlich auch das Quellformat) ins Git Repository bis am Präsentationstag 23:59 Uhr auf den Main Branch!
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
 ; done
 ```
 
