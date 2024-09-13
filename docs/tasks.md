@@ -15,6 +15,8 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ei
 ; done
 ```
 
+## Layout
+
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
   for i in {0..4}; do \
