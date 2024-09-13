@@ -12,7 +12,29 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ei
   - [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
 - [ ] Gruppen- & Teambildung \n \
   - [ ] Teammitglieder hinzufügen\n \
+    - [ ] Teammitglied 1 hinzugefügt\n \
+    - [ ] Teammitglied 2 hinzugefügt\n \
+    - [ ] Teammitglied 3 hinzugefügt\n \
+    - [ ] Teammitglied 4 hinzugefügt\n \
+    - [ ] Teammitglied 5 hinzugefügt\n \
   - [ ] Avatare aller Teammitglieder setzen\n \
+    - [ ] Avatar 1 gesetzt\n \
+    - [ ] Avatar 2 gesetzt\n \
+    - [ ] Avatar 3 gesetzt\n \
+    - [ ] Avatar 4 gesetzt\n \
+    - [ ] Avatar 5 gesetzt\n \
+  - [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
+    - [ ] Teammitglied 1 SSH-Key generiert\n \
+    - [ ] Teammitglied 2 SSH-Key generiert\n \
+    - [ ] Teammitglied 3 SSH-Key generiert\n \
+    - [ ] Teammitglied 4 SSH-Key generiert\n \
+    - [ ] Teammitglied 5 SSH-Key generiert\n \
+  - [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
+    - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
+    - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
+    - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
+    - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
+    - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
 ; done
 ```
