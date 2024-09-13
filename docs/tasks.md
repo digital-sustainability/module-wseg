@@ -7,10 +7,12 @@ glab issue create \
  --description " \
  `echo " \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] Gruppen- & Teambildung \n \
+  - [ ] Teammitglieder hinzufügen\n \
+  - [ ] Avatare aller Teammitglieder setzen\n \
+- [ ] Projekt- bzw. Gruppennamen finden\n \
 - [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
-- [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
-- [ ] Teammitglieder hinzufügen\n \
-- [ ] Avatare aller Teammitglieder setzen\n \
+  - [ ] Projekttitel und -slug identisch wählen; Namensschema 'xyz'\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
 ; done
 ```
