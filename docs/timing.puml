@@ -34,11 +34,11 @@ studi is "GRUPPEN & Kick-Off"
 @+1
 dozent -> module: P107
 module is "2"
-iter is "1"
 studi is "Web"
 
 @+1
 dozent -> module: P107
+iter is "1"
 module is "3"
 studi is "Code"
 
@@ -120,7 +120,7 @@ dozent is {-}
 module -> studi: Prüfung
 module is {-}
 
-highlight 1.5 to 2 #lightgreen : IW
+highlight 2.5 to 3 #lightgreen : IW
 highlight 4.5 to 5 #lightgreen : IW
 highlight 7.5 to 8 #lightgreen : IW
 highlight 10.5 to 11 #lightgreen : IW
