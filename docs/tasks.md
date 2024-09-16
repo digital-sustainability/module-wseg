@@ -3,13 +3,13 @@
 ```bash
 for i in {1..5}; do \
 glab issue create \
- --title "Gitlab Projekt anlegen - Gruppe $i" \
+ --title "Gitlab Projekt anlegen - Gruppe 0$i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
-- [ ] Projekt- bzw. Gruppennamen finden\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS24 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
+- [ ] Projekt- bzw. Gruppennamen festlegen\n \
 - [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
-  - [ ] Projekttitel und -slug identisch wählen\n \
+  - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
 ; done
 ```
@@ -61,13 +61,13 @@ glab issue create \
  --description " \
  `echo " \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
-- [ ] Teammitglieder hinzufügen\n \
+- [ ] [Teammitglieder hinzufügen](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) \n \
   - [ ] Teammitglied 1 hinzugefügt\n \
   - [ ] Teammitglied 2 hinzugefügt\n \
   - [ ] Teammitglied 3 hinzugefügt\n \
   - [ ] Teammitglied 4 hinzugefügt\n \
   - [ ] Teammitglied 5 hinzugefügt\n \
-- [ ] Avatare aller Teammitglieder setzen\n \
+- [ ] [Avatare aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
   - [ ] Avatar 1 gesetzt\n \
   - [ ] Avatar 2 gesetzt\n \
   - [ ] Avatar 3 gesetzt\n \
