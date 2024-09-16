@@ -3,33 +3,48 @@
 [zum Quell-Repository](https://github.com/digital-sustainability/module-wseg)
 ![GitHub](https://img.shields.io/github/license/digital-sustainability/module-wseg)
 
-Donnerstags 4o (H213) meistens von 09.05 - 12.30 Uhr<br />
-Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
-
 ## Wichtige Links
 
-- Moodle Kurs: [https://moodle.bfh.ch/course/view.php?id=36472](https://moodle.bfh.ch/course/view.php?id=36472)
-- BigBlueButton: [https://bbb.ch-open.ch/rooms/jsg-khd-mbk-zcg/join](https://bbb.ch-open.ch/rooms/jsg-khd-mbk-zcg/join)
-- BFH-GitLab: [https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-fs)
+- Moodle Kurs: [https://moodle.bfh.ch/course/view.php?id=38639](https://moodle.bfh.ch/course/view.php?id=38639)
+- BigBlueButton: [https://bbb.ch-open.ch/rooms/ayh-3e7-v9i-qjr/join](https://bbb.ch-open.ch/rooms/ayh-3e7-v9i-qjr/join)
+- BFH-GitLab: [https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs)
 
 # Inhalte
 
-## [#1 Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/01/01.md) (JB/MT remote)
+🏗️ Hinweis: Kursinhalte in Veränderung, Inhalte des letzten Semesters sind teilweise noch verlinkt.
+
+## #1 [Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/01/01.md) (JB/MT remote)
 
 - Überblick Modul
 - Vorstellung & Kennenlernen
 - Administratives: Praxisprojekt und Prüfung
-- Einführung Software Engineering
+- (Einführung Software Engineering)
 - Werkzeuge und Accounts, Terminalbasics
 - Gruppenbildung und erste Projektideen
 
 ### Lernziele
 
-- Einordnung des Themas Software Engineering in historischer und aktueller Sicht
+- (Einordnung des Themas Software Engineering in historischer und aktueller Sicht)
 - Software aus verschiedenen Quellen installieren können
 - In Terminal/Shell zwischen Ordnern wechseln können
 
-## [#2 Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/02/01.md) (JB)
+## #2 [Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/02/) (MT)
+
+- Einstieg in die Versionsverwaltung (mit git)
+- Basissetup: Initialisieren und Zugriff (Clonen via SSH)
+- Basisbefehle: push, pull, status, commit
+- Erweiterte Befehle: branch, merge, rebase
+- Kollaborationsplattform Gitlab & Modelle
+- Vorstellung agiler Arbeitsweise
+
+### Lernziele
+
+- Die Grundprinzipien und Gründe für den Einsatz einer Versionsverwaltung benennen können
+- Ein neues Repository anlegen, sowie im Team gemeinsam clonen können
+- Erste Transaktionen (Commits) vornehmen und publizieren können
+- Änderungen in der Versionsverwaltung einsehen und nachvollziehen können
+
+## #3 [Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/02/01.md) (JB)
 
 - Einstieg, Browser Dev Tools
 - Entwicklungsumgebung + Übung
@@ -43,21 +58,6 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Anhand eingebauter "Developer Tools" im Browser eine Website analysieren und damit experimentieren.
 - Mithilfe von HTML und der Dokumentation Inhalte und Struktur einer Website gestalten können.
 - Mithilfe von CSS und der Dokumentation das Styling einer Website gestalten können.
-
-## [#3 Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/03/) (MT)
-
-- Einstieg in die Versionsverwaltung (mit git)
-- Basissetup: Initialisieren und Zugriff (Clonen via SSH)
-- Basisbefehle: push, pull, status, commit
-- Erweiterte Befehle: branch, merge, rebase
-- Kollaborationsplattform Gitlab & Modelle
-
-### Lernziele
-
-- Die Grundprinzipien und Gründe für den Einsatz einer Versionsverwaltung benennen können
-- Ein neues Repository anlegen, sowie im Team gemeinsam clonen können
-- Erste Transaktionen (Commits) vornehmen und publizieren können
-- Änderungen in der Versionsverwaltung einsehen und nachvollziehen können
 
 ## #4 [Softwarearchitektur](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/04/) 📦 (JB)
 
@@ -84,8 +84,6 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Infos Deliverable "Blog"
 - Auftrag: Umfrage "Mentor-Bot", ...
 
-### 🏃 1. Pitch-Präsentation 📣 (JB/MT)
-
 ### Lernziele
 
 - grundlegendes Verständnis zu OOP (Begriffe Objekt, Instanz, Klasse, Attribut)
@@ -104,13 +102,9 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - REST APIs mit eigenständigem API-Client konsumieren (testen/verwenden)
 - Verwendung von Markdown als Auszeichnungssprache für Dokumentationen in Gitlab
 
-## #7 [!! nur Freitag: Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB) -- !! AUSFALL Do. Careerday !!
+## #7 [Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB)
 
 - Demo: Vertiefung Strapi und REST-Client
-
-### 💬 1. Coaching
-
-### 🏃 2. Deliverable Blog 📰
 
 ### Lernziele
 
@@ -147,9 +141,7 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Test-driven Development (TDD) als Methodologie verstehen
 - Code Reviews
 
-### 🏃 3. Deliverable: Zwischenpräsentation
-
-## #10 !! AUSFALL: Auftrag 📺 Cloudbasierte Software ☁ !!
+## #10 📺 Cloudbasierte Software ☁ !!
 
 ## [#11 Accessibility and UX Design](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/11/) (T. Saksa) 🇫🇮 (+JB)
 
@@ -158,16 +150,12 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Double Degree HAMK ↔️ BFH
 - Quiz
 
-### 💬 2. Coaching
-
 ## [#12 Software Evaluation ✅ / OPs & Monitoring ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/12/) (JB)
 
 - Qualitative Methoden: - Expert\*innen / Nutzer\*innen
 - Nachtrag DevSecOps: Security
 - DevOps: Operation & Monitoring
 - Modulevaluation (= per Mail) ausfüllen ✍🏼
-
-### 💬 3. Coaching
 
 ### 🏃 4. Deliverable Blog/README 📰✅ mit GitLab Pages 🌐
 
@@ -181,8 +169,6 @@ Freitags 4p (H216) meistens von 08.15 - 11.50 Uhr
 - Agile Aktivität
 - Probelauf Prüfungsumgebung mit CAMPLA
 - Reihenfolge Präsentationen festlegen
-
-### 💬 4. Coaching
 
 ### Lernziele
 
