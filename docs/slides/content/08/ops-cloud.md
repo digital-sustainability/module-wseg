@@ -118,7 +118,7 @@ Humans as a Service (HuaaS)
 
 Software für Software in der Cloud
 
-https://github.com/digital-sustainability/module-wseg/blob/24/fs/README.adoc
+https://github.com/digital-sustainability/module-wseg/blob/24/hs/README.adoc
 ---
 # ☕
 

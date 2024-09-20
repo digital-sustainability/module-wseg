@@ -2,9 +2,9 @@
 
 ## #08 DevOps ♾️ + Cloud
 
-WSEG / FS24<br />
+WSEG / HS24<br />
 
-[Source](https://github.com/digital-sustainability/module-wseg/tree/24/fs/docs/slides/content/08) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/24/fs/LICENSE)
+[Source](https://github.com/digital-sustainability/module-wseg/tree/24/hs/docs/slides/content/08) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/24/hs/LICENSE)
 
 --
 
