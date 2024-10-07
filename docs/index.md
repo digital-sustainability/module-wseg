@@ -44,7 +44,7 @@
 - Erste Transaktionen (Commits) vornehmen und publizieren können
 - Änderungen in der Versionsverwaltung einsehen und nachvollziehen können
 
-## #3 [Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/02/01.md) (JB)
+## #3 [Frontend: Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/03/01.md) (JB)
 
 - Einstieg, Browser Dev Tools
 - Entwicklungsumgebung + Übung
@@ -58,41 +58,24 @@
 - Anhand eingebauter "Developer Tools" im Browser eine Website analysieren und damit experimentieren.
 - Mithilfe von HTML und der Dokumentation Inhalte und Struktur einer Website gestalten können.
 - Mithilfe von CSS und der Dokumentation das Styling einer Website gestalten können.
+- Ein Vue-Projekt (oder anderes JS-Frontend) aufsetzen können (und dessen wichtigste Module kennen)
 
-## #4 [Softwarearchitektur](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/04/) 📦 (JB)
+## #4 [Backend: Softwarearchitektur / Einführung Strapi ✈️](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/04/) 📦 (JB)
 
 - Softwarearchitektur: Entwurf, Architekturen
-- Komponenten und Bezug zu Angular
-- Node.js und praktischer Einstieg Angular
-- Infos Deliverable "Pitch"
+- Komponenten und Bezug zu Vue
+- REST APIs
+- Infos Deliverable "MVP"
 
 ### Lernziele
 
 - Den Begriff Softwarearchitektur erklären und verschiedene Architekturtypen aufzählen können
 - Eine (Web-)Applikation in Komponenten zerlegen können
 - Die Architektur des eigenen Projekts in einfachen Worten erklären
-- Ein Angular-Projekt (oder anderes JS-Frontend) aufsetzen können und dessen wichtigste Module kennen
-
-## #5 [Objektorientierte Programmierung ⌨ / Einführung Strapi ✈️](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/05/) (JB)
-
-- REST APIs
-- Typescript/JavaScript
-  - Typen, Objekte
-  - Funktionen / this
-- OOP / Klassen
-- Strapi (Headless CMS) aufsetzen
-- Infos Deliverable "Blog"
-- Auftrag: Umfrage "Mentor-Bot", ...
-
-### Lernziele
-
-- grundlegendes Verständnis zu OOP (Begriffe Objekt, Instanz, Klasse, Attribut)
-- OOP-Konzepte Abstraktion, Enkapsulation, Vererbung, Polymorphismus kennen
-- OOP-Modellierung einer Lösung zu einer einfachen Problemstellung
 - Die Verwendung von REST APIs und CRUD-Operationen erläutern können
-- Erstellung eines einfachen Datenmodells in Strapi
+- Erstellung eines einfachen Datenmodells im Strapi-Backend
 
-## #6 [Agiles Arbeiten 🎯 / BFH-Forschungsprojekt 🤖💬](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/06/) (MT + Gäste im BBB 💻) !! Remote-only !!
+## #5 [Agiles Arbeiten 🎯 / API Client verwenden](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/06/) (MT + Gäste im BBB 💻) !! Remote-only !!
 
 - Infos zu Markdown und Merge-Requests (für 2. Deliverable)
 
@@ -101,6 +84,22 @@
 - "die Prinzipien des agilen Vorgehens verstehen und Anwendungsmöglichkeiten im eigenen Beruf erkennen"
 - REST APIs mit eigenständigem API-Client konsumieren (testen/verwenden)
 - Verwendung von Markdown als Auszeichnungssprache für Dokumentationen in Gitlab
+
+## #6 [Objektorientierte Programmierung ⌨](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/05/) (JB)
+
+- Typescript/JavaScript
+  - Typen, Objekte
+  - Funktionen / this
+- OOP / Klassen
+- Infos Deliverable "Blog"
+- (Node.js Erläuterung)
+- Anbindung Vue an Strapi
+
+### Lernziele
+
+- grundlegendes Verständnis zu OOP (Begriffe Objekt, Instanz, Klasse, Attribut)
+- OOP-Konzepte Abstraktion, Enkapsulation, Vererbung, Polymorphismus kennen
+- OOP-Modellierung einer Lösung zu einer einfachen Problemstellung
 
 ## #7 [Strapi / Coaching](https://github.com/digital-sustainability/module-wseg/blob/24/fs/docs/slides/content/07/) (JB)
 
