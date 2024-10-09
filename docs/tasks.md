@@ -109,6 +109,22 @@ Ladet die Folien als PDF (ggf. zusätzlich auch das Quellformat) ins Git Reposit
 
 ## ♻️ Iteration 1
 
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+lab issue create \
+ --title "Deliverable 1: Erstes MVP und User Feedback einholen" \
+ --description " \
+ `echo " \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 1** ein erstes Minimal-Viable-Product bestehend aus zwei Seiten bzw. Ansichten sehen, welches idealerweise bereits in einem JavaScript-Framework wie z.B. Vue.js erstellt wurde. Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die Gelegenheit geben, um Rückmeldungen des Publikums einzuholen:\n \
+- [ ] Startseite mit Link oder Aktion innerhalb eines Webbrowsers \n \
+  - [ ] Eine zweite Seite bzw. Ansicht eines Formulars, welches später zum Einloggen oder zur Nutzerregistrierung weiterentwickelt werden kann \n \
+  - [ ] (Für das Wechseln zwischen Ansichten/Funktionen innerhalb einer Single-Page-Application wird die Verwendung eines Routers, wie z.B. [router.vuejs.org](https://router.vuejs.org/) empfohlen \n \
+- [ ] Auswahl an passenden Farben/Farbvarianten/Bildelementen/Logos treffen und Feedback dazu einholen\n \
+- [ ] (Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten) \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+; done
+```
+
 ## ♻️ Iteration 2
 
 ## ♻️ Iteration 3
