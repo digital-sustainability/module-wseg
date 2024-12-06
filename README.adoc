@@ -144,6 +144,7 @@ Umgang mit Komplexität: Die Studierenden...
 | Schnittstellen zu anderen Modulen +
 (zuführende, parallele, weiterführende)
 a| baut auf folgenden Pflichtmodulen auf
+
 - WSEN Softwareentwicklung, Grundlagen Programmieren
 - WDDA Data Management & Data Analysis, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
