@@ -143,7 +143,8 @@ Umgang mit Komplexität: Die Studierenden...
 
 | Schnittstellen zu anderen Modulen +
 (zuführende, parallele, weiterführende)
-a| - WSEN Softwareentwicklung, Grundlagen Programmieren
+a| baut auf folgenden Pflichtmodulen auf
+- WSEN Softwareentwicklung, Grundlagen Programmieren
 - WDDA Data Management & Data Analysis, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
 
@@ -158,7 +159,7 @@ Management, Softwarelizenzen/Git
 
 Vertiefung
 
-- SDA1,2,3 Software Design & Architecture
+- SDA1,2,3,4 Software Design & Architecture
 
 | Kompetenznachweis
 a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
