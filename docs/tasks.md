@@ -1,5 +1,7 @@
 # Iterations
 
+## using [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline in [zsh](https://www.zsh.org/)
+
 ```bash
 for i in {1..5}; do \
 glab issue create \
@@ -51,6 +53,8 @@ Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots,
    ; done \
 ; done
 ```
+
+# Deliverables
 
 ## ♻️ Iteration 0
 
@@ -163,32 +167,51 @@ Als Referenz dient: https://docs.gitlab.com/ee/user/project/merge_requests/creat
 
 ## ♻️ Iteration 3
 
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+glab issue create \
+ --title "Deliverable 3: Gitlab Page per CI Pipeline" \
+ --description " \
+ `echo "\
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs/sandbox/) für euer Gruppenrepository. Die Funktionalitäten &apos;CI/CD&apos;, sowie &grave;Pages&grave; wurden für eure Repositories bereits aktiviert, der Gitlab-UI-Bug, welcher verhinderte dass ihr dies selbst tun konntet, wurde zwischenzeitlich sogar behoben. \n \
+- [ ] Deaktiviert die Funktion Unique URL unter Deploy-Pages, damit das Ergebnis unter https://dsl-student-projects.pages.ti.bfh.ch/wseg-24-hs/repository-name/ für authentifizierte User sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite) \n \
+  - [ ] Eure README.md sollte wie im Beispiel selbst als index.html fungieren und ebenfalls einen funktionierenden Link zum Blogpost enthalten \n \
+  - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen in der Pipeline z.B. nach public/docs kopiert werden \n \
+- [ ] Verwendet im .gitlab-ci.yml die Regel, dass die Pipeline nur ausgeführt wird, wenn die Commit-message die Worte Blog oder Readme (Gross-/Kleinschreibung ignorieren) enthält, um unnötigen Ressourcenverbrauch zu vermeiden. (&dollar;CI_COMMIT_MESSAGE =~ /blog/i || &dollar;CI_COMMIT_MESSAGE =~ /readme/i -- Als Referenz dient: https://docs.gitlab.com/ee/ci/jobs/job_rules.html)\n \
+\n \
+**Due date:** Der Blog-Beitrag muss spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr auf Pages ersichtlich sein. \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+; done
+```
+
 ## ♻️ Iteration 4
-
-# Deliverables
-
-## 3 - [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline
 
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Deliverable 3: Zwischenpräsentation mit Feedback" \
+ --title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
  --description " \
- `echo " \
-Das dritte Deliverable ist eine **Präsentation** zum 'Due date': Sie sollte einen kurzen Rückblick über die bisherige Entwicklung und eine Live-Demo beinhalten und mit einigen Fragen ans Publikum enden. Bereitet die Fragen vor der Präsentation vor, damit ihr die Chance für Feedback optimal nutzen könnt.\n \
+ `echo "\
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir zur Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application auf Gitlab-Pages vorfinden. \n \
+- In README.md W-Fragen klären: \n \
+  - [ ] Wozu kann eure App verwendet werden? \n \
+  - [ ] Welchen Techstack für Frontend und Backend habt ihr verwendet? \n \
+  - [ ] Welche 3rd-Party Libraries habt ihr eingesetzt? \n \
+  - [ ] Wie kann das Projekt von neuen Entwickler*innen aufgesetzt werden? (Beschreibt die Schritte von &apos;git clone&apos; bis zu &apos;npm run dev(elop)&apos;). \n \
+  - [ ] Wie lauten die Anmeldedaten für einen Strapi Admin-User? (Auch wenn dies ein Anti-Pattern darstellt, ist es sinnvoll diese für euch und die Dozierenden zu hinterlegen). \n \n \
+Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
+ \n \
+- Ergänzt eure README entsprechend der Vorlage (unter xyz): \n \
+  - [ ]  betreffend der selbstgewählten [Qualitätskriterien](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/11/08.md) \n \
+  - [ ] Belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern  \n \
+- Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
 \n \
-Eure Präsentation sollte **maximal 7 min** dauern. Die kurze Fragerunde findet nach der Präsentation statt.\n \
+  - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/a17343422f40552976d504ac297fb5b0aa2250d8/docs/slides/content/09/01.md?plain=1#L113-L143)\n \
+  - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: &apos;npm run build --base=&dollar;CI_PAGES_URL&apos;\n \
+  - [ ] Im .gitlab-ci.yml könnt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
+  - [ ] Verlinkt eure Demosite ebenfalls in der README \n \
 \n \
-Inhalt:\n \
-1. Rückblick und Ausblick\n \
-    - Welche Ziele haben wir uns für das Produkt gesetzt?\n \
-    - Welche Ziele haben wir bis jetzt erreicht?\n \
-    - Welche Anpassungen an den Zielen mussten wir machen?\n \
-    - Wo hatten wir bis jetzt die grössten Schwierigkeiten?\n \
-2. ggf. Live Demonstration z.B. bereits erreichte Ziele anhand der User Stories demonstrieren.\n \
-3. Fragen: Mindestens zwei vorbereitete Fragen um Feedback einzuholen - dazu können auch Onlinetools eingesetzt werden! \n \
-\n \
-Ladet die **Folien als PDF (ggf. auch Quellformat)** ins Git Repository bis spätestens 23:59 Uhr am Präsentationstag auf den Main Branch.
+**Due date:** Die erwähnten Gitlab-Pages müssen spätestens zum oben angegebenen Präsentationtag bis 18.00 Uhr verfügbar sein. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```

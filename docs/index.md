@@ -145,30 +145,27 @@
 - Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das Praxisprojekt abzuschätzen können
 - (die Begriffe Virtualisierung und Containerisierung und die Eigenschaften von Cloudsoftware erklären können)
 
-## [#12 OPs & Monitoring ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/12/) (JB)
+## [#11 OPs & Monitoring ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/12/) (MT)
 
-- Qualitative Methoden: - Expert\*innen / Nutzer\*innen
 - Nachtrag DevSecOps: Security
 - DevOps: Operation & Monitoring
-- Modulevaluation (= per Mail) ausfüllen ✍🏼
-
-### 🏃 4. Deliverable Blog/README 📰✅ mit GitLab Pages 🌐
 
 ## [#12 Accessibility and UX Design / Software Evaluation ✅ ](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/11/) (+JB)
 
 - Accessibility
-- UX Design
-- Double Degree HAMK ↔️ BFH
-- Quiz
+- Software Evaluation
+  - Qualitative Methoden: - Expert\*innen / Nutzer\*innen
+- BFH-Modulevaluation (= per Mail) ausfüllen ✍🏼
+- Gastvortrag [Olivier Brian von Puzzle ITC](https://raw.githubusercontent.com/digital-sustainability/module-wseg/refs/heads/24/hs/docs/slides/content/12/BFH_Gastvortrag_CloudComputing_OlivierBrian_PuzzleITC_20251202.pdf)
 
 ### Lernziele
 
+- Grundlegende Verbesserungen der Zugänglichkeit bei Webtechnologien implementieren können.
 - Gründe für die Durchführung von Usability Tests kennen.
 - Unterschiede zwischen moderierten und unmoderierten Usability Tests kennen.
 
-## [#13 Projektabschluss 🏁 / Prüfungsumgebung](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/13/) (JB)
+## [#13 Projektabschluss 🏁 / Prüfungsumgebung](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/13/) (MT)
 
-- Agile Aktivität
 - Probelauf Prüfungsumgebung mit CAMPLA
 - Reihenfolge Präsentationen festlegen
 
@@ -179,6 +176,8 @@
 
 ## [#14 Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/14/) (MT/JB)
 
+- Ort: Greenfield ⛳
+- Agile Aktivität
 - Nachbesprechung Evaluationsergebnisse
 - Fragen zur Prüfung
 - ab x.xx Uhr, festgelegte Gruppenreihenfolge
