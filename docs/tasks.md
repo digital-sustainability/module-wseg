@@ -48,7 +48,7 @@ Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (
  - [ ] Iteration Planning: bitte stellt (kurz) die Planung eurer kommenden Iteration vor.\n \
  - [ ] Iteration Retrospektive: bitte stellt (kurz) eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
 \n \
-Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/wseg-group-demo/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Legt dazu am besten jeweils einfach eine neue Wiki-Seite pro "Iteration Wrap-Up" an. \n \
+Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/wseg-group-demo/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
    ; done \
 ; done
