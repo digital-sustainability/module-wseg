@@ -3,14 +3,14 @@
 ## using [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline in [zsh](https://www.zsh.org/)
 
 ```bash
-for i in {1..5}; do \
+for i in {1..7}; do \
 glab issue create \
  --title "Gitlab Projekt anlegen - Gruppe 0$i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS24 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS25 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
 - [ ] Projekt- bzw. Gruppennamen festlegen\n \
-- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS24](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs) anlegen\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG FS25](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
 ; done
