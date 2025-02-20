@@ -5,22 +5,23 @@
 
 ## Wichtige Links
 
-- Moodle Kurs: [https://moodle.bfh.ch/course/view.php?id=38639](https://moodle.bfh.ch/course/view.php?id=38639)
-- BigBlueButton: [https://bbb.ch-open.ch/rooms/ayh-3e7-v9i-qjr/join](https://bbb.ch-open.ch/rooms/ayh-3e7-v9i-qjr/join)
-- BFH-GitLab: [https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-24-hs)
+- Moodle Kurs: [https://moodle.bfh.ch/course/view.php?id=39923](https://moodle.bfh.ch/course/view.php?id=38639)
+- BigBlueButton: [https://bbb.ch-open.ch/rooms/dgp-4hk-ccy-43r/join](https://bbb.ch-open.ch/rooms/dgp-4hk-ccy-43r/join)
+- BFH-GitLab: [https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs)
+- Wiki Page: [in gemeinsamer GitLab-Gruppe für Iterations Wrap-Ups](https://gitlab.ti.bfh.ch/groups/dsl-student-projects/wseg-25-fs/-/wikis/home)
 
 # Inhalte
 
 🏗️ Hinweis: Kursinhalte in Veränderung, Inhalte des letzten Semesters sind teilweise noch verlinkt.
 
-## #1 [Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/01/01.md) (JB/MT remote)
+## #1 [Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/25/fs/docs/slides/content/01/01.md) (JB/MT remote)
 
 - Überblick Modul
 - Vorstellung & Kennenlernen
 - Administratives: Praxisprojekt und Prüfung
 - (Einführung Software Engineering)
 - Werkzeuge und Accounts, Terminalbasics
-- Gruppenbildung und erste Projektideen
+- Gruppenbildung und erste Projektidee
 
 ### Lernziele
 
@@ -45,6 +46,8 @@
 - Änderungen in der Versionsverwaltung einsehen und nachvollziehen können
 
 ## #3 [Frontend: Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/03/01.md) (JB)
+
+### Iteration 0: Pitch / Präsentation (Gitlab Projekt und Profil konfiguriert haben)
 
 - Einstieg, Browser Dev Tools
 - Entwicklungsumgebung + Übung
@@ -76,6 +79,8 @@
 - Erstellung eines einfachen Datenmodells im Strapi-Backend
 
 ## #5 [Agiles Arbeiten 🎯 / API Client verwenden](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/05/) (MT)
+
+### Iteration 1: Wrap-up
 
 - Infos zu Markdown und Merge-Requests (für 2. Deliverable)
 
@@ -113,6 +118,8 @@
 
 ## [#8 Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/08/) (MT)
 
+### Iteration 2: Wrap-up
+
 - Software Validierung & Verifikation inkl. Fragen
 - Demo: Cypress, Vitest, Bruno
 
@@ -147,6 +154,8 @@
 
 ## [#11 OPs & Monitoring ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/12/) (MT)
 
+### Iteration 3: Wrap-up
+
 - Nachtrag DevSecOps: Security
 - DevOps: Operation & Monitoring
 
@@ -164,6 +173,8 @@
 - Gründe für die Durchführung von Usability Tests kennen.
 - Unterschiede zwischen moderierten und unmoderierten Usability Tests kennen.
 
+## #13 findet nicht statt (Auffahrt)
+
 ## [#13 Projektabschluss 🏁 / Prüfungsumgebung](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/13/) (MT)
 
 - Probelauf Prüfungsumgebung mit CAMPLA
@@ -175,6 +186,8 @@
 - das Prinzip "Definition of Done" verstehen
 
 ## [#14 Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/14/) (MT/JB)
+
+### Iteration 4: Wrap-up
 
 - Ort: Greenfield ⛳
 - Agile Aktivität
