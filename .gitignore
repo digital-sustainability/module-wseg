@@ -1,2 +1,3 @@
-docs/slides/reveal.js
+docs/slides/*s*/
 local
+**/.DS_Store
