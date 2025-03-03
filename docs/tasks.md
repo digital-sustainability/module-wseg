@@ -11,8 +11,46 @@ glab issue create \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS25 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
 - [ ] Projekt- bzw. Gruppennamen festlegen\n \
 - [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG FS25](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs) anlegen\n \
-  - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox \
+  - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox && \
+glab issue create \
+ --title "Gitlab Projekt und Profil konfigurieren - Gruppe 0$i" \
+ --description " \
+ `echo " \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] [Teammitglieder hinzufügen](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) \n \
+  - [ ] Teammitglied 1 hinzugefügt\n \
+  - [ ] Teammitglied 2 hinzugefügt\n \
+  - [ ] Teammitglied 3 hinzugefügt\n \
+  - [ ] Teammitglied 4 hinzugefügt\n \
+  - [ ] Teammitglied 5 hinzugefügt\n \
+  - [ ] Teammitglied 6 hinzugefügt\n \
+  - [ ] Teammitglied 7 hinzugefügt\n \
+- [ ] [Avatare aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
+  - [ ] Avatar 1 gesetzt\n \
+  - [ ] Avatar 2 gesetzt\n \
+  - [ ] Avatar 3 gesetzt\n \
+  - [ ] Avatar 4 gesetzt\n \
+  - [ ] Avatar 5 gesetzt\n \
+  - [ ] Avatar 6 gesetzt\n \
+  - [ ] Avatar 7 gesetzt\n \
+- [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
+  - [ ] Teammitglied 1 SSH-Key generiert\n \
+  - [ ] Teammitglied 2 SSH-Key generiert\n \
+  - [ ] Teammitglied 3 SSH-Key generiert\n \
+  - [ ] Teammitglied 4 SSH-Key generiert\n \
+  - [ ] Teammitglied 5 SSH-Key generiert\n \
+  - [ ] Teammitglied 6 SSH-Key generiert\n \
+  - [ ] Teammitglied 7 SSH-Key generiert\n \
+- [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
+  - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 6 SSH-Key hinterlegt\n \
+  - [ ] Teammitglied 7 SSH-Key hinterlegt\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
 
@@ -61,60 +99,21 @@ Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots,
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Gitlab Projekt und Profil konfigurieren" \
+ --title "Deliverable 0: Pitch der Projektidee" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
-- [ ] [Teammitglieder hinzufügen](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) \n \
-  - [ ] Teammitglied 1 hinzugefügt\n \
-  - [ ] Teammitglied 2 hinzugefügt\n \
-  - [ ] Teammitglied 3 hinzugefügt\n \
-  - [ ] Teammitglied 4 hinzugefügt\n \
-  - [ ] Teammitglied 5 hinzugefügt\n \
-  - [ ] Teammitglied 6 hinzugefügt\n \
-  - [ ] Teammitglied 7 hinzugefügt\n \
-- [ ] [Avatare aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
-  - [ ] Avatar 1 gesetzt\n \
-  - [ ] Avatar 2 gesetzt\n \
-  - [ ] Avatar 3 gesetzt\n \
-  - [ ] Avatar 4 gesetzt\n \
-  - [ ] Avatar 5 gesetzt\n \
-  - [ ] Avatar 6 gesetzt\n \
-  - [ ] Avatar 7 gesetzt\n \
-- [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
-  - [ ] Teammitglied 1 SSH-Key generiert\n \
-  - [ ] Teammitglied 2 SSH-Key generiert\n \
-  - [ ] Teammitglied 3 SSH-Key generiert\n \
-  - [ ] Teammitglied 4 SSH-Key generiert\n \
-  - [ ] Teammitglied 5 SSH-Key generiert\n \
-  - [ ] Teammitglied 6 SSH-Key generiert\n \
-  - [ ] Teammitglied 7 SSH-Key generiert\n \
-- [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
-  - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 6 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 7 SSH-Key hinterlegt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
-glab issue create \
- --title "Pitch der Projektidee" \
- --description " \
- `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' Review 0 einen gemeinsamen, ersten Einblick eurer Projektidee bekommen.\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' Review 0 einen gemeinsamen, ersten Einblick eurer Projektidee bekommen. (Hinweis: Beim ersten Mal werden **keine Punkte** vergeben!)\n \
 \n \
-Im Rahmen des Iterations-Reviews präsentiert ihr eure Produktidee in maximal 10min. Stellt euch vor ihr seid auf der Suche nach Finanzierung und euer Publikum besteht aus Investoren oder Mitgliedern eines Förderfonds.\n \
-\n \
-Zeigt dabei den aktuellen Stand der Entwicklungen durch Wireframes, Mock-ups oder sogar vielleicht durch einen ersten HTML/CSS-Prototyp. Ihr seid frei bei der Verwendung des Präsentationsmittels (Powerpoint, Canva, Figma, reveal.js ...).\n \
+Im Rahmen des Iterations-Reviews präsentiert ihr eure Produktidee in maximal 5min. Stellt euch vor ihr seid auf der Suche nach Finanzierung und euer Publikum besteht aus Investoren oder Mitgliedern eines Förderfonds.\n \
 \n \
 Wenn eure Präsentation und die Produktidee folgende Fragen beantwortet seid ihr gut unterwegs:\n \
- - Welches Problem haben meine Nutzer?\n \
- - Wie löst euer Produkt dieses Problem?\n \
+ - Welches Problem/Bedürfnis haben eure Nutzer&midast;innen?\n \
+ - Wie versucht euer Produkt dieses Problem zu lösen?\n \
  - Welches sind eure Nutzergruppen? Erstellt doch zwei Personas dazu. \n \
- - Was kann der Nutzer in eurer Applikation machen und wie kann er damit sein Problem lösen? (Hier könnt ihr eure Prototypen einsetzen)\n \
+ - Was sollen Nutzer&midast;innen in eurer Applikation machen können? (Hier könnt ihr ggf. erste Wireframes, Mock-ups oder Prototypen zeigen)\n \
 \n \
-Ladet die Folien als PDF (ggf. zusätzlich auch das Quellformat) ins Git Repository bis am Präsentationstag 23:59 Uhr auf den Main Branch! \
+Ihr seid frei bei der Verwendung des Präsentationsmittels (Wiki, Powerpoint, Canva, Figma, reveal.js ...).\n \
+Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** eures Git-Repository bis am Präsentationstag 23:59 Uhr. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
 ; done
 ```
