@@ -131,7 +131,7 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iterati
   - [ ] Eine zweite Seite bzw. Ansicht eines Formulars, welches später zum Einloggen oder zur Nutzerregistrierung weiterentwickelt werden kann \n \
   - [ ] (Für das Wechseln zwischen Ansichten/Funktionen innerhalb einer Single-Page-Application wird die Verwendung eines Routers, wie z.B. [router.vuejs.org](https://router.vuejs.org/) empfohlen \n \
 - [ ] Auswahl an passenden Farben/Farbvarianten/Bildelementen/Logos treffen und Feedback dazu einholen\n \
-- [ ] (Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten) \
+- [ ] Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
 ; done
 ```
