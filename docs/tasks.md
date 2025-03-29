@@ -144,30 +144,30 @@ glab issue create \
  --title "Deliverable 2: Blogbeitrag mit Merge-Request" \
  --description " \
  `echo "\
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 2** einen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. \n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 2** (ausnahmsweise mündlich englischsprachig) einen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. \n \
  - [ ] Blogbeitrag im Markdown-Format, Umfang ~1000 Worte, idealerweise im docs-Ordner \n \
-  - [ ] enthält grundlegendes Datenmodell als Entity-Relationship Diagramm (nicht zu detailliert!) \n \
-- [ ] Merge-Request dazu verwenden \n \
+  - [ ] mit Einbettung Entity-Relationship Diagramm als grundlegendes Datenmodell (nicht zu detailliert!) \n \
+- [ ] GitLab-Feature Merge-Request dazu verwenden \n \
 \n \
 Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
 1. Welche **Ziele für die Applikation** haben wir uns als Gruppe gesetzt?\n \
-    - Kurze **Beschreibung der Produktidee** mit den wichtigsten Features\n \
+    - Kurze **Beschreibung der Produktidee** mit den wichtigsten User Stories\n \
 2. Wie ist der **Entwicklungsstand der Applikation**?\n \
     - Beschreibt euer **Datenmodell** und ggf. Testdaten\n \
     - Ggf. aktuelle **Screenshots** zeigen (könnten auch Testdaten enthalten)\n \
     - Ggf. **umgesetzte/geplante Features zeigen** oder beschreiben\n \
     - Ebenfalls könnt ihr den **Techstack (Frontend, Backend, ggf. Dritt-CSS-Frameworks, ..)** thematisieren, welchen ihr bereits verwendet oder verwenden wollt.\n \
 3. Auf welche **Hindernisse / Schwierigkeiten** sind wir bereits gestossen?\n \
-    - Ist die **Erreichung des Ziels gefährdet**?\n \
+    - Ist die **Erreichung der Ziele gefährdet**?\n \
     - Welche **Massnahmen** haben wir getroffen oder geplant **um diese Hindernisse zu beseitigen**?\n \
 4. Die **Aufgabenverteilung im Team** und eure Organisation beschreiben z.B. wie gestaltet ihr euren Wissenstransfer?\n \
 \n \
 **Format: Markdown** (Name z.B. Deliverable2-Blog.md) welches direkt in Gitlab verwendet werden kann. Dies ermöglicht eingebettete Bilder (z.B. im Unterorder "assets"), sowie Hyperlinks zu externen Ressourcen bzw. auch gitlab-intern. Als Referenz und Beispiel dient: https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/user/markdown.md \n \
 \n \
-**Due date:** Der Blog-Beitrag (ohne Merge-Request) muss spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr im Repository ersichtlich sein.\n \
+**Due date:** Der Blog-Beitrag und Merge-Request muss spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr im Repository ersichtlich sein.\n \
 \n \
-**Git-Aufgabe Merge-Request**: Aus diesem vorbereiteten Issue "Deliverable 2" eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git den **Branch "nummer-deliverable-2"** eures Repositories für die Markdown-Datei mitsamt verknüpften Inhalten (im Dokumentationsordner), so dass ihr wenn alles **committed (bzw. auch per CLI gepusht)** wurde, schliesslich **@tem1 und @bkj1 als Reviewer** für den MR hinzufügt. (… Nach Ablauf der Frist geben die Reviewer ihr "Approval" und ihr führt den MR mit "main" zusammen.\n \
-Als Referenz dient: https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html?tab=Merge+request+and+branch#from-an-issue )\
+**Git-Aufgabe Merge-Request**: Aus diesem vorbereiteten Issue "Deliverable 2" eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git den **Branch "nummer-deliverable-2..."** eures Repositories für die Markdown-Datei mitsamt verknüpften Inhalten (im Dokumentationsordner), so dass ihr wenn alles **committed (bzw. auch per CLI gepusht)** wurde, schliesslich **@tem1 und @bkj1 als Reviewer** für den MR hinzufügt. (… Nach Ablauf der Frist geben die Reviewer ihr "Approval" und ihr führt selbständig den MR mit "main" zusammen.\n \
+Als Referenz dient: https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/?tab=Merge+request+and+branch#from-an-issue )\
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
