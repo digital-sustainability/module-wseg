@@ -116,9 +116,21 @@
 - Strapi-Relationen durch Parameter "populate" befüllen lassen
 - Typescript-Datenmodell an Strapi-Antwort anpassen
 
-## [#8 Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/08/) (MT)
+## [#8 Accessibility and UX Design](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/08/) (Tommi Saksa)
 
 ### Iteration 2: Wrap-up
+
+## [#9 DevOps kennenlernen](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/09/) ☁ (JB)
+
+- DevOps organisatorisch und technisch
+- Hands-on: Persönlicher Fork und Gitlab-Pipeline
+
+### Lernziele
+
+- den Begriff CI/CD und die Funktion eines Integration Servers erklären können
+- eine Gitlab Pipeline anhand der Datei .gitlab-ci.yml verwenden
+
+## [#10 Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/10/) (MT)
 
 - Software Validierung & Verifikation inkl. Fragen
 - Demo: Cypress, Vitest, Bruno
@@ -131,20 +143,6 @@
 - Test Automation - was steckt dahinter
 - Test-driven Development (TDD) als Methodologie verstehen
 - Code Reviews
-
-## [#9 DevOps kennenlernen / Cloudbasierte Software](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/09/) ☁ (JB/MT remote)
-
-- DevOps organisatorisch und technisch
-- Hands-on: Persönlicher Fork und Gitlab-Pipeline
-
-### Lernziele
-
-- den Begriff CI/CD und die Funktion eines Integration Servers erklären können
-- eine Gitlab Pipeline anhand der Datei .gitlab-ci.yml verwenden
-
-## #10 [Cloudbasierte Software ☁](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/10/)
-
-- "Operations und Cloudbasierte (open source) Software"
 
 ### Lernziele
 
@@ -159,19 +157,9 @@
 - Nachtrag DevSecOps: Security
 - DevOps: Operation & Monitoring
 
-## [#12 Accessibility and UX Design / Software Evaluation ✅ ](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/11/) (+JB)
+## #10a [Cloudbasierte Software ☁](https://github.com/digital-sustainability/module-wseg/blob/24/hs/docs/slides/content/10a/)
 
-- Accessibility
-- Software Evaluation
-  - Qualitative Methoden: - Expert\*innen / Nutzer\*innen
-- BFH-Modulevaluation (= per Mail) ausfüllen ✍🏼
-- Gastvortrag [Olivier Brian von Puzzle ITC](https://raw.githubusercontent.com/digital-sustainability/module-wseg/refs/heads/24/hs/docs/slides/content/12/BFH_Gastvortrag_CloudComputing_OlivierBrian_PuzzleITC_20251202.pdf)
-
-### Lernziele
-
-- Grundlegende Verbesserungen der Zugänglichkeit bei Webtechnologien implementieren können.
-- Gründe für die Durchführung von Usability Tests kennen.
-- Unterschiede zwischen moderierten und unmoderierten Usability Tests kennen.
+- "Operations und Cloudbasierte (open source) Software"
 
 ## #13 findet nicht statt (Auffahrt)
 
