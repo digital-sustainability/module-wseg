@@ -199,7 +199,7 @@ glab issue create \
  --title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir am Tag der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application auf Gitlab-Pages vorfinden. \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir am Tag der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend) auf Gitlab-Pages vorfinden. \n \
 - In README.md W-Fragen klären: \n \
   - [ ] Wozu kann eure App verwendet werden? \n \
   - [ ] Welchen Techstack für Frontend und Backend habt ihr verwendet? \n \
