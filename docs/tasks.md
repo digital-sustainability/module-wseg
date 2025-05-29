@@ -214,7 +214,7 @@ Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/ne
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
 \n \
   - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/5541eebdb1e324ff332819cae624431b0497cd02/docs/slides/content/09/01.md?plain=1#L115-L145)\n \
-  - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: &apos;npm run build --base=&dollar;CI_PAGES_URL&apos;\n \
+  - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning  &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos;\n \
   - [ ] Im &apos;.gitlab-ci.yml&apos; könnt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
   - [ ] Verlinkt eure Demosite ebenfalls in der README \n \
 \n \
