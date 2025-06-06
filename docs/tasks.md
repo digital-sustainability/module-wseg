@@ -199,7 +199,7 @@ glab issue create \
  --title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir am Tag der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend!) auf Gitlab-Pages vorfinden. \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir am Tag der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend!) auf Gitlab-Pages vorfinden. Es ist dabei unerheblich, dass Inhalte aus dem Backend fehlen werden. \n \
 - In README.md W-Fragen klären: \n \
   - [ ] Wozu kann eure App verwendet werden? \n \
   - [ ] Welchen Techstack für Frontend und Backend habt ihr verwendet? \n \
@@ -216,9 +216,9 @@ Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/ne
   - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/5541eebdb1e324ff332819cae624431b0497cd02/docs/slides/content/09/01.md?plain=1#L115-L145)\n \
   - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning  &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos;\n \
   - [ ] Im &apos;.gitlab-ci.yml&apos; könnt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
-  - [ ] Verlinkt eure Demosite ebenfalls in der README \n \
+  - [ ] Verlinkt eure Demosite (z.B. auf Pages im Unterordner /demo/) ebenfalls in der README \n \
 \n \
-**Due date:** Die erwähnten Gitlab-Pages müssen spätestens zum oben angegebenen Präsentationtag bis 18.00 Uhr verfügbar sein. \
+**Due date:** Die erwähnten Gitlab-Pages sind spätestens eine Woche nach dem Präsentationtag (letzte Semesterwoche) verfügbar. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
