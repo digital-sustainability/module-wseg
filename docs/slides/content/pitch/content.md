@@ -29,6 +29,6 @@
 ---
 * 2 - Ausblick / Wrap Up & Danke / GIF? / Credits + revealjs.com
 --
-<!-- .element: data-background="http://i.giphy.com/90F8aUepslB84.gif" -->
+<!-- .element: data-background="http://i.giphy.com/dbtDDSvWErdf2.gif" -->
 --
 made with ❤️ and https://revealjs.com
