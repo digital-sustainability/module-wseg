@@ -8,7 +8,7 @@
 
 <hr>
 
-## [Source](https://github.com/digital-sustainability/module-wseg/tree/25/fs/docs/slides/content/pitch) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/25/fs/LICENSE)
+### [Source](https://github.com/digital-sustainability/module-wseg/tree/25/fs/docs/slides/content/pitch) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/25/fs/LICENSE)
 
 ---
 
@@ -36,7 +36,7 @@ Note:
 
 ---
 
-# 🎯 Showcase:
+# 🎯 Showcase
 
 ## Spektrum studentischer Projekte
 
@@ -82,7 +82,7 @@ inkl. Freundesliste, Daten & Bilder von Extern
 
 ---
 
-# 🏫 Rahmen:
+# 🏫 Rahmen
 
 ## Lehre & Praxis 👨‍🏫 🧑🏼‍🏭
 
@@ -123,7 +123,7 @@ src="https://drive.switch.ch/index.php/s/hKDbTpYX88TLkel/download"></a>
 
 --
 
-### ... Transparenz, Open Source Software
+### Transparenz, Open Source Software
 
 _Hybrid inkl. Aufzeichnung ([BBB](https://bbb.ch-open.ch/)), GitLab_
 
@@ -137,28 +137,70 @@ DevOps Entwicklungszyklus-Modell per GitLab
 
 ### Agilität als Vorgehensmodell
 
-_Wrap-ups_ 💬 nach jeder Iteration<br /> + _Deliverables_ 📦 per GitLab-Issues ✅
+♻️ _Wrap-ups_ (Review, Planning, Retro) 💬 in kurzen Zyklen <br /> + _Deliverables_ 📦 per GitLab-Issues ✅
 
 <img src="https://camo.githubusercontent.com/b4413ca0ce712ecdf7708af1421550eed11316480ca76c37e9f35dbdc13b8e2b/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f70726f78793f63616368653d6e6f267372633d68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6469676974616c2d7375737461696e6162696c6974792f6d6f64756c652d777365672f32352f66732f646f63732f74696d696e672e70756d6c" data-preview-image>
 
 ---
 
-## Prinzipien (Offenheit, Walk-The-Talk, Kaizen: kontinuierliche Verbesserung)
+# 🌱 Prinzipien 
+
+Transparenz & **Offenheit** 🔓
+
+
+👣 **Walk**-the-Talk 💬
+
+
+改善
+<p class="fragment">jap. kai „Veränderung, Wandel“, zen „zum Besseren“</p>
 
 Note:
 4'
+--
+## Offenheit
 
+**Nutzung von Open Source**: Moodle, Lernstick, BBB, IDEs, Programmiersprache(n), Entwicklungsplattform (Gitlab), Front-End, Back-End, Datenbank(en), Tools (git, bruno, ...), ...
+
+**Inner** Sourcing: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/
+
+**Open Education** Resources: https://github.com/digital-sustainability/module-wseg
+--
+## Walk-the-Talk
+
+[dsl-student-projects/.../sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/sandbox)
+
+[![](https://images.unsplash.com/photo-1622774590959-335bc3d2576c?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/de/fotos/eine-frau-macht-einen-topf-auf-einem-rad-AeJth-UIgm4)
+
+Live-Coding, Coaching, OER, ...
+--
+## Kaizen
+
+[![](https://images.unsplash.com/photo-1681821971952-c769ea78e50e?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/de/fotos/eine-gruppe-von-menschen-die-einen-feldweg-entlang-gehen-s3iJ2TnaxLc)
+
+[Retrospektiven](https://openpracticelibrary.com/practice/retrospectives/): Iteration Wrap-Up + Modulevaluation ➡️ 3 Action Items
 ---
 
-## Ausblick / Wrap Up & Danke
+# 🔭 Ausblick
+
+Feedback++
+
+Forschung++
+
+Technik++ (KI)
 
 Note:
 2'
-
+--
+# 👀 Einblick
 --
 
 <!-- .element: data-background="http://i.giphy.com/dbtDDSvWErdf2.gif" -->
 
 --
+#  🔗
+
+https://moodle.bfh.ch/course/view.php?id=39923
+
+https://digital-sustainability.github.io/module-wseg/
 
 made with ❤️ and https://github.com/bfh/reveal.js
