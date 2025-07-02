@@ -10,7 +10,7 @@
 
 ### [Source](https://github.com/digital-sustainability/module-wseg/tree/25/fs/docs/slides/content/pitch) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/25/fs/LICENSE)
 
----
+--
 
 ![me](https://github.com/MarkusTiede/about/raw/main/img/me-circle.png)
 
