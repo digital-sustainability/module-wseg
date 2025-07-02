@@ -157,7 +157,7 @@ Transparenz & **Offenheit** 🔓
 Note:
 4'
 --
-## Offenheit
+## Offenheit 📖
 
 **Nutzung von Open Source**: Moodle, Lernstick, BBB, IDEs, Programmiersprache(n), Entwicklungsplattform (Gitlab), Front-End, Back-End, Datenbank(en), Tools (git, bruno, ...), ...
 
@@ -165,7 +165,7 @@ Note:
 
 **Open Education** Resources: https://github.com/digital-sustainability/module-wseg
 --
-## Walk-the-Talk
+## Walk-the-Talk 🚶
 
 [dsl-student-projects/.../sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/sandbox)
 
@@ -173,7 +173,7 @@ Note:
 
 Live-Coding, Coaching, OER, ...
 --
-## Kaizen
+## Kaizen ✅
 
 [![](https://images.unsplash.com/photo-1681821971952-c769ea78e50e?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/de/fotos/eine-gruppe-von-menschen-die-einen-feldweg-entlang-gehen-s3iJ2TnaxLc)
 
@@ -191,7 +191,9 @@ Technik++ (KI)
 Note:
 2'
 --
-# 👀 Einblick
+# 👀 Einblick(e)
+
+[![](https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/de/fotos/selektive-fokusfotografie-einer-frau-die-eine-klare-glaskugel-halt-RmzR87vTiYw)
 --
 
 <!-- .element: data-background="http://i.giphy.com/dbtDDSvWErdf2.gif" -->
