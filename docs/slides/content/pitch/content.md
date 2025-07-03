@@ -215,6 +215,11 @@ Note:
 
 --
 
+# 🧯
+
+## Q&A
+
+--
 # 🔗
 
 https://moodle.bfh.ch/course/view.php?id=39923
