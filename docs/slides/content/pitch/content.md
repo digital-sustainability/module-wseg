@@ -8,7 +8,7 @@
 
 <hr>
 
-### [Source](https://github.com/digital-sustainability/module-wseg/tree/25/fs/docs/slides/content/pitch) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/25/fs/LICENSE)
+### [Source](https://github.com/digital-sustainability/module-wseg/tree/25/hs/docs/slides/content/pitch) licensed under [CC-BY-4.0](https://github.com/digital-sustainability/module-wseg/blob/25/hs/LICENSE)
 
 --
 
@@ -165,7 +165,7 @@ Note:
 
 **Nutzung von Open Source**: Moodle, BBB, GitLab (Entwicklungsplattform/Wiki), VSCodium, Front-End, Back-End, Tools (git, bruno), ...
 
-**Inner** Sourcing: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/
+**Inner** Sourcing: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/
 
 **Open Education**: https://github.com/digital-sustainability/module-wseg
 
@@ -176,7 +176,7 @@ Forum
 
 ## Walk-the-Talk 🚶
 
-[dsl-student-projects/.../sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/sandbox)
+[dsl-student-projects/.../sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/sandbox)
 
 [![](https://images.unsplash.com/photo-1622774590959-335bc3d2576c?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)](https://unsplash.com/de/fotos/eine-frau-macht-einen-topf-auf-einem-rad-AeJth-UIgm4)
 
