@@ -8,48 +8,35 @@ glab issue create \
  --title "Gitlab Projekt anlegen - Gruppe 0$i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS25 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS25 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
 - [ ] Projekt- bzw. Gruppennamen festlegen\n \
-- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG FS25](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs) anlegen\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS25](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox && \
 glab issue create \
- --title "Gitlab Projekt und Profil konfigurieren - Gruppe 0$i" \
+ --title "Gitlab Projektseite und Profil konfigurieren - Gruppe 0$i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab ein Projekt vorfinden um die Personen und Ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
-- [ ] [Teammitglieder hinzufügen](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) \n \
-  - [ ] Teammitglied 1 hinzugefügt\n \
-  - [ ] Teammitglied 2 hinzugefügt\n \
-  - [ ] Teammitglied 3 hinzugefügt\n \
-  - [ ] Teammitglied 4 hinzugefügt\n \
-  - [ ] Teammitglied 5 hinzugefügt\n \
-  - [ ] Teammitglied 6 hinzugefügt\n \
-  - [ ] Teammitglied 7 hinzugefügt\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab eine Wiki-Projektseite vorfinden um die Personen und ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/dsl-student-projects/wseg-25-hs/-/wikis/home verwendet dazu das Template &apos;Gruppen Vorlage&apos; und fügt zumindest die Teammitglieder bereits hinzu. \n \
 - [ ] [Avatare aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
   - [ ] Avatar 1 gesetzt\n \
   - [ ] Avatar 2 gesetzt\n \
   - [ ] Avatar 3 gesetzt\n \
   - [ ] Avatar 4 gesetzt\n \
   - [ ] Avatar 5 gesetzt\n \
-  - [ ] Avatar 6 gesetzt\n \
-  - [ ] Avatar 7 gesetzt\n \
 - [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
   - [ ] Teammitglied 1 SSH-Key generiert\n \
   - [ ] Teammitglied 2 SSH-Key generiert\n \
   - [ ] Teammitglied 3 SSH-Key generiert\n \
   - [ ] Teammitglied 4 SSH-Key generiert\n \
   - [ ] Teammitglied 5 SSH-Key generiert\n \
-  - [ ] Teammitglied 6 SSH-Key generiert\n \
-  - [ ] Teammitglied 7 SSH-Key generiert\n \
 - [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
   - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 6 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 7 SSH-Key hinterlegt\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
