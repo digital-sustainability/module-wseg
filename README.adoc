@@ -8,9 +8,9 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.4
+=== link:https://semver.org[Version]: 1.0.5
 
-=== Gültig ab: FS 2025 (1.2.2025)
+=== Gültig ab: FS 2026 (1.2.2026)
 
 == Formale Beschreibung
 
@@ -162,10 +162,17 @@ Vertiefung
 
 - SDA1,2,3,4 Software Design & Architecture
 
-| Kompetenznachweis
-a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
+| Präsenzpflicht
+| keine Präsenzpflicht
 
-- Semesterwochen
+| Kompetenznachweis
+a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%) in den Semesterwochen:
+
+- SW 5: Agiles Wrap-up und Deliverable 1
+- SW 8: Agiles Wrap-up und Deliverable 2
+- SW 11: Agiles Wrap-up und Deliverable 3
+- SW 14: Abschlusspräsentation: Live-Demo und Retrospektive 
+- SW 15: Projektabgabe und Deliverable 4
 
 Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
 
