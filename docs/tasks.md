@@ -181,10 +181,25 @@ glab issue create \
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
+ --title "Abschlusspräsentation: Live-Demo und Retrospektive" \
+ --description " \
+ `echo "\
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir in der letzten Veranstaltung eine maximal 15-minütige Abschlusspräsentation erleben. Bei der Wahl der Präsentationsmittel seid ihr frei. Es sollte eine gut vorbereitete Demonstration enthalten sein, welche den  Funktionsumfang anhand einer oder mehrerer User-Journeys zeigt (ggf. Registrieren / Inserieren / Ausloggen / mit anderem User einloggen / Kontakt aufnehmen o.ä.)  \n \
+- Inhalte: \n \
+  - [ ] Ursprüngliche Idee, Organisation Team, ... \n \
+  - [ ] Livedemo (+ ggf. Erläuterung externer APIs/Frameworks) \n \
+  - [ ] Reflexion eures Arbeitsprozesses, was würdet ihr nächstes mal organisatorisch anders machen? \n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+; done
+```
+
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+glab issue create \
  --title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir am Tag der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend!) auf Gitlab-Pages vorfinden. Es ist dabei unerheblich, dass Inhalte aus dem Backend fehlen werden. \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir spätestens eine Woche nach der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend!) auf Gitlab-Pages vorfinden. Es ist dabei unerheblich, wenn Inhalte aus dem Backend fehlen werden. \n \
 - In README.md W-Fragen klären: \n \
   - [ ] Wozu kann eure App verwendet werden? \n \
   - [ ] Welchen Techstack für Frontend und Backend habt ihr verwendet? \n \
@@ -193,12 +208,12 @@ glab issue create \
   - [ ] Wie lauten die Anmeldedaten für einen Strapi Admin-User? (Auch wenn dies ein [Anti-Pattern](https://de.wikipedia.org/wiki/Anti-Pattern) darstellt, ist es sinnvoll diese für euch und die Dozierenden zu hinterlegen). \n \n \
 Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
  \n \
-- Ergänzt eure README durch die [Vorlage in der Sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-fs/sandbox/-/blob/main/README.md#user-content-mvp): \n \
-  - [ ] betreffend der selbstgewählten [Qualitätskriterien](https://github.com/digital-sustainability/module-wseg/blob/25/fs/docs/slides/content/11/criteria.md) \n \
+- Ergänzt eure README durch die [Vorlage in der Sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/sandbox/-/blob/main/README.md#user-content-mvp): \n \
+  - [ ] betreffend der selbstgewählten [Qualitätskriterien](https://github.com/digital-sustainability/module-wseg/blob/25/hs/docs/slides/content/11/criteria.md) \n \
   - [ ] Belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern  \n \
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
 \n \
-  - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/5541eebdb1e324ff332819cae624431b0497cd02/docs/slides/content/09/01.md?plain=1#L115-L145)\n \
+  - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/25/hs/docs/slides/content/09/01.md?plain=1#L121-L149)\n \
   - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning  &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos;\n \
   - [ ] Im &apos;.gitlab-ci.yml&apos; könnt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
   - [ ] Verlinkt eure Demosite (z.B. auf Pages im Unterordner /demo/) ebenfalls in der README \n \
