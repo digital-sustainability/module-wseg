@@ -8,9 +8,9 @@ link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[ima
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.4
+=== link:https://semver.org[Version]: 1.0.5
 
-=== Gültig ab: FS 2025 (1.2.2025)
+=== Gültig ab: FS 2026 (1.2.2026)
 
 == Formale Beschreibung
 
@@ -97,6 +97,8 @@ Literaturstudium, Videos, Projektarbeit: Einzel-/Gruppenarbeiten
 | Literatur
 | Sommerville, I. (2020): Modernes Software-Engineering. Entwurf und Entwicklung von Softwareprodukten. Pearson Deutschland. ISBN: 978-3868943962.
 
+Sommerville, I. (2020): Engineering Software Products: An Introduction to Modern Software Engineering, Global Edition. Pearson Education. ISBN: 978-1292376349.
+
 | Eingangskompetenzen +
 (Fachkompetenzen und Kompetenzen gemäss Kompetenzmodell BFH-W)
 | Fachkompetenzen und Kompetenzen der Berufsmaturität der Typen «Technik, Architektur, Life Sciences» oder «Wirtschaft und Dienstleistungen»
@@ -105,23 +107,19 @@ Literaturstudium, Videos, Projektarbeit: Einzel-/Gruppenarbeiten
 (Fachkompetenzen und Kompetenzen gemäss Kompetenzmodell BFH-W)
 a| +++Fachkompetenzen:+++ Die Studierenden können...
 
-- aus einer Produktidee ein Konzept erstellen und daraus einen Prototyp umsetzen.
-- Grundbegriffe und Herausforderungen des modernen Software Engineerings erklären.
-- Phasen und Aktivitäten in der Entwicklung von Softwareprodukten erläutern.
-- Methoden und Werkzeuge zur arbeitsteiligen Entwicklung von Softwareprodukten anwenden.
-- Prinzipien des agilen Vorgehens umsetzen und Anwendungsmöglichkeiten im eigenen Beruf erkennen.
-- lokale Entwicklungsumgebungen einrichten und Quellcode mit Git verwalten
-- eine einfache Single Page Application (Web-Applikation) entwickeln.
-- die Dokumentationen verwendeter Webtechnologien und -frameworks konsultieren.
-- Techniken zur Komplexitätsreduktion einer Software erklären.
-- Qualitätsmerkmale von Softwareprodukten beschreiben.
-- Projektdokumentation und -artefakte in einem Repository ablegen bzw. veröffentlichen.
+- in einer Kleingrupe aus einer eigenen Produktidee ein Konzept für eine Onlineplattform erstellen und daraus als Team während eines Semesters einen funktionalen Softwareprototypen als „Single Page Application“ entwickeln.
+- Grundbegriffe und Herausforderungen des modernen Software Engineerings im Bereich „Webtechnologien“ erklären und Phasen und Aktivitäten in der Entwicklung von Softwareprodukten beschreiben.
+- auf dem eigenen Arbeitsgerät eine lokale Entwicklungsumgebung einrichten und Werkzeuge zur arbeitsteiligen Entwicklung von Softwareprodukten einsetzen (Quellcodeverwaltung mit Git).
+- die Prinzipien agiler Arbeitsweisen praktisch umsetzen und deren Ergebnisse (Review, Planning, Retrospective) in regelmässigen Kurzpräsentationen demonstrieren. 
+- die Dokumentationen eingesetzter Webtechnologien und -frameworks konsultieren und Probleme per Internetrecherche oder durch Einsatz von Large Language Models lösen.
+- funktionale und nichtfunktionale Qualitätsmerkmale von Softwareprodukten beschreiben und Techniken zur Komplexitätsreduktion einer Software erklären.
+- Projektdokumentation und -artefakte in einem Git-Repository ablegen und dazu eine Continous-Integration-Automatisierung einrichten welche diese für Aussenstehende sichtbar publiziert.
 
 +++Kompetenzen gemäss Kompetenzmodell BFH-W:+++
 
 Problemsolving/Design Thinking (verwandt: Methodenkompetenz): Die Studierenden...
 
-- erkennen, dass im Software Engineering eine Kombination von kreativ-spielerischem und logisch-stringentem Vorgehen nötig ist.
+- erfahren durch die eigene Praxis, dass im Software Engineering eine Kombination von kreativ-spielerischem und logisch-stringentem Vorgehen zielführend ist.
 
 Kollaboration (verwandt: Sozialkompetenzen): Die Studierenden...
 
@@ -132,13 +130,13 @@ Kollaboration (verwandt: Sozialkompetenzen): Die Studierenden...
 Selbstmanagement (verwandt: Selbstkompetenzen): Die Studierenden...
 
 - lernen mit Autonomie und Selbstorganisation umzugehen.
-- lernen und arbeiten selbständig, erkennen Kenntnislücken frühzeitig und füllen diese selbständig.
+- lernen und arbeiten selbständig, erkennen Kenntnislücken frühzeitig und füllen diese selbständig oder suchen sich Unterstützung bei Peers oder Coaches.
 - können ihre Denk- und Arbeitsprozesse kritisch hinterfragen und mögliche Handlungsoptionen entwickeln.
 - entwickeln realistische Selbst- und Zeiteinschätzungen.
 
 Umgang mit Komplexität: Die Studierenden...
 
-- reflektieren die Komplexität von modernen, verteilten Softwareanwendungen.
+- reflektieren die Komplexität von modernen, verteilten Softwareanwendungen im Bereich Webtechnologien.
 - reflektieren die Komplexität von arbeitsteiliger Softwareentwicklung.
 
 | Schnittstellen zu anderen Modulen +
@@ -162,10 +160,17 @@ Vertiefung
 
 - SDA1,2,3,4 Software Design & Architecture
 
-| Kompetenznachweis
-a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%)
+| Präsenzpflicht
+| keine Präsenzpflicht
 
-- Semesterwochen
+| Kompetenznachweis
+a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%) in den Semesterwochen:
+
+- SW 5: Agiles Wrap-up und Deliverable 1
+- SW 8: Agiles Wrap-up und Deliverable 2
+- SW 11: Agiles Wrap-up und Deliverable 3
+- SW 14: Abschlusspräsentation: Live-Demo und Retrospektive 
+- SW 15: Projektabgabe und Deliverable 4
 
 Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
 
