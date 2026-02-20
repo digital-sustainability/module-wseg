@@ -3,41 +3,32 @@
 ## using [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/) commandline in [zsh](https://www.zsh.org/)
 
 ```bash
-for i in {1..7}; do \
+for i in $(seq -w 01 14); do \
 glab issue create \
- --title "Gitlab Projekt anlegen - Gruppe 0$i" \
+ --title "Gruppe bilden und Gitlab Projekt anlegen - Gruppe $i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS25 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt vorfinden:\n \
-- [ ] Projekt- bzw. Gruppennamen festlegen\n \
-- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der [dsl-student-projects/WSEG HS25](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs) anlegen\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS26 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt und eine Wiki-Projektseite vorfinden, um die Personen und ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+- [ ] Alle Mitglieder auf diese Issue **assignen**\n \
+- [ ] Projekt- bzw. Gruppennamen festlegen (enthält nicht &quot;WSEG&quot; oder &quot;Gruppe&quot;) und diese Issue umbenennen\n \
+\n \
+Spätestens an Termin 2 bitte:\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG FS26](https://gitlab.ti.bfh.ch/w-wseg/26-fs/) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/sandbox && \
-glab issue create \
- --title "Gitlab Projektseite und Profil konfigurieren - Gruppe 0$i" \
- --description " \
- `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Gitlab eine Wiki-Projektseite vorfinden um die Personen und ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
-- [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/dsl-student-projects/wseg-25-hs/-/wikis/home verwendet dazu das Template &apos;Gruppen Vorlage&apos; und fügt zumindest die Teammitglieder bereits hinzu. \n \
-- [ ] [Avatare aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
+- [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home , verwendet dazu das Template &apos;Gruppen Vorlage&apos; und listet bereits alle Teammitglieder auf. \n \
+- [ ] [Alle Teammitglieder aktivieren Projekt-Benachrichtigung 🔔](https://docs.gitlab.com/user/profile/notifications/#change-level-of-project-notifications) \n \
+  - [ ] Mitglied 1 beobachtet\n \
+  - [ ] Mitglied 2 beobachtet\n \
+  - [ ] Mitglied 3 beobachtet\n \
+  - [ ] Mitglied 4 beobachtet\n \
+  - [ ] Mitglied 5 beobachtet\n \
+- [ ] [Avatarbilder aller Teammitglieder setzen](https://docs.gitlab.com/ee/user/profile/#access-your-user-profile) \n \
   - [ ] Avatar 1 gesetzt\n \
   - [ ] Avatar 2 gesetzt\n \
   - [ ] Avatar 3 gesetzt\n \
   - [ ] Avatar 4 gesetzt\n \
   - [ ] Avatar 5 gesetzt\n \
-- [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
-  - [ ] Teammitglied 1 SSH-Key generiert\n \
-  - [ ] Teammitglied 2 SSH-Key generiert\n \
-  - [ ] Teammitglied 3 SSH-Key generiert\n \
-  - [ ] Teammitglied 4 SSH-Key generiert\n \
-  - [ ] Teammitglied 5 SSH-Key generiert\n \
-- [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
-  - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox \
 ; done
 ```
 

@@ -1,7 +1,5 @@
 link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Berner_Fachhochschule_Logo_small.svg/128px-Berner_Fachhochschule_Logo_small.svg.png[Logo BFH - Bern University of Applied Sciences]]
 
-link:https://gitpod.io#https://github.com/digital-sustainability/module-wseg[image:https://gitpod.io/button/open-in-gitpod.svg[Open IDE in Webbrowser]]
-
 = Modulkonzept
 
 == Software Engineering (WSEG)
@@ -194,9 +192,9 @@ unter CC-BY 4.0 als OER veröffentlicht.
 
 == Anhang
 
-=== Timing
+=== Semesterablauf
 
-image::http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/25/fs/docs/timing.puml[timing]
+image::https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/26/fs/docs/timing.puml[timing]
 
 === Zweck des Dokuments
 
