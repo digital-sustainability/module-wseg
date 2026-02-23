@@ -79,7 +79,7 @@ Bitte plant eure kommende Iteration im Rahmen eines [Iteration Plannings](https:
 Bitte reflektiert die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
     glab issue create \
-      --title "Iteration $i - Wrap-Up: Review, Planung, Retrospektive" \
+      --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
 `echo " \
 Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (max. 15'):\n \
@@ -88,6 +88,19 @@ Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (
  - [ ] Iteration Retrospektive: bitte stellt (kurz) eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
 \n \
 Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/wseg-group-demo/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
+\n \
+\n \
+Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem1)\n \
+- [ ] Review (1 P)\n \
+  - [ ] technischer & fachlicher Fortschritt (1 P)\n \
+- [ ] Planning (1 P)\n \
+  - [ ] realistische Ziele (1 P)\n \
+- [ ] Retrospektive (1 P)\n \
+  - [ ] gelebter KVP (1 P)\n \
+- [ ] Fragen / Feedback\n \
+  - Fragestellung\n \
+  - Feedback\n \
+\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
    ; done \
 ; done
