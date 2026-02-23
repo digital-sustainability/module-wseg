@@ -113,7 +113,7 @@ durch Beispiel
 
 "Nachweis" aller Aspekte durch Line-Number Referenzen
 
-https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/sandbox/-/blob/main/README.md?ref_type=heads&plain=1#L5-11
+https://gitlab.ti.bfh.ch/w-wseg/wseg-25-hs/sandbox/-/blob/main/README.md?ref_type=heads&plain=1#L5-11
 --
 # Q&A
 ---

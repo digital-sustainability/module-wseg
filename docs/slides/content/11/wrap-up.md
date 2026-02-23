@@ -2,7 +2,7 @@
 
  Iteration 3
  --
- https://gitlab.ti.bfh.ch/groups/dsl-student-projects/wseg-25-hs/-/wikis/home
+ https://gitlab.ti.bfh.ch/groups/w-wseg/wseg-25-hs/-/wikis/home
 --
 ![](https://t2informatik.de/wp-content/uploads/2018/12/walking-skeleton.jpg)
 

@@ -179,8 +179,8 @@ glab issue create \
  --title "Deliverable 3: Gitlab Page per CI Pipeline" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/sandbox/) für euer Gruppenrepository. Die Funktionalitäten &apos;CI/CD&apos;, sowie &grave;Pages&grave; müssen für eure Repositories allenfalls in den Settings aktiviert werden. \n \
-- [ ] Deaktiviert die Funktion Unique URL unter Deploy-Pages, damit das Ergebnis unter https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite) \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/wseg-25-hs/sandbox/) für euer Gruppenrepository. Die Funktionalitäten &apos;CI/CD&apos;, sowie &grave;Pages&grave; müssen für eure Repositories allenfalls in den Settings aktiviert werden. \n \
+- [ ] Deaktiviert die Funktion Unique URL unter Deploy-Pages, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/wseg-25-hs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite) \n \
   - [ ] Eure README.md sollte wie im Beispiel selbst als index.html fungieren und ebenfalls einen funktionierenden Link zum Blogpost enthalten \n \
   - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen im Build-Job z.B. nach public/docs kopiert werden \n \
 - [ ] Verwendet im .gitlab-ci.yml die Regel, dass die Pipeline nur ausgeführt wird, wenn die Commit-message die Worte Blog oder Readme (Gross-/Kleinschreibung ignorieren) enthält, um unnötigen Ressourcenverbrauch zu vermeiden. (&dollar;CI_COMMIT_MESSAGE =~ /blog/i || &dollar;CI_COMMIT_MESSAGE =~ /readme/i -- Als Referenz dient: https://docs.gitlab.com/ee/ci/jobs/job_rules.html)\n \
@@ -222,7 +222,7 @@ glab issue create \
   - [ ] Wie lauten die Anmeldedaten für einen Strapi Admin-User? (Auch wenn dies ein [Anti-Pattern](https://de.wikipedia.org/wiki/Anti-Pattern) darstellt, ist es sinnvoll diese für euch und die Dozierenden zu hinterlegen). \n \n \
 Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
  \n \
-- Ergänzt eure README durch die [Vorlage in der Sandbox](https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/sandbox/-/blob/main/README.md#user-content-mvp): \n \
+- Ergänzt eure README durch die [Vorlage in der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/wseg-25-hs/sandbox/-/blob/main/README.md#user-content-mvp): \n \
   - [ ] betreffend der selbstgewählten [Qualitätskriterien](https://github.com/digital-sustainability/module-wseg/blob/25/hs/docs/slides/content/11/criteria.md) \n \
   - [ ] Belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern  \n \
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \

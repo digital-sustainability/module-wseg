@@ -7,8 +7,8 @@
 
 - Moodle Kurs: https://moodle.bfh.ch/course/view.php?id=42191
 - BigBlueButton: https://bbb.ch-open.ch/rooms/bpp-2fr-o9h-eiw/join
-- BFH-GitLab: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs
-- Wiki Page: [in gemeinsamer GitLab-Gruppe für Iterations Wrap-Ups](https://gitlab.ti.bfh.ch/groups/dsl-student-projects/wseg-25-hs/-/wikis/home)
+- BFH-GitLab: https://gitlab.ti.bfh.ch/w-wseg/wseg-25-hs
+- Wiki Page: [in gemeinsamer GitLab-Gruppe für Iterations Wrap-Ups](https://gitlab.ti.bfh.ch/groups/w-wseg/wseg-25-hs/-/wikis/home)
 
 # Inhalte
 
