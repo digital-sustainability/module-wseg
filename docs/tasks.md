@@ -61,23 +61,13 @@ Richtet bitte bei jedem Teammitglied, für einen reibungslosen Zugriff auf alle 
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
   for i in {0..4}; do \
     glab issue create \
-      --title "Iteration $i - Review" \
+      --title "Iteration $i - Rituale und Vorbereitung des Wrap-ups" \
       --description " \
 `echo " \
-Bitte bereitet ein kurzes, im Plenum stattfindendes, [Iteration Review](https://scaledagileframework.com/iteration-review/) vor.\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
-    glab issue create \
-      --title "Iteration $i - Planung der nächsten Iteration" \
-      --description " \
-`echo " \
-Bitte plant eure kommende Iteration im Rahmen eines [Iteration Plannings](https://scaledagileframework.com/iteration-planning/) in Form eines vorbereiteten Iterations [Team Backlogs](https://scaledagileframework.com/team-backlog/).\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
-    glab issue create \
-      --title "Iteration $i - Retrospektive" \
-      --description " \
-`echo " \
-Bitte reflektiert die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group && \
+ - Bitte bereitet ein kurzes, im Plenum stattfindendes, [Iteration Review](https://scaledagileframework.com/iteration-review/) vor.\n \
+ - Bitte plant eure kommende Iteration im Rahmen eines [Iteration Plannings](https://scaledagileframework.com/iteration-planning/) in Form eines vorbereiteten Iterations [Team Backlogs](https://scaledagileframework.com/team-backlog/).\n \
+ - Bitte reflektiert die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group && \
     glab issue create \
       --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
@@ -87,7 +77,7 @@ Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (
  - [ ] Iteration Planning: bitte stellt (kurz) die Planung eurer kommenden Iteration vor.\n \
  - [ ] Iteration Retrospektive: bitte stellt (kurz) eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
 \n \
-Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/wseg-group-demo/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
+Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
 \n \
 \n \
 Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem1)\n \
@@ -101,7 +91,7 @@ Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem
   - Fragestellung\n \
   - Feedback\n \
 \n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
    ; done \
 ; done
 ```
@@ -116,7 +106,7 @@ glab issue create \
  --title "Deliverable 0: Pitch der Projektidee" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' Review 0 einen gemeinsamen, ersten Einblick eurer Projektidee bekommen. (Hinweis: Beim ersten Mal werden **keine Punkte** vergeben!)\n \
+Als Dozierende (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' einen gemeinsamen, ersten Einblick eurer Projektidee bekommen. (Hinweis: Beim ersten Mal werden **keine Punkte** vergeben!)\n \
 \n \
 Im Rahmen des Iterations-Reviews präsentiert ihr eure Produktidee in maximal 5min. Stellt euch vor ihr seid auf der Suche nach Finanzierung und euer Publikum besteht aus Investoren oder Mitgliedern eines Förderfonds.\n \
 \n \
@@ -126,9 +116,9 @@ Wenn eure Präsentation und die Produktidee folgende Fragen beantwortet seid ihr
  - Welches sind eure Nutzergruppen? Erstellt doch zwei Personas dazu. \n \
  - Was sollen Nutzer&midast;innen in eurer Applikation machen können? (Hier könnt ihr ggf. erste Wireframes, Mock-ups oder Prototypen zeigen)\n \
 \n \
-Ihr seid frei bei der Verwendung des Präsentationsmittels (Wiki, Powerpoint, Canva, Figma, reveal.js ...).\n \
-Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** eures Git-Repository bis am Präsentationstag 23:59 Uhr. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+Ihr habt freie Wahl der Präsentationsmittel (Wiki-Seite, Powerpoint, Figma, Canva, Slides.com ...).\n \
+ - [ ] Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** eures Git-Repository bis spätestens 23:59 Uhr des Präsentationstags. \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
 ; done
 ```
 
@@ -140,12 +130,16 @@ lab issue create \
  --title "Deliverable 1: Erstes MVP und User Feedback einholen" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 1** ein erstes Minimal-Viable-Product bestehend aus zwei Seiten bzw. Ansichten sehen, welches idealerweise bereits in einem JavaScript-Framework wie z.B. Vue.js erstellt wurde. Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die Gelegenheit geben, um Rückmeldungen des Publikums einzuholen:\n \
-- [ ] Startseite mit Link oder Aktion innerhalb eines Webbrowsers \n \
-  - [ ] Eine zweite Seite bzw. Ansicht eines Formulars, welches später zum Einloggen oder zur Nutzerregistrierung weiterentwickelt werden kann \n \
-  - [ ] (Für das Wechseln zwischen Ansichten/Funktionen innerhalb einer Single-Page-Application wird die Verwendung eines Routers, wie z.B. [router.vuejs.org](https://router.vuejs.org/) empfohlen \n \
+Als Dozierende (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 1** ein erstes Minimal-Viable-Product bestehend aus zwei Seiten bzw. Ansichten sehen, welches idealerweise bereits in einem JavaScript-Framework wie z.B. Vue.js erstellt wurde. Bitte verzichtet für dieses Deliverable auf Fertiglösungen, welche durch KI-Prompts generiert wurden!\n \
+- [ ] Startseite euer Plattform mit Link oder Aktion innerhalb eines Webbrowsers \n \
+- [ ] Eine zweite Seite bzw. Ansicht eines Formulars, welches später zum Einloggen oder zur Nutzerregistrierung weiterentwickelt werden kann. (Für das Wechseln zwischen Ansichten/Funktionen innerhalb einer Single-Page-Application wird die Verwendung eines Routers, wie z.B. [router.vuejs.org](https://router.vuejs.org/) empfohlen) \n \
+\n \
+Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die Gelegenheit geben, um Rückmeldungen des Publikums einzuholen:\n \
 - [ ] Auswahl an passenden Farben/Farbvarianten/Bildelementen/Logos treffen und Feedback dazu einholen\n \
-- [ ] Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten \
+- [ ] Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten\n  \
+\n \
+Individuelle Aufgabe:\n \
+- [ ] Jedes Teammitglied hat auf dem main-Branch mindestens **einen Commit** gepusht. Es genügt wenn dieser bspw. nur aus einer Änderung der Datei README.md besteht. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
 ; done
 ```
