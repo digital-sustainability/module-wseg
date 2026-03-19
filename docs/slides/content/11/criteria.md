@@ -9,13 +9,14 @@ Ziel: gemeinsame
 ## Perspektive(n)
 --
 ```
-### Produkt (50 Punkte) 
-  
- - Umfang und Qualität, Dokumentation (30P) 
- - (zusätzliche) Features & Styling (20P) 
+### b) Produkt (50 Punkte)
+
+- Umfang (15P) und Qualität (10P), Dokumentation (5P)
+- (zusätzliche) Features (3x 5P) und Styling (5P)
+- .. genauere Aufschlüsselung folgt
 ```
 
-Quelle: [#04 - Softwarearchitektur](https://github.com/digital-sustainability/module-wseg/blob/c969f4de8d0e72a01709eb50146886cba70e5b27/docs/slides/content/04/01.md?plain=1#L67-L70)
+Quelle: [#04 - Softwarearchitektur](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/04-architecture-backend/01.md?ref_type=heads&plain=1#L68-L71)
 ---
 # 30 P
 
@@ -111,9 +112,9 @@ durch Beispiel
 --
 # `README.md`
 
-"Nachweis" aller Aspekte durch Line-Number Referenzen
+"Nachweis" aller Aspekte durch [Line-Number Referenzen](#/12/2)
 
-https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/-/blob/main/README.md?ref_type=heads&plain=1#L5-11
+
 --
 # Q&A
 ---
