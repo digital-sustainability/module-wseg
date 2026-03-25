@@ -72,12 +72,12 @@ for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
       --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
 `echo " \
-Bitte bereitet euer Team "Iteration Wrap-Up" vor und präsentiert es im Plenum (max. 15'):\n \
+Bitte präsentiert euer Team "Iteration Wrap-Up" im Plenum (max. 15'):\n \
  - [ ] Iteration Review: bitte stellt die fachlichen Ergebnisse eurer aktuellen Iteration vor.\n \
  - [ ] Iteration Planning: bitte stellt (kurz) die Planung eurer kommenden Iteration vor.\n \
  - [ ] Iteration Retrospektive: bitte stellt (kurz) eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
 \n \
-Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home): dieses werdet ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium nutzen. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
+Hinterlegt dazu bitte alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im gemeinsamen [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home): dieses nutzt ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro "Iteration Wrap-Up". \n \
 \n \
 \n \
 Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem1)\n \
@@ -140,7 +140,7 @@ Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die 
 \n \
 Individuelle Aufgabe:\n \
 - [ ] Jedes Teammitglied hat auf dem main-Branch mindestens **einen Commit** gepusht. Es genügt wenn dieser bspw. nur aus einer Änderung der Datei README.md besteht. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
 ; done
 ```
 
@@ -149,32 +149,32 @@ Individuelle Aufgabe:\n \
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Deliverable 2: Blogbeitrag mit Merge-Request" \
+ --title "Deliverable 2: Blogbeitrag und Datenmodell mit Merge-Request" \
  --description " \
  `echo "\
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 2** einen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. (_Stand MVP_: Möglicherweise habt ihr zu diesem Zeitpunkt eine erste Anbindung des Frontends ans Backend durch Nutzerregistrierung und/oder Loginfunktionalität geschafft) \n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 2** einen kurzen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. (_Stand MVP_: Wahrscheinlich habt ihr zu diesem Zeitpunkt eine erste Anbindung des Frontends ans Backend durch Nutzerregistrierung und/oder Loginfunktionalität geschafft) \n \
 - [ ] Blogbeitrag im Markdown-Format, idealerweise im docs-Ordner, \n \
-- [ ] mit Bilddatei Entity-Relationship Diagramm (erstes, grundlegendes Datenmodell -- bitte nicht zu detailliert!) \n \
+  - [ ] mindestens eine Bilddatei (z.B. Logo, Screenshot o.ä.) aus Repository eingebettet \n \
+  - [ ] Link zu einer Brunocollection, die aufzeigt wie euer erstes, grundlegendes Datenmodell über die API abgefragt werden kann/könnte und wie Einträge per POST erstellt werden können
 - [ ] unter Verwendung des GitLab-Features Merge-Request \n \
 \n \
 Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
-1. Welche **Ziele für die Applikation** habt ihr euch als Gruppe gesetzt?\n \
+1. Welche **Hauptziele für die Applikation** habt ihr euch als Gruppe gesetzt?\n \
     - Kurze **Beschreibung der Produktidee** mit den wichtigsten User Stories\n \
 2. Aktueller **Entwicklungsstand der Applikation**?\n \
-    - Beschreibt euer **Datenmodell** und ggf. Testdaten\n \
+    - Verwendet ihr Testdaten, welche noch im Code integriert sind?\n \
     - Zeigt ggf. auch **Screenshots** des aktuellen Stands\n \
-3. Auf welche **Hindernisse / Schwierigkeiten** seid ihr bisher gestossen?\n \
-    - Ist die **Erreichung der Ziele gefährdet**?\n \
-    - Welche **Massnahmen** habt getroffen oder geplant **um diese Hindernisse zu beseitigen**?\n \
-4. Beschreibt eure Organisation und die **Aufgabenverteilung im Team**, z.B. wie gestaltet ihr euren Wissenstransfer?\n \
+3. Beschreibt eure Organisation und die **Aufgabenverteilung im Team**:\n \
+    - z.B. wie gestaltet ihr euren Wissenstransfer?\n \
+    - ... was sind eure aktuellen Herausforderungen?\n \
 \n \
 **Format: Markdown** (Name z.B. Deliverable2-Blog.md), kann direkt im Gitlab-Frontend zur Textformatierung verwendet werden. Es ermöglicht das Einfügen von Bildern (z.B. im Unterorder &quot;assets&quot;) und die Verwendung von Hyperlinks (externe Ressourcen oder auch Gitlab-intern). Als Referenz und Beispiel dient: https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/user/markdown.md \n \
 \n \
-**Due date:** Der Blog-Beitrag und Merge-Request muss spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr im Repository ersichtlich sein.\n \
+**Due date:** Der Blog-Beitrag und die Bruno-Collection sollen im Merge-Request bis spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr im Repository ersichtlich sein.\n \
 \n \
 **Git-Aufgabe Merge-Request**: Aus dieser vorbereiteten Issue "Deliverable 2" eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git einen **Branch &quot;123-deliverable-2...&quot;** eures Repositories, welcher zum Hinzufügen der Markdown-Datei mitsamt verknüpften Inhalten (im Dokumentationsordner) verwendet werden soll. Sobald vollständig gebt ihr **@tem1 und @bkj1 als Reviewer** für den MR an. (… Nach Ablauf der Frist geben die Reviewer ihr &quot;Approval&quot; und danach führt ihr selbständig den MR mit dem Branch &quot;main&quot; zusammen.\n \
 Als Referenz dient: https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/?tab=Merge+request+and+branch#from-an-issue )\
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
 ; done
 ```
 
