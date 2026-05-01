@@ -184,13 +184,27 @@ glab issue create \
  --title "Deliverable 3: Gitlab Page per CI Pipeline" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/) für euer Gruppenrepository. Die Funktionalitäten &apos;CI/CD&apos;, sowie &grave;Pages&grave; müssen für eure Repositories allenfalls in den Settings aktiviert werden. \n \
-- [ ] Deaktiviert die Funktion Unique URL unter Deploy-Pages, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-fs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite) \n \
-  - [ ] Eure README.md sollte wie im Beispiel selbst als index.html fungieren und ebenfalls einen funktionierenden Link zum Blogpost enthalten \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/) für euer Gruppenrepository. \n \
+- [ ] Deaktiviert die Funktion &apos;Use unique domain&apos;, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-fs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite \n \
+  - [ ] Eure README.md sollte wie im Beispiel selbst als _index.html_ fungieren und ebenfalls einen funktionierenden, relativen Link zum Blogpost enthalten \n \
   - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen im Build-Job z.B. nach public/docs kopiert werden \n \
-- [ ] Verwendet im .gitlab-ci.yml die Regel, dass die Pipeline nur ausgeführt wird, wenn die Commit-message die Worte Blog oder Readme (Gross-/Kleinschreibung ignorieren) enthält, um unnötigen Ressourcenverbrauch zu vermeiden. (&dollar;CI_COMMIT_MESSAGE =~ /blog/i || &dollar;CI_COMMIT_MESSAGE =~ /readme/i -- Als Referenz dient: https://docs.gitlab.com/ee/ci/jobs/job_rules.html)\n \
+- [ ] Richtet in der Pipeline eine weitere Stage vor der Textkonvertierung ein, in der zuerst eure [Markdown-Dateien gelintet](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L317) werden. Dieser Job darf fehlschlagen und dient nur zur Information.
+- [ ] Verwendet im _.gitlab-ci.yml_ die Regel, dass die Pipeline nur ausgeführt wird, wenn die Commit-message die Worte  &rdquo;Blog&rdquo; oder  &rdquo;Readme&rdquo; (Gross-/Kleinschreibung ignorieren) enthält, um unnötigen Ressourcenverbrauch zu vermeiden. (_&dollar;CI_COMMIT_MESSAGE =~ /blog/i || &dollar;CI_COMMIT_MESSAGE =~ /readme/i_ &ndash; Als Referenz dient: https://docs.gitlab.com/ee/ci/jobs/job_rules.html)\n \
 \n \
-**Due date:** Der Blog-Beitrag muss spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr auf Pages ersichtlich sein. \
+Überlegt bitte welche Arc42-[Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/5101b9cd48b737f09e50ab09e2fd6f87a350d5d3/docs/slides/content/11/criteria.md) inkl. Schwerpunkt und welche Features ihr für euer Praxisprojekt aussuchen werdet, um diese im Wrap-up benennen zu können. \n \
+- [ ] Haltet diese voraussichtliche Auswahl auf euer Wikiseite fest: **Tabellarische Vorlage in Markdown** \n \
+~~~ \n \
+|  self-chosen | link or description  | \n \
+|---|---| \n \
+|  Quality Property 1 |   | \n \
+|  Quality Property 2 |   | \n \
+|  Quality Property 3 |   | \n \
+|  Schwerpunkt |   | \n \
+|  Feature 1 |   | \n \
+|  Feature 2 |   | \n \
+~~~ \n \
+ \n \
+**Due date:** Eure konvertierten Dokumente müssen spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr per Gitlab Pages ersichtlich sein. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
 ; done
 ```
