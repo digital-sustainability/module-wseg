@@ -1,4 +1,4 @@
-link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Berner_Fachhochschule_Logo_small.svg/128px-Berner_Fachhochschule_Logo_small.svg.png[Logo BFH - Bern University of Applied Sciences]]
+link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/2/25/Berner_Fachhochschule_Logo_small.svg[Logo BFH - Bern University of Applied Sciences]]
 
 = Modulkonzept
 
@@ -141,7 +141,7 @@ Umgang mit Komplexität: Die Studierenden...
 (zuführende, parallele, weiterführende)
 a| baut auf folgenden Pflichtmodulen auf
 
-- WSEN Softwareentwicklung, Grundlagen Programmieren
+- https://github.com/digital-sustainability/module-wsen[WSEN] Softwareentwicklung, Grundlagen Programmieren
 - WDDA Data Management & Data Analysis, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
 
