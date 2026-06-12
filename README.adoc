@@ -6,9 +6,9 @@ link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.sv
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.5
+=== link:https://semver.org[Version]: 1.0.6
 
-=== Gültig ab: FS 2026 (1.2.2026)
+=== Gültig ab: HS 2026 (1.8.2026)
 
 == Formale Beschreibung
 
@@ -73,7 +73,7 @@ Zentrale Inhalte
 - Praxisprojekt: Entwicklung einer Web-Applikation mit Frontend und Backend (z.B. mit https://vuejs.org/[Vue.js] und https://strapi.io/[Strapi])
 - Agile Softwareentwicklung im Team
 - Grundlagen Objektorientierter Programmierung, Verwendung von REST APIs
-- Kennenlernen und Einsatz von Werkzeugen wie z.B. Gitlab zur Quellcodeverwaltung/Dokumentation und IDEs wie Visual Studio Code/VSCodium
+- Kennenlernen und Einsatz von Werkzeugen wie z.B. GitLab zur Quellcodeverwaltung/Dokumentation und IDEs wie VSCodium (Visual Studio Code) im Zusammenspiel mit AI-Coding-Agents wie OpenCode
 
 Methoden
 Lesen, Verstehen und Besprechen von Lehrbuchtexten, Fachartikeln und Softwaredokumentationen
@@ -145,7 +145,7 @@ a| baut auf folgenden Pflichtmodulen auf
 - WDDA Data Management & Data Analysis, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
 
-Wahlpflichtmodule
+Wahlpflichtmodule mit Beispiel
 
 - EWEB Web Engineering, Webtechnologien
 - ERAP Hackathon & Rapid Prototyping, APIs bauen/verwenden
@@ -162,7 +162,7 @@ Vertiefung
 | keine Präsenzpflicht
 
 | Kompetenznachweis
-a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (50%) in den Semesterwochen:
+a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, Abschlusspräsentation) als Gruppenarbeit mit gemeinsamer Note (60%) in den Semesterwochen:
 
 - SW 5: Agiles Wrap-up und Deliverable 1
 - SW 8: Agiles Wrap-up und Deliverable 2
@@ -170,7 +170,7 @@ a| Teil 1: Projektabgabe mit Zwischenergebnissen (Agile Rituale, Deliverables, A
 - SW 14: Abschlusspräsentation: Live-Demo und Retrospektive 
 - SW 15: Projektabgabe und Deliverable 4
 
-Teil 2: Schlussprüfung (50%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
+Teil 2: Schlussprüfung (40%), Moodle-Prüfung und praktische Aufgaben, 90 Minuten
 
 - In den offiziellen Prüfungswochen
 - elektronische PC-Prüfung mit https://www.lernstick.ch/[Lernstick] und https://www.campla.ch/[CAMPLA]
@@ -180,7 +180,7 @@ Die Teilkompetenznachweise werden auf halbe Noten gerundet.
 
 Hilfsmittel bei schriftlicher Prüfung
 
-- Open Book, erweitert durch digitale Dokumente hochgeladen auf Moodle bzw. CAMPLA
+- Open Book, erweitert durch digitale Dokumente hochgeladen auf CAMPLA
 - Wörterbuch Muttersprache - Sprache Kompetenznachweis
 - BFH-Taschenrechner
 
