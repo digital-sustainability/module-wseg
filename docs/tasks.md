@@ -205,7 +205,7 @@ glab issue create \
 ~~~ \n \
  \n \
 **Due date:** Eure konvertierten Dokumente müssen spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr per Gitlab Pages ersichtlich sein. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
 ; done
 ```
 
@@ -214,44 +214,64 @@ glab issue create \
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Abschlusspräsentation: Live-Demo und Retrospektive" \
+ --title "WICHTIG: individuelle WSEG-Modulevaluation ausfüllen bis ... ‼️" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir in der letzten Veranstaltung eine maximal 15-minütige Abschlusspräsentation erleben. Bei der Wahl der Präsentationsmittel seid ihr frei. Es sollte eine gut vorbereitete Demonstration enthalten sein, welche den  Funktionsumfang anhand einer oder mehrerer User-Journeys zeigt (ggf. Registrieren / Inserieren / Ausloggen / mit anderem User einloggen / Kontakt aufnehmen o.ä.)  \n \
-- Inhalte: \n \
-  - [ ] Ursprüngliche Idee, Organisation Team, ... \n \
-  - [ ] Livedemo (+ ggf. Erläuterung externer APIs/Frameworks) \n \
-  - [ ] Reflexion eures Arbeitsprozesses, was würdet ihr nächstes mal organisatorisch anders machen? \n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir und unser Institutsleiter (@smm15) anonyme und ehrliche **quantitative Ergebnisse** zu unseren Kursdurchführungen erhalten, um zukünftig Verbesserungen vornehmen zu können. Wir erinnern hiermit **alle Teammitglieder**, sofern noch nicht bereits erledigt: \n \
+ 1. Bitte die **E-Mail** von _EVASYS_ zum Modul WSEG **suchen**,
+ 1. auf den Umfragelink **klicken** und
+ 1. _mindestens den quantitativen_ Teil zu Unterricht und Dozierenden **ausfüllen**.
+ 1. **Vielen, herzlichen Dank** 🙏🏼 (_qualitative Freitextantworten sind optional und fliessen in die gemeinsame Retrospektive mit ein_) \n \
+\n \
+**Due date:** Der Befragungszeitraum ist bis Montag, 1. Juni 23:59 Uhr geöffnet. \n \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
 ; done
 ```
 
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
 glab issue create \
- --title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
+ --title "Abschlusspräsentation: Live-Demo und Retrospektive" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir spätestens eine Woche nach der Abschlusspräsentation eine aktualisierte README und eure Single-Page-Application (nur das Frontend!) auf Gitlab-Pages vorfinden. Es ist dabei unerheblich, wenn Inhalte aus dem Backend fehlen werden. \n \
-- In README.md W-Fragen klären: \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir in der letzten Veranstaltung eine **maximal 15-minütige Abschlusspräsentation** erleben. Bei der Wahl der Präsentationsmittel seid ihr frei, ebenso welche Teammitglieder vortragen. Darin sollte eine gut vorbereitete Demonstration enthalten sein, welche den wichtigsten Funktionsumfang anhand einer oder mehrerer User-Journeys aufzeigt (ggf. Registrieren oder Einloggen / Inserieren / zweiten User in anderem Browser einloggen / Kontakt aufnehmen o.ä.). Eine Vorstellung der Ergebnisse euer Rituale _Review_ und _Planning_ ist nicht mehr notwendig. \n \
+- vorgeschlagene Inhalte: \n \
+  - [ ] Ursprüngliche Businessidee, Organisation Team, ... \n \
+  - [ ] Live-Demo (+ ggf. Erläuterung externer APIs/Frameworks) \n \
+  - [ ] Reflexion eures Arbeitsprozesses, Learnings für zukünftige Projekte \n \
+  - [ ] optional: Aufhänger als Einstieg / Interaktion / ... \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+; done
+```
+
+```bash
+for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
+glab issue create \
+--title "Deliverable 4: aktualisierte README und SPA-Deployment auf Gitlab Pages" \
+ --description " \
+ `echo "\
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir spätestens eine Woche nach Modulabschluss eine **aktualisierte README** und eure **Single-Page-Application** (nur das Frontend!) **auf Gitlab-Pages** vorfinden. \n \
+ \n \
+ Hinweis: Es ist dabei unerheblich, wenn Inhalte aus dem Backend fehlen werden. Weiterhin brauchen auch keine [CORS](https://de.wikipedia.org/wiki/Cross-Origin_Resource_Sharing)-Regeln definiert werden, welche ggf. Zugriff auf eine lokal gestartete API-Instanz zulassen. \n \
+- W-Fragen in README.md klären: \n \
   - [ ] Wozu kann eure App verwendet werden? \n \
   - [ ] Welchen Techstack für Frontend und Backend habt ihr verwendet? \n \
   - [ ] Welche 3rd-Party Libraries (z.B. _Axios_) habt ihr für das Projekt nachträglich installiert? \n \
-  - [ ] Wie kann das Projekt von neuen Entwickler*innen aufgesetzt werden? (Beschreibt die Schritte von &apos;git clone&apos; bis zu &apos;npm run dev(elop)&apos;). \n \
-  - [ ] Wie lauten die Anmeldedaten für einen Strapi Admin-User? (Auch wenn dies ein [Anti-Pattern](https://de.wikipedia.org/wiki/Anti-Pattern) darstellt, ist es sinnvoll diese für euch und die Dozierenden zu hinterlegen). \n \n \
-Diese Anleitung gibt weitere gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
+  - [ ] Wie kann das Projekt von neuen Entwickler\*innen aufgesetzt werden? (Beschreibt die Schritte von &apos;git clone&apos; bis zu &apos;npm run dev(elop)&apos;). Dieser Artikel gibt gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
  \n \
-- Ergänzt eure README durch die [Vorlage in der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/-/blob/main/README.md#user-content-mvp): \n \
-  - [ ] betreffend der selbstgewählten [Qualitätskriterien](https://github.com/digital-sustainability/module-wseg/blob/25/hs/docs/slides/content/11/criteria.md) \n \
-  - [ ] Belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern  \n \
+- Ergänzt eure README durch die [Arc42-Vorlage aus der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/-/blob/main/README.md#mvp): \n \
+  - [ ] inkl. der selbstgewählten [Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/11/criteria.md) \n \
+  - [ ] und belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern oder Screenshots \n \
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
 \n \
-  - [ ] Hilfestellungen dazu im [Ausschnitt Folien #9](https://github.com/digital-sustainability/module-wseg/blob/25/hs/docs/slides/content/09/01.md?plain=1#L121-L149)\n \
-  - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning  &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos;\n \
-  - [ ] Im &apos;.gitlab-ci.yml&apos; könnt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
-  - [ ] Verlinkt eure Demosite (z.B. auf Pages im Unterordner /demo/) ebenfalls in der README \n \
+  - [ ] ... Hilfestellungen dazu sind in [den Folien von Termin 9](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L189-L196)\n \
+    - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos; [Quelle Stackoverflow](https://stackoverflow.com/questions/75837088/set-vite-base-via-gitlab-ci-pages-url-variable) \n \
+  - [ ] Im &apos;.gitlab-ci.yml&apos; sollt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
+  - [ ] Verlinkt eure Demosite (z.B. Artefakte im Pages-Pfad &apos;/demo/&apos;) ebenfalls in der README \n \
 \n \
-**Due date:** Die erwähnten Gitlab-Pages sind spätestens 7 Tage nach dem Präsentationtag (letzte Semesterwoche) verfügbar. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/wseg-group-demo/$group \
+**Due date:** Die erwähnten Gitlab-Pages sind spätestens 7 Tage nach dem Modulabschluss (letzte Semesterwoche) verfügbar. Dies ist ebenso der Zeitpunkt des spätesten Commits, welcher für die Beurteilung des Praxisprojekts gilt. \n \
+\n \
+**Projektabschluss 🏁:** Seid stolz auf eure gemeinsamen Leistungen dieses Semesters! Nach der schriftlichen Abschlussprüfung erhaltet ihr via IS-Academia auf offiziellem Wege eure individuelle Modulnote. Auf Anfrage wird die Bewertung des gemeinsamen Projekts mitgeteilt. \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
 ; done
 ```
