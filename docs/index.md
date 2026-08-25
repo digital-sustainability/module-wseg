@@ -14,7 +14,7 @@
 
 🏗️ Hinweis: Kursinhalte in Veränderung, ggf. sind Inhalte des letzten Semesters noch verlinkt.
 
-## Termin 0 [Vorbereitung / Setup 💻🛠️⚙️](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/00-setup/01.md) (JB)
+## Termin 0 [Vorbereitung / Setup 💻🛠️⚙️](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/00-setup/01.md) (JB)
 
 - Entwicklungsumgebung selbständig nach [Video (13min)](https://mediaspace.bfh.ch/media/WSEG+FS26+00-Vorbereitung+++Setup+/0_kvf76d13) einrichten
 
@@ -24,7 +24,7 @@
 
 - praktisch auf ihrem Arbeitsgerät Software aus unterschiedlichen Quellen via Paketmanager installieren und nach Anleitung einrichten
 
-## Termin 1 [Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/01-onboarding/01.md) (JB)
+## Termin 1 [Einführung und Überblick 🚀](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/01-onboarding/01.md) (JB)
 
 - Überblick Modul
 - Vorstellung & Kennenlernen
@@ -36,7 +36,7 @@
 
 - praktisch im Terminal bzw. ihrer jeweiligen Shell zwischen Ordnern wechseln und Befehle mit Parametern ausführen
 
-## Termin 2 [Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/02-codemanagement/) (MT)
+## Termin 2 [Codemanagement 🗃️](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/02-codemanagement/) (MT)
 
 - Einstieg in die Versionsverwaltung (mit git)
 - Basissetup: Initialisieren und Zugriff (Clonen via SSH)
@@ -52,7 +52,7 @@
 - Rituale der agilen Arbeitsweise benennen und beschreiben
 - praktisch ein neues Git-Repository anlegen bzw. dieses _clonen_, sowie erste Transaktionen (Commits) vornehmen und für das Team publizieren
 
-## Termin 3 [Frontend: Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/03-web-frontend/01.md) (JB)
+## Termin 3 [Frontend: Webtechnologien 🌐](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/03-web-frontend/01.md) (JB)
 
 ### Iteration 0: Pitch / Präsentation (Gitlab Projekt und Profil konfiguriert haben)
 
@@ -70,7 +70,7 @@
 - mit Hilfe des Webstandards CSS und der Dokumentation das Styling einer Website anpassen.
 - ein Vue-Projekt (oder anderes JavaScript-Frontend) als Basis für eine _Single-Page-Application_ aufsetzen
 
-## Termin 4 [Backend: Softwarearchitektur / Einführung Strapi ✈️ 📦](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/04-architecture-backend/) (JB)
+## Termin 4 [Backend: Softwarearchitektur / Einführung Strapi ✈️ 📦](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/04-architecture-backend/) (JB)
 
 - Softwarearchitektur: Entwurf, Architekturen
 - Komponenten und Bezug zu Vue
@@ -85,7 +85,7 @@
 - Die Verwendung von REST APIs und CRUD-Operationen erläutern können
 - Erstellung eines einfachen Datenmodells im Strapi-Backend
 
-## Termin 5 [Agiles Arbeiten 🎯 / API Client verwenden](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/05-agility/) (MT)
+## Termin 5 [Agiles Arbeiten 🎯 / API Client verwenden](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/05-agility/) (MT)
 
 ### Lernziele
 
@@ -94,7 +94,7 @@
 - praktisch das Format Markdown als Auszeichnungssprache für Dokumentationen in Gitlab verwenden
 - praktisch in Git einen Branch für einen Merge-Request eröffnen und diesen nach dem _Code Review_ durch die Dozierenden selbständig zusammenführen
 
-## Termin 6 [Strapi + Vue 🛠️ / TypeScript, OOP ⌨](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/06-api-ts/01.md) (JB)
+## Termin 6 [Strapi + Vue 🛠️ / TypeScript, OOP ⌨](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/06-api-ts/01.md) (JB)
 
 - Anbindung Vue an Strapi
 - Node.js Erläuterung
@@ -119,7 +119,7 @@
 - praktisch mit Strapi-Relationen experimentieren und Abfragen durch Parameter wie `populate` erweitern
 - praktisch Datenmodell im Frontend an das Datenmodell der Strapi-Antwort anpassen
 
-## Termin 7 [(Lokale) LLMs & Agentic AI 🤖](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/07-llm-agents/01.md) (JB)
+## Termin 7 [(Lokale) LLMs & Agentic AI 🤖](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/07-llm-agents/01.md) (JB)
 
 ### Lernziele
 
@@ -129,7 +129,7 @@
 - können erläutern wozu RAG und MCP dienen
 - setzen sich mit ethischen Fragestellungen auseinander
 
-## Termin 8 [Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/08/) (MT)
+## Termin 8 [Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/08/) (MT)
 
 - Software Validierung & Verifikation inkl. Fragen
 - Demo: Cypress, Vitest, Bruno
@@ -141,7 +141,7 @@
 - praktisch eigenständig Code Reviews durchführen
 - praktisch eine Test-Automation einrichten
 
-## Termin 9 [DevOps kennenlernen](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/09-devops-ci/01.md) ♾️ (JB)
+## Termin 9 [DevOps kennenlernen](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/09-devops-ci/01.md) ♾️ (JB)
 
 - DevOps organisatorisch und technisch
 - Hands-on: Persönlicher Fork und Gitlab-Pipeline
@@ -152,7 +152,7 @@
 - praktisch einen Fork eines bestehenden Git-Repositories machen und die Unterschiede zwischen _downstream_ und _upstream_ erklären
 - praktisch eine automatisierte Gitlab Pipeline anhand einer vorgegebenen Datei .gitlab-ci.yml einrichten und die Dokumentation für Anpassungen konsultieren
 
-## Termin 10 [Accessibility 🦾🧏‍🦯 / Software Evaluation 📝](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/10/)
+## Termin 10 [Accessibility 🦾🧏‍🦯 / Software Evaluation 📝](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/10/)
 
 ### Lernziele
 
@@ -160,7 +160,7 @@
 - Vorteile des _Universal Design_ für heterogene Benutzergruppen nennen
 - praktisch eine Website auf die Einhaltung der _Web Content Accessibility Guidelines_ (WCAG) überprüfen
 
-## Termin 11 [Cloudbasierte Software ☁ / DevOps Abschluss ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/11/) (MT)
+## Termin 11 [Cloudbasierte Software ☁ / DevOps Abschluss ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/11/) (MT)
 
 - DevOps: Operation & Monitoring
 
@@ -170,7 +170,7 @@
 - Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das eigene Praxisprojekt abschätzen
 - die Begriffe Virtualisierung und Containerisierung, sowie die Eigenschaften von Cloudsoftware erklären
 
-## Termin 12 [Projektabschluss 🏁 / Gastbeitrag aus Praxis oder Forschung 🧑🏼‍🏭🧑🏼‍🔬](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/12/) (JB)
+## Termin 12 [Projektabschluss 🏁 / Gastbeitrag aus Praxis oder Forschung 🧑🏼‍🏭🧑🏼‍🔬](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/12/) (JB)
 
 - technischer Probelauf Prüfungsumgebung mit CAMPLA
 - Reihenfolge Präsentationen festlegen
@@ -183,7 +183,7 @@
 - praktisch eine gute Live-Demonstration des Teamprojekts vorbereiten und die bestehende Dokumentation anpassen, damit diese aussagekräftig für interessierte Dritte ist
 - praktisch auf Gitlab-Pages die Frontend-Applikation publizieren (ohne Backend!)
 
-## Termin 13 [Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/slides/content/14/) (MT/JB)
+## Termin 13 [Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/14/) (MT/JB)
 
 - Ort: Aula oder Greenfield ⛳
 - Agile Aktivität

@@ -10,7 +10,7 @@ timingDiagram {
 
 Title WSEG-Semesterablauf
 hide time-axis
-footer: "https://github.com/digital-sustainability/module-wseg/blob/26/fs/docs/timing.puml"
+footer: "https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/timing.puml"
 caption CC-BY-4.0
 
 legend
