@@ -15,7 +15,7 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS26 möchten wir im Gitlab pro G
 Spätestens an Termin 2 bitte:\n \
 - [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG FS26](https://gitlab.ti.bfh.ch/w-wseg/26-hs/) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
-- [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home , verwendet dazu das Template &apos;Gruppen Vorlage&apos; und listet bereits alle Teammitglieder auf. \n \
+- [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home , verwendet dazu das Template &apos;Gruppen Vorlage&apos; und listet bereits alle Teammitglieder auf. \n \
 - [ ] [Alle Teammitglieder aktivieren Projekt-Benachrichtigung 🔔](https://docs.gitlab.com/user/profile/notifications/#change-level-of-project-notifications) \n \
   - [ ] Mitglied 1 beobachtet\n \
   - [ ] Mitglied 2 beobachtet\n \
@@ -67,13 +67,13 @@ for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
  - Führt bitte ein [Iteration Review](https://scaledagileframework.com/iteration-review/) durch.\n \
  - Plant bitte eure kommende Iteration im Rahmen eines [Iteration Plannings](https://scaledagileframework.com/iteration-planning/) in Form eines vorbereiteten Iterations [Team Backlogs](https://scaledagileframework.com/team-backlog/).\n \
  - Reflektiert bitte die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
- - [ ] Bitte hinterlegt alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im [gemeinsamen Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home): dieses nutzt ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro &quot;Iteration Wrap-Up&quot;. \n \
+ - [ ] Bitte hinterlegt alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im [gemeinsamen Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home): dieses nutzt ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro &quot;Iteration Wrap-Up&quot;. \n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group && \
     glab issue create \
       --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
 `echo " \
-Bitte präsentiert euer Team &quot;Iteration Wrap-Up&quot; im Plenum anhand [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home) und dem aktuellen Stand eures MVP (max. 15'):\n \
+Bitte präsentiert euer Team &quot;Iteration Wrap-Up&quot; im Plenum anhand [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home) und dem aktuellen Stand eures MVP (max. 15'):\n \
  - [ ] Iteration Review: bitte stellt die fachlichen Ergebnisse eurer aktuellen Iteration vor.\n \
  - [ ] Iteration Planning: bitte stellt die Planung eurer kommenden Iteration vor.\n \
  - [ ] Iteration Retrospective: bitte stellt eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
