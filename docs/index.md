@@ -5,7 +5,7 @@
 
 ## Wichtige Links
 
-- Moodle Kurs: <https://moodle.bfh.ch/course/view.php?id=43354>
+- Moodle Kurs: <https://moodle.bfh.ch/course/view.php?id=45075>
 - BigBlueButton: <https://bbb.ch-open.ch/rooms/bas-ohb-h1w-rcw/join>
 - BFH-GitLab Gruppe: <https://gitlab.ti.bfh.ch/w-wseg/26-fs>
   - [Wiki Page für Iterations Wrap-Ups](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home)
