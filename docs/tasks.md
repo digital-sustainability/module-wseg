@@ -13,7 +13,7 @@ Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS26 möchten wir im Gitlab pro G
 - [ ] Projekt- bzw. Gruppennamen festlegen (enthält nicht &quot;WSEG&quot; oder &quot;Gruppe&quot;) und diese Issue umbenennen\n \
 \n \
 Spätestens an Termin 2 bitte:\n \
-- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG FS26](https://gitlab.ti.bfh.ch/w-wseg/26-fs/) anlegen\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG FS26](https://gitlab.ti.bfh.ch/w-wseg/26-hs/) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
 - [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home , verwendet dazu das Template &apos;Gruppen Vorlage&apos; und listet bereits alle Teammitglieder auf. \n \
 - [ ] [Alle Teammitglieder aktivieren Projekt-Benachrichtigung 🔔](https://docs.gitlab.com/user/profile/notifications/#change-level-of-project-notifications) \n \
@@ -28,7 +28,7 @@ Spätestens an Termin 2 bitte:\n \
   - [ ] Avatar 3 gesetzt\n \
   - [ ] Avatar 4 gesetzt\n \
   - [ ] Avatar 5 gesetzt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox \
 ; done
 ```
 
@@ -51,7 +51,7 @@ Richtet bitte bei jedem Teammitglied, für einen reibungslosen Zugriff auf alle 
   - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
   - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox \
 ; done
 ```
 
@@ -68,7 +68,7 @@ for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
  - Plant bitte eure kommende Iteration im Rahmen eines [Iteration Plannings](https://scaledagileframework.com/iteration-planning/) in Form eines vorbereiteten Iterations [Team Backlogs](https://scaledagileframework.com/team-backlog/).\n \
  - Reflektiert bitte die aktuelle Iteration im Rahmen einer [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) und haltet eure Learnings und Anpassungen fest.\n \
  - [ ] Bitte hinterlegt alle notwendigen Informationen (Texte, Links, Screenshots, etc.) schlagwortartig im [gemeinsamen Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-fs/-/wikis/home): dieses nutzt ihr im Rahmen des Plenums als Vorstellungs- bzw. Präsentationsmedium. Erweitert dazu am besten jeweils einfach eure Wiki-Seite pro &quot;Iteration Wrap-Up&quot;. \n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group && \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group && \
     glab issue create \
       --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
@@ -89,7 +89,7 @@ Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem
   - Fragestellung\n \
   - Feedback\n \
 \n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group
    ; done \
 ; done
 ```
@@ -116,7 +116,7 @@ Wenn eure Präsentation und die Produktidee folgende Fragen beantwortet seid ihr
 \n \
 Ihr habt freie Wahl der Präsentationsmittel (Wiki-Seite, Powerpoint, Figma, Canva, Slides.com ...).\n \
  - [ ] Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** eures Git-Repository bis spätestens 23:59 Uhr des Präsentationstags. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group
 ; done
 ```
 
@@ -138,7 +138,7 @@ Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die 
 \n \
 Individuelle Aufgabe:\n \
 - [ ] Jedes Teammitglied hat auf dem main-Branch mindestens **einen Commit** gepusht. Es genügt wenn dieser bspw. nur aus einer Änderung der Datei README.md besteht. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group
 ; done
 ```
 
@@ -153,7 +153,7 @@ glab issue create \
 Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-Up 2** einen kurzen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. (_Stand MVP_: Wahrscheinlich habt ihr zu diesem Zeitpunkt eine erste Anbindung des Frontends ans Backend durch Nutzerregistrierung und/oder Loginfunktionalität geschafft) \n \
 - [ ] Blogbeitrag im Markdown-Format, idealerweise im docs-Ordner, \n \
   - [ ] mindestens eine Bilddatei (z.B. Logo, Screenshot o.ä.) aus Repository eingebettet \n \
-  - [ ] Link zu einer [Bruno-Collection](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/-/tree/main/backend/bruno?ref_type=heads), die aufzeigt wie euer erstes, grundlegendes Datenmodell über die API abgefragt werden kann und wie Einträge per POST erstellt werden können
+  - [ ] Link zu einer [Bruno-Collection](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/-/tree/main/backend/bruno?ref_type=heads), die aufzeigt wie euer erstes, grundlegendes Datenmodell über die API abgefragt werden kann und wie Einträge per POST erstellt werden können
 - [ ] unter Verwendung des GitLab-Features Merge-Request \n \
 \n \
 Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
@@ -172,7 +172,7 @@ Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
 \n \
 **Git-Aufgabe Merge-Request**: Aus dieser vorbereiteten Issue &quot;Deliverable 2&quot; eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git einen **Branch &quot;123-deliverable-2...&quot;** eures Repositories, welcher zum Hinzufügen aller benötigten Dateien verwendet werden soll. Sobald vollständig gebt ihr **@tem1 und @bkj1 als Reviewer** für den MR an. (… Nach Ablauf der Frist geben die Reviewer ihr &quot;Approval&quot; und danach führt ihr selbständig den MR mit dem Branch &quot;main&quot; zusammen.\n \
 Als Referenz dient: https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/?tab=Merge+request+and+branch#from-an-issue )\
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
 ```
 
@@ -184,7 +184,7 @@ glab issue create \
  --title "Deliverable 3: Gitlab Page per CI Pipeline" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/) für euer Gruppenrepository. \n \
+ Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/) für euer Gruppenrepository. \n \
 - [ ] Deaktiviert die Funktion &apos;Use unique domain&apos;, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-fs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite \n \
   - [ ] Eure README.md sollte wie im Beispiel selbst als _index.html_ fungieren und ebenfalls einen funktionierenden, relativen Link zum Blogpost enthalten \n \
   - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen im Build-Job z.B. nach public/docs kopiert werden \n \
@@ -205,7 +205,7 @@ glab issue create \
 ~~~ \n \
  \n \
 **Due date:** Eure konvertierten Dokumente müssen spätestens zum oben angegebenen Wrap-up bis 23:59 Uhr per Gitlab Pages ersichtlich sein. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
 ```
 
@@ -224,7 +224,7 @@ glab issue create \
  1. **Vielen, herzlichen Dank** 🙏🏼 (_qualitative Freitextantworten sind optional und fliessen in die gemeinsame Retrospektive mit ein_) \n \
 \n \
 **Due date:** Der Befragungszeitraum ist bis Montag, 1. Juni 23:59 Uhr geöffnet. \n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
 ```
 
@@ -240,7 +240,7 @@ glab issue create \
   - [ ] Live-Demo (+ ggf. Erläuterung externer APIs/Frameworks) \n \
   - [ ] Reflexion eures Arbeitsprozesses, Learnings für zukünftige Projekte \n \
   - [ ] optional: Aufhänger als Einstieg / Interaktion / ... \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
 ```
 
@@ -259,7 +259,7 @@ glab issue create \
   - [ ] Welche 3rd-Party Libraries (z.B. _Axios_) habt ihr für das Projekt nachträglich installiert? \n \
   - [ ] Wie kann das Projekt von neuen Entwickler\*innen aufgesetzt werden? (Beschreibt die Schritte von &apos;git clone&apos; bis zu &apos;npm run dev(elop)&apos;). Dieser Artikel gibt gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
  \n \
-- Ergänzt eure README durch die [Arc42-Vorlage aus der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-fs/sandbox/-/blob/main/README.md#mvp): \n \
+- Ergänzt eure README durch die [Arc42-Vorlage aus der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/-/blob/main/README.md#mvp): \n \
   - [ ] inkl. der selbstgewählten [Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/11/criteria.md) \n \
   - [ ] und belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern oder Screenshots \n \
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
@@ -272,6 +272,6 @@ glab issue create \
 **Due date:** Die erwähnten Gitlab-Pages sind spätestens 7 Tage nach dem Modulabschluss (letzte Semesterwoche) verfügbar. Dies ist ebenso der Zeitpunkt des spätesten Commits, welcher für die Beurteilung des Praxisprojekts gilt. \n \
 \n \
 **Projektabschluss 🏁:** Seid stolz auf eure gemeinsamen Leistungen dieses Semesters! Nach der schriftlichen Abschlussprüfung erhaltet ihr via IS-Academia auf offiziellem Wege eure individuelle Modulnote. Auf Anfrage wird die Bewertung des gemeinsamen Projekts mitgeteilt. \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-fs/$group \
+"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
 ```
