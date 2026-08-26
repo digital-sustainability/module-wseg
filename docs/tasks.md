@@ -188,7 +188,7 @@ glab issue create \
 - [ ] Deaktiviert die Funktion &apos;Use unique domain&apos;, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-fs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite \n \
   - [ ] Eure README.md sollte wie im Beispiel selbst als _index.html_ fungieren und ebenfalls einen funktionierenden, relativen Link zum Blogpost enthalten \n \
   - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen im Build-Job z.B. nach public/docs kopiert werden \n \
-- [ ] Richtet in der Pipeline eine weitere Stage vor der Textkonvertierung ein, in der zuerst eure [Markdown-Dateien gelintet](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L317) werden. Dieser Job darf fehlschlagen und dient nur zur Information.
+- [ ] Richtet in der Pipeline eine weitere Stage vor der Textkonvertierung ein, in der zuerst eure [Markdown-Dateien gelintet](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/hs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L317) werden. Dieser Job darf fehlschlagen und dient nur zur Information.
 - [ ] Verwendet im _.gitlab-ci.yml_ die Regel, dass die Pipeline nur ausgeführt wird, wenn die Commit-message die Worte  &rdquo;Blog&rdquo; oder  &rdquo;Readme&rdquo; (Gross-/Kleinschreibung ignorieren) enthält, um unnötigen Ressourcenverbrauch zu vermeiden. (_&dollar;CI_COMMIT_MESSAGE =~ /blog/i || &dollar;CI_COMMIT_MESSAGE =~ /readme/i_ &ndash; Als Referenz dient: https://docs.gitlab.com/ee/ci/jobs/job_rules.html)\n \
 \n \
 Überlegt bitte welche Arc42-[Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/5101b9cd48b737f09e50ab09e2fd6f87a350d5d3/docs/slides/content/11/criteria.md) inkl. Schwerpunkt und welche Features ihr für euer Praxisprojekt aussuchen werdet, um diese im Wrap-up benennen zu können. \n \
@@ -260,11 +260,11 @@ glab issue create \
   - [ ] Wie kann das Projekt von neuen Entwickler\*innen aufgesetzt werden? (Beschreibt die Schritte von &apos;git clone&apos; bis zu &apos;npm run dev(elop)&apos;). Dieser Artikel gibt gute Anhaltspunkte: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ \n \
  \n \
 - Ergänzt eure README durch die [Arc42-Vorlage aus der Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/-/blob/main/README.md#mvp): \n \
-  - [ ] inkl. der selbstgewählten [Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/11/criteria.md) \n \
+  - [ ] inkl. der selbstgewählten [Qualitätskriterien](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/hs/docs/slides/content/11/criteria.md) \n \
   - [ ] und belegt beispielhaft alle Kriterien durch Verlinkung des Codes mit Zeilennummern oder Screenshots \n \
 - Stellt eure SPA über eine CI/CD Pipeline bereit: \n \
 \n \
-  - [ ] ... Hilfestellungen dazu sind in [den Folien von Termin 9](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L189-L196)\n \
+  - [ ] ... Hilfestellungen dazu sind in [den Folien von Termin 9](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/hs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L189-L196)\n \
     - [ ] Falls benötigt: Instead of altering &apos;vite.config.js&apos;, it is possible to pass &apos;--base&apos; to &apos;vite build&apos;: or concerning &apos;npm run build -- --base=&dollar;CI_PAGES_URL&apos; [Quelle Stackoverflow](https://stackoverflow.com/questions/75837088/set-vite-base-via-gitlab-ci-pages-url-variable) \n \
   - [ ] Im &apos;.gitlab-ci.yml&apos; sollt ihr eine Regel erstellen, dass die neue(n) Stage(s) nur ausgeführt werden, wenn über das Gitlab-UI der Run-Button gestartet wird (&apos;when: manuals&apos;) oder eine entsprechende Commit-message eintrifft \n \
   - [ ] Verlinkt eure Demosite (z.B. Artefakte im Pages-Pfad &apos;/demo/&apos;) ebenfalls in der README \n \

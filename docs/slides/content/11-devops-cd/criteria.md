@@ -1,13 +1,15 @@
 # Praxisprojekt
 
-Bewertungskritieren & Gewichtungen
---
+## Bewertungskritieren & Gewichtungen
+
 Ziel: gemeinsame
 
-# 👁️ Sichtweise(n) 
+# 👁️ Sichtweise(n)
 
 ## Perspektive(n)
+
 --
+
 ```
 ### b) Produkt (50 Punkte)
 
@@ -16,52 +18,56 @@ Ziel: gemeinsame
 - .. genauere Aufschlüsselung folgt
 ```
 
-Quelle: [#04 - Softwarearchitektur](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/fs/docs/slides/content/04-architecture-backend/01.md?ref_type=heads&plain=1#L68-L71)
----
+## Quelle: [#04 - Softwarearchitektur](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/hs/docs/slides/content/04-architecture-backend/01.md?ref_type=heads&plain=1#L68-L71)
+
 # 30 P
 
-**15** P: Umfang 
+**15** P: Umfang
 
-**10** P : Qualität 
+**10** P : Qualität
 
-**5** P : Dokumentation
---
+## **5** P : Dokumentation
+
 ## Umfang : 15 P
 
 3 x 5 P
 
- - 1️⃣ : Running MVP: Front-End only (2 static sites)
- - 2️⃣ : Frontend + Backend: Register, Login & first (own) CRUD: Read
- - 3️⃣ : Backend: CRUD for 2 (linked) entities
---
+- 1️⃣ : Running MVP: Front-End only (2 static sites)
+- 2️⃣ : Frontend + Backend: Register, Login & first (own) CRUD: Read
+- ## 3️⃣ : Backend: CRUD for 2 (linked) entities
+
 ## Qualität : 10 P
 
 5 x (0 1 2) P - [Quality Properties](https://quality.arc42.org/properties/)
- - self-chosen : `property 1`
- - self-chosen : `property 2`
- - self-chosen : `property 3`
- - @JoBerkel : https://quality.arc42.org/tag-suitable/ 
- - @MarkusTiede : https://quality.arc42.org/tag-operable/
+
+- self-chosen : `property 1`
+- self-chosen : `property 2`
+- self-chosen : `property 3`
+- @JoBerkel : https://quality.arc42.org/tag-suitable/
+- @MarkusTiede : https://quality.arc42.org/tag-operable/
 
 --
+
 ## Dokumentation : 5 P
 
 5 x (0 1) P - [Qualities](https://quality.arc42.org/qualities/)
 
- 1 [Readability](https://quality.arc42.org/qualities/code-readability)
+1 [Readability](https://quality.arc42.org/qualities/code-readability)
 
- 2 [Complexity](https://quality.arc42.org/qualities/code-complexity)
+2 [Complexity](https://quality.arc42.org/qualities/code-complexity)
 
- 3 [Installability](https://quality.arc42.org/qualities/installability)
+3 [Installability](https://quality.arc42.org/qualities/installability)
 
- 4 [Understandability](https://quality.arc42.org/qualities/understandability)
+4 [Understandability](https://quality.arc42.org/qualities/understandability)
 
- 5 [Clarity in technical documentation](https://quality.arc42.org/requirements/clarity-in-technical-documentation)
+5 [Clarity in technical documentation](https://quality.arc42.org/requirements/clarity-in-technical-documentation)
 
 ---
+
 # 20 P
 
-**15** P : 3 x 5 P - 2 Features  & 1 Schwerpunkt 
+**15** P : 3 x 5 P - 2 Features & 1 Schwerpunkt
+
 <hr>
 
 Feature 1
@@ -72,52 +78,56 @@ Schwerpunkt
 
 <hr>
 
-**5** P : Styling
---
+## **5** P : Styling
+
 self-defined
 
-## 2 Features: **10** P : 2 x 5 P 
+## 2 Features: **10** P : 2 x 5 P
 
- - Media (Bilder) Upload + Darstellung zB Profilbild
- - 3rd party library integration
-   - Mail-Versand
- - 3rd party API Integration
-   - Temperatur, Preise, Wechselkurse, ISBN Nummer, ...
- - Dark-Mode für das Frontend
- - ...
---
-self-chosen
+- Media (Bilder) Upload + Darstellung zB Profilbild
+- 3rd party library integration
+  - Mail-Versand
+- 3rd party API Integration
+  - Temperatur, Preise, Wechselkurse, ISBN Nummer, ...
+- Dark-Mode für das Frontend
+- ## ...
+  self-chosen
 
 ## 1 Schwerpunkt: **5** P
 
- - https://quality.arc42.org/qualities/inclusivity
-   - https://quality.arc42.org/qualities/accessibility
- - https://quality.arc42.org/qualities/interaction-capability
-   - https://quality.arc42.org/qualities/usability
-   - https://quality.arc42.org/qualities/user-experience
- - https://quality.arc42.org/qualities/i18n
- - ... 
---
- ## Styling : **5** P 
+- https://quality.arc42.org/qualities/inclusivity
+  - https://quality.arc42.org/qualities/accessibility
+- https://quality.arc42.org/qualities/interaction-capability
+  - https://quality.arc42.org/qualities/usability
+  - https://quality.arc42.org/qualities/user-experience
+- https://quality.arc42.org/qualities/i18n
+- ## ...
 
- - 0 1 2 : [user-interface-aesthetics](https://quality.arc42.org/qualities/user-interface-aesthetics)
- - 0 1 : [configurable-ui-theme](https://quality.arc42.org/requirements/configurable-ui-theme)
- - 0 1 : [appearance-requirements](https://quality.arc42.org/requirements/appearance-requirements)
- - 0 1 : [user-interface-works-with-current-browsers](https://quality.arc42.org/requirements/user-interface-works-with-current-browsers)
+## Styling : **5** P
+
+- 0 1 2 : [user-interface-aesthetics](https://quality.arc42.org/qualities/user-interface-aesthetics)
+- 0 1 : [configurable-ui-theme](https://quality.arc42.org/requirements/configurable-ui-theme)
+- 0 1 : [appearance-requirements](https://quality.arc42.org/requirements/appearance-requirements)
+- 0 1 : [user-interface-works-with-current-browsers](https://quality.arc42.org/requirements/user-interface-works-with-current-browsers)
+
 ---
+
 # "Nachweis"
+
 durch Beispiel
 
-![](https://images.gutefrage.net/media/fragen/bilder/fehler-beim-beweis-finden/0_full.webp?v=1666169682000)
---
+## ![](https://images.gutefrage.net/media/fragen/bilder/fehler-beim-beweis-finden/0_full.webp?v=1666169682000)
+
 # `README.md`
 
 "Nachweis" aller Aspekte durch [Line-Number Referenzen](#/12/2)
 
-
 --
+
 # Q&A
+
 ---
+
 # ☕
 
 [10'](https://youtu.be/DcvtwlM1aIE)

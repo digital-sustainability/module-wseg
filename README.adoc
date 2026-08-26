@@ -194,7 +194,7 @@ unter CC-BY 4.0 als OER veröffentlicht.
 
 === Semesterablauf
 
-image::https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/26/fs/docs/timing.puml[timing]
+image::https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/digital-sustainability/module-wseg/26/hs/docs/timing.puml[timing]
 
 === Zweck des Dokuments
 
