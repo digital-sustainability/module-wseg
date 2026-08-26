@@ -6,7 +6,7 @@
 ## Wichtige Links
 
 - Moodle Kurs: <https://moodle.bfh.ch/course/view.php?id=45075>
-- BigBlueButton: <https://bbb.ch-open.ch/rooms/bas-ohb-h1w-rcw/join>
+- BigBlueButton: <https://bbb.ch-open.ch/rooms/hdh-isb-49k-ye6/join>
 - BFH-GitLab Gruppe: <https://gitlab.ti.bfh.ch/w-wseg/26-hs>
   - [Wiki Page für Iterations Wrap-Ups](https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home)
 
@@ -70,7 +70,7 @@
 - mit Hilfe des Webstandards CSS und der Dokumentation das Styling einer Website anpassen.
 - ein Vue-Projekt (oder anderes JavaScript-Frontend) als Basis für eine _Single-Page-Application_ aufsetzen
 
-## Termin 4 [Backend: Softwarearchitektur / Einführung Strapi ✈️ 📦](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/04-architecture-backend/) (JB)
+## Termin 4 [Backend: Softwarearchitektur / Einführung Strapi ✈️ 📦](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/04-architecture-backend/01.md) (JB)
 
 - Softwarearchitektur: Entwurf, Architekturen
 - Komponenten und Bezug zu Vue
@@ -129,7 +129,7 @@
 - können erläutern wozu RAG und MCP dienen
 - setzen sich mit ethischen Fragestellungen auseinander
 
-## Termin 8 [Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/08/) (MT)
+## Termin 8 [Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/08-testing/) (MT)
 
 - Software Validierung & Verifikation inkl. Fragen
 - Demo: Cypress, Vitest, Bruno
@@ -152,15 +152,7 @@
 - praktisch einen Fork eines bestehenden Git-Repositories machen und die Unterschiede zwischen _downstream_ und _upstream_ erklären
 - praktisch eine automatisierte Gitlab Pipeline anhand einer vorgegebenen Datei .gitlab-ci.yml einrichten und die Dokumentation für Anpassungen konsultieren
 
-## Termin 10 [Accessibility 🦾🧏‍🦯 / Software Evaluation 📝](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/10/)
-
-### Lernziele
-
-- die Bedeutung von Zugänglichkeit/Accessibility für Webtechnologien erläutern und deren Herausforderungen bei der Implementierung diskutieren
-- Vorteile des _Universal Design_ für heterogene Benutzergruppen nennen
-- praktisch eine Website auf die Einhaltung der _Web Content Accessibility Guidelines_ (WCAG) überprüfen
-
-## Termin 11 [Cloudbasierte Software ☁ / DevOps Abschluss ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/11/) (MT)
+## Termin 10 [Cloudbasierte Software ☁ / DevOps Abschluss ⚙️🔍](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/10-cloud-devops-cd/) (MT)
 
 - DevOps: Operation & Monitoring
 
@@ -170,7 +162,15 @@
 - Probleme und Gefahren beim Einsatz von as-a-Service Angeboten erläutern und für das eigene Praxisprojekt abschätzen
 - die Begriffe Virtualisierung und Containerisierung, sowie die Eigenschaften von Cloudsoftware erklären
 
-## Termin 12 [Projektabschluss 🏁 / Gastbeitrag aus Praxis oder Forschung 🧑🏼‍🏭🧑🏼‍🔬](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/12/) (JB)
+## Termin 11 [Accessibility 🦾🧏‍🦯 / Software Evaluation 📝](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/11-a11y-evaluation/01.md)
+
+### Lernziele
+
+- die Bedeutung von Zugänglichkeit/Accessibility für Webtechnologien erläutern und deren Herausforderungen bei der Implementierung diskutieren
+- Vorteile des _Universal Design_ für heterogene Benutzergruppen nennen
+- praktisch eine Website auf die Einhaltung der _Web Content Accessibility Guidelines_ (WCAG) überprüfen
+
+## Termin 12 [Projektabschluss 🏁 / Gastbeitrag aus Praxis oder Forschung 🧑🏼‍🏭🧑🏼‍🔬](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/12-finishing/00.md) (JB)
 
 - technischer Probelauf Prüfungsumgebung mit CAMPLA
 - Reihenfolge Präsentationen festlegen
@@ -183,7 +183,7 @@
 - praktisch eine gute Live-Demonstration des Teamprojekts vorbereiten und die bestehende Dokumentation anpassen, damit diese aussagekräftig für interessierte Dritte ist
 - praktisch auf Gitlab-Pages die Frontend-Applikation publizieren (ohne Backend!)
 
-## Termin 13 [Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/14/) (MT/JB)
+## Termin 13 [Projektpräsentationen 👨🏼‍🏫👩🏼‍🏫 / Fragen zur Prüfung❓](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/13-final/) (MT/JB)
 
 - Ort: Aula oder Greenfield ⛳
 - Agile Aktivität
