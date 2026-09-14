@@ -8,12 +8,12 @@ glab issue create \
  --title "Gruppe bilden und Gitlab Projekt anlegen - Gruppe $i" \
  --description " \
  `echo " \
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG im FS26 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt und eine Wiki-Projektseite vorfinden, um die Personen und ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
+Als Dozenten (@bkj1, @tem1) des Kurses WSEG im HS26 möchten wir im Gitlab pro Gruppe ein einzelnes Projekt und eine Wiki-Projektseite vorfinden, um die Personen und ihren individuellen Gruppenfortschritt über das Semester transparent begleiten zu können:\n \
 - [ ] Alle Mitglieder auf diese Issue **assignen**\n \
 - [ ] Projekt- bzw. Gruppennamen festlegen (enthält nicht &quot;WSEG&quot; oder &quot;Gruppe&quot;) und diese Issue umbenennen\n \
 \n \
 Spätestens an Termin 2 bitte:\n \
-- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG FS26](https://gitlab.ti.bfh.ch/w-wseg/26-hs/) anlegen\n \
+- [ ] [neues, leeres Gitlab Projekt](https://docs.gitlab.com/ee/user/project/#create-a-blank-project) als Kind der Gruppe [W-WSEG HS26](https://gitlab.ti.bfh.ch/w-wseg/26-hs/) anlegen\n \
   - [ ] [Projekttitel und -slug](https://docs.gitlab.com/ee/user/reserved_names.html#limitations-on-usernames-project-and-group-names-and-slugs) identisch wählen, dabei bitte **kein WSEG** im Namen verwenden\n \
 - [ ] Neue Wiki-Seite mit Gruppenname anlegen unter https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home , verwendet dazu das Template &apos;Gruppen Vorlage&apos; und listet bereits alle Teammitglieder auf. \n \
 - [ ] [Alle Teammitglieder aktivieren Projekt-Benachrichtigung 🔔](https://docs.gitlab.com/user/profile/notifications/#change-level-of-project-notifications) \n \
@@ -28,29 +28,6 @@ Spätestens an Termin 2 bitte:\n \
   - [ ] Avatar 3 gesetzt\n \
   - [ ] Avatar 4 gesetzt\n \
   - [ ] Avatar 5 gesetzt\n \
-"`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox \
-; done
-```
-
-```bash
-for i in $(seq -w 01 10); do \
-glab issue create \
- --title "Gitlab Projekt: SSH Zugriff einrichten - Gruppe $i" \
- --description " \
- `echo " \
-Richtet bitte bei jedem Teammitglied, für einen reibungslosen Zugriff auf alle Quellcode-Inhalte, des Kurses WSEG im FS26 einen, falls noch nicht vorhanden, entsprechenden SSH-Schlüssel ein und hinterlegt ihn in eurem jeweiligen Gitlab-Profil:\n \
-- [ ] [lokale SSH-Keys generieren](https://git-scm.com/book/de/v2/Git-auf-dem-Server-Erstellung-eines-SSH-Public-Keys)\n \
-  - [ ] Teammitglied 1 SSH-Key generiert\n \
-  - [ ] Teammitglied 2 SSH-Key generiert\n \
-  - [ ] Teammitglied 3 SSH-Key generiert\n \
-  - [ ] Teammitglied 4 SSH-Key generiert\n \
-  - [ ] Teammitglied 5 SSH-Key generiert\n \
-- [ ] [SSH-Keys im Gitlab Profil hinterlegen](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)\n \
-  - [ ] Teammitglied 1 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 2 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 3 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 4 SSH-Key hinterlegt\n \
-  - [ ] Teammitglied 5 SSH-Key hinterlegt\n \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox \
 ; done
 ```

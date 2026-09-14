@@ -19,7 +19,7 @@ Linie:\tLernpfad Studierende
 Termine:\tchronologisch ohne Feiertage
 end legend
 
-concise "Termine FS26" as module
+concise "Termine HS26" as module
 concise "Iterationen" as iter
 robust "Themen" as studi <<red>>
 concise "Vorbereitungsaufträge" as prep
