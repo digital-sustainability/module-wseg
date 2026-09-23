@@ -1,0 +1,84 @@
+# YAML with multi-line strings
+1:
+  title: "👋🏼 Willkommen / Vorbereitungsauftrag zu WSEG Termin 1 💻🛠⚙"
+  comment: "per E-Mail versenden + Reminder nach einer Woche"
+  text: |
+    Liebe Studierende,
+
+    in zwei Wochen starte ich in euer Klasse im Modul Software Engineering:
+
+    Schon letztes Semester habe ich mit Markus einen 13-minütigen Clip für euch als kurze Begrüssung und zur Zeitersparnis aufgenommen, damit ihr erste Vorbereitungsarbeiten an euren Arbeitsgeräten vornehmt und auch bitte bis Freitag 11. September "Gitlab + Zwei-Faktor-Einrichtung" erledigt habt:
+    https://mediaspace.bfh.ch/media/WSEG+FS26+00-Vorbereitung+++Setup+/0_kvf76d13
+
+    - Die Folien zum Kopieren der Inhalte sind neben der Videobeschreibung unter "Anlagen".
+    - Neuerung: Inzwischen ist Node.js Version 24 aktuell.
+    - Für Windows-User habe ich (noch) nicht ein separates Video aufgenommen
+
+    .. auch falls nicht alles funktioniert so, werden wir die individuellen Probleme in der ersten Veranstaltung lösen! Die Idee ist, dass ihr selbst mal zuerst probiert und schaut, wie ihr zurechtkommt :-)
+
+    Im nun sichtbaren Moodlekurs https://moodle.bfh.ch/course/view.php?id=45075 solltet ihr euch ebenfalls selbsteinschreiben.
+
+
+    Euch noch zwei schöne Wochen bis zum Semesterstart und beste Grüsse,
+
+    Jörg
+2:
+  title: "Vorbereitungsauftrag zu Termin 2: Codemanagement"
+  text: |
+    Liebe Studierende,
+
+    Bitte erledigt folgende Vorbereitungsaufgaben bis zum Vorabend (Sonntag) unseres ersten Treffens:
+
+    1. Informiert euch bitte selbständig zum Thema ["Codemanagement" z.B. via "🔗 Sommerville-10_Codemanagement.pdf"](https://moodle.bfh.ch/mod/resource/view.php?id=2823870) und stellt pro Gruppe "eine gute Frage" (dürfen auch zwei sein) einfach als Kommentar an diesem Issue.
+    2. Eine gute, wirklich kurze 2' Einführung zu git findet ihr auch hier: https://youtu.be/2ReR1YJrNOM
+
+    Bereitet bitte euer jeweiliges Projekt-Issue ["Gruppe bilden und Gitlab Projekt anlegen"](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/-/work_items?sort=created_date&state=opened&search=Gruppe%20bilden%20und%20Gitlab%20Projekt%20anlegen&first_page_size=20) vor.
+
+    Wir starten um 12:35 Uhr in den gemeinsamen Nachmittag.
+
+    Merci und bis bald,
+    Markus
+3:
+  title: "Vorbereitungsauftrag zu Termin 3: Webtechnologien / Frontend"
+  comment: "auch kontrollieren, ob Wikiseiten vorhanden"
+  text: |
+    1. Nehmt euch bitte 20min Zeit zum selbständigen Informieren über die Webtechnologie **HTML**. Nutzt z.B. folgende Materialien, CSS ist dabei freiwillig.
+
+    * <https://web.dev/learn/html>
+    * <https://wiki.selfhtml.org/wiki/Einstieg_in_HTML>
+    * <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML> (auch auf DE, enthält auch komplette Dokumentation)
+
+    2. .. schaut danach bitte vorbereitend das Video über das **Document Object Model** an: <https://www.youtube.com/watch?v=FP1gb_e0lIA> (11min in Originaltempo)
+
+    3. Stellt **pro Gruppe "1-2 Fragen zu Webtechnologien** als Antwortkommentar auf dieses Workitem.
+
+    4. Versucht den kommenden Hands-on Teil alleine vorzubereiten (~3min), dieser eröffnet euch ein Experimentierfeld für HTML. Es macht nichts falls ihr scheitert:
+
+    Wechselt per Terminal in euren "gitlab-bfh"-Ordner (oder mit ähnlichem Namen, dieser wird wahrscheinlich den Ordner "sandbox" enthalten!). Als Befehl dazu verwendet ihr die Abkürzung für "change directory"
+
+    ```npm create vite@latest my-vue-playground -- --template vue-ts --no-interactive```
+
+    Folgt den weiteren Anweisungen, so dass per Klick <http://localhost:5173/> im Webbrowser öffnet, ihr den Vite+Vue-Starter seht und die genannte Datei im src-Ordner in VSCodium öffnet und darin zwischen den ```<template>```-Tags mit HTML-Tags (nur jene die für den ```<body>```-Kontext gelten) experimentieren könnt. Beim Speichern wird die Website automatisch neugeladen!
+
+    Ich freue mich auf unser erstes Iterations-Wrap-up, Markus wird "remote" dabei sein.<br />
+    Sofern eure GitLab-Projektbenachrichtigung (🔔=watch) aktiviert ist, solltet ihr eine E-Mail zur Issue/Workitem “Deliverable 0” erhalten haben.
+
+    Gruss,
+
+    Jörg
+
+    PS: diese generierten Emails verwenden auch das HTML-Format ;-)
+4:
+  title: "Vorbereitungsauftrag zu Termin 4: Softwarearchitektur / Backend"
+  text: |
+    Nächste Woche steigen wir in die Themen Softwarearchitektur und Strapi (Jörg) ein.
+
+    Bitte erledigt folgende Vorbereitungsaufgaben bis zum Vorabend unseres nächsten Treffens:
+
+    1. Schaut das 5min Erklärvideo zu APIs <https://www.youtube.com/watch?v=ByGJQzlzxQg> (Audiotrack auf Original-Englisch umschaltbar!)
+    2. Lest bitte die Kapitel [4.1 bis 4.4 über Softwarearchitektur](https://moodle.bfh.ch/mod/resource/view.php?id=2823871) im Sommerville
+    3. Stellt eine "gute Frage" pro Gruppe zum Thema Softwarearchitektur oder APIs. Einfach **als Antwort auf diesen Forumsbeitrag**.
+
+    Anleitung: Praxis-Experiment mit strapi oder 
+
+    4. Bekommt ein Gefühl für Vue durch <https://vuejs.org/tutorial/> oder experimentiert mit dem Vue+Vite-Starter (bzw. gewähltem Framework)<br />(ergänzend noch ein 30min-Einstiegsvideo auf deutsch: <https://www.youtube.com/watch?v=wtfjWrB2ldI>)
