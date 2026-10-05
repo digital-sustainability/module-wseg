@@ -50,12 +50,12 @@ for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
       --title "Iteration $i - Wrap-Up: Review + Planung + Retrospektive" \
       --description " \
 `echo " \
-Bitte präsentiert euer Team &quot;Iteration Wrap-Up&quot; im Plenum anhand [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home) und dem aktuellen Stand eures MVP (max. 15'):\n \
+Bitte präsentiert euer Team &quot;Iteration Wrap-Up&quot; im Plenum per [Wiki](https://gitlab.ti.bfh.ch/groups/w-wseg/26-hs/-/wikis/home) und dem aktuellen Stand eures MVP (max. 10'):\n \
  - [ ] Iteration Review: bitte stellt die fachlichen Ergebnisse eurer aktuellen Iteration vor.\n \
  - [ ] Iteration Planning: bitte stellt die Planung eurer kommenden Iteration vor.\n \
  - [ ] Iteration Retrospective: bitte stellt eure Learnings und Anpassungen aus der aktuellen Iteration vor.\n \
 \n \
-Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden: @bkj1, @tem1)\n \
+Feedback (0-6 Punkte) zum Wrap-Up (auszufüllen von den Dozierenden)\n \
 - [ ] Review (1 P)\n \
   - [ ] technischer & fachlicher Fortschritt (1 P)\n \
 - [ ] Planning (1 P)\n \
@@ -81,7 +81,7 @@ glab issue create \
  --title "Deliverable 0: Pitch der Projektidee" \
  --description " \
  `echo " \
-Als Dozierende (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' einen gemeinsamen, ersten Einblick eurer Projektidee bekommen. (Hinweis: Beim ersten Mal werden **keine Punkte** vergeben!)\n \
+Als Dozierende des Kurses WSEG möchten wir im Rahmen des ersten 'Iteration Wrap-Ups' einen gemeinsamen, ersten Einblick eurer Projektidee bekommen. (Hinweis: Beim ersten Mal werden **keine Punkte** vergeben!)\n \
 \n \
 Im Rahmen des Iterations-Reviews präsentiert ihr eure Produktidee in maximal 5min. Stellt euch vor ihr seid auf der Suche nach Finanzierung und euer Publikum besteht aus Investoren oder Mitgliedern eines Förderfonds.\n \
 \n \
@@ -92,7 +92,8 @@ Wenn eure Präsentation und die Produktidee folgende Fragen beantwortet seid ihr
  - Was sollen Nutzer&midast;innen in eurer Applikation machen können? (Hier könnt ihr ggf. erste Wireframes, Mock-ups oder Prototypen zeigen)\n \
 \n \
 Ihr habt freie Wahl der Präsentationsmittel (Wiki-Seite, Powerpoint, Figma, Canva, Slides.com ...).\n \
- - [ ] Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** eures Git-Repository bis spätestens 23:59 Uhr des Präsentationstags. \
+ - [ ] Nutzt unseren BigBlueButton-Raum, um den Bildschirm zu teilen (vgl. Introvideo, ohne Audioverbindung einsteigen) \n \
+ - [ ] Bei Verwendung externer Werkzeuge, ladet bitte die Folien als PDF (ggf. zusätzlich auch im Quellformat) in einen neuen Unterordner **docs** im Git-Repository. \
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group
 ; done
 ```
@@ -101,15 +102,15 @@ Ihr habt freie Wahl der Präsentationsmittel (Wiki-Seite, Powerpoint, Figma, Can
 
 ```bash
 for group in {praxisprojekt-01-demo,praxisprojekt-02-demo}; do \
-lab issue create \
+glab issue create \
  --title "Deliverable 1: Erstes MVP und User Feedback einholen" \
  --description " \
  `echo " \
-Als Dozierende (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 1** ein erstes Minimal-Viable-Product bestehend aus zwei Seiten bzw. Ansichten sehen, welches idealerweise bereits in einem JavaScript-Framework wie z.B. Vue.js erstellt wurde. Bitte verzichtet für dieses Deliverable auf Fertiglösungen, welche durch KI-Prompts generiert wurden!\n \
+Als Dozierende des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 1** ein erstes Minimal-Viable-Product bestehend aus zwei Seiten bzw. Ansichten sehen, welches idealerweise bereits in einem JavaScript-Framework wie z.B. Vue.js erstellt wurde. Bitte verzichtet für dieses Deliverable auf Fertiglösungen, welche durch KI-Prompts generiert wurden!\n \
 - [ ] Startseite euer Plattform mit Link oder Aktion innerhalb eines Webbrowsers \n \
 - [ ] Eine zweite Seite bzw. Ansicht eines Formulars, welches später zum Einloggen oder zur Nutzerregistrierung weiterentwickelt werden kann. (Für das Wechseln zwischen Ansichten/Funktionen innerhalb einer Single-Page-Application wird die Verwendung eines Routers, wie z.B. [router.vuejs.org](https://router.vuejs.org/) empfohlen) \n \
 \n \
-Neben dem praktischen Einstieg des Teams ins Projekt soll diese Vorstellung die Gelegenheit geben, um Rückmeldungen des Publikums einzuholen:\n \
+Neben dem praktischen Einstieg des Teams ins Projekt bietet das Wrap-up auch die Gelegenheit, um Rückmeldungen des Publikums einzuholen:\n \
 - [ ] Auswahl an passenden Farben/Farbvarianten/Bildelementen/Logos treffen und Feedback dazu einholen\n \
 - [ ] Falls der Name eures Produkts noch nicht entschieden ist, könntet ihr ebenfalls Varianten vorstellen und dafür ein Stimmungsbild erhalten\n  \
 \n \

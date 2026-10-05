@@ -8,10 +8,8 @@
 
 28. September 2026
 
-- create and show a wiki page for your group
-- (short) [Review](https://scaledagileframework.com/iteration-review/) ~5'
-- Results of [planning](https://scaledagileframework.com/iteration-planning/) the next Iteration ~5'
-- [Retrospective](https://scaledagileframework.com/iteration-retrospective/) Learnings / External Obstacles ~2'
+- create a wiki page for your group using the template
+- present a pitch about your project idea using the wiki page or some presentation slides (Deliverable 0)
   - [group-sandbox - Iteration 0](group-sandbox#iteration-0)
 
 ### ♻️ Iteration 1

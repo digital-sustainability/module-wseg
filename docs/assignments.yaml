@@ -71,14 +71,14 @@
 4:
   title: "Vorbereitungsauftrag zu Termin 4: Softwarearchitektur / Backend"
   text: |
-    Nächste Woche steigen wir in die Themen Softwarearchitektur und Strapi (Jörg) ein.
+    Nächste Woche steigen wir in die Themen Softwarearchitektur und Strapi (Jörg) ein.
 
     Bitte erledigt folgende Vorbereitungsaufgaben bis zum Vorabend unseres nächsten Treffens:
 
     1. Schaut das 5min Erklärvideo zu APIs <https://www.youtube.com/watch?v=ByGJQzlzxQg> (Audiotrack auf Original-Englisch umschaltbar!)
-    2. Lest bitte die Kapitel [4.1 bis 4.4 über Softwarearchitektur](https://moodle.bfh.ch/mod/resource/view.php?id=2823871) im Sommerville
-    3. Stellt eine "gute Frage" pro Gruppe zum Thema Softwarearchitektur oder APIs. Einfach **als Antwort auf diesen Forumsbeitrag**.
-
-    Anleitung: Praxis-Experiment mit strapi oder 
-
-    4. Bekommt ein Gefühl für Vue durch <https://vuejs.org/tutorial/> oder experimentiert mit dem Vue+Vite-Starter (bzw. gewähltem Framework)<br />(ergänzend noch ein 30min-Einstiegsvideo auf deutsch: <https://www.youtube.com/watch?v=wtfjWrB2ldI>)
+    2. Lest bitte die Kapitel [4.1 bis 4.3 über Softwarearchitektur](https://moodle.bfh.ch/mod/resource/view.php?id=2823871) im Sommerville
+    3. Stellt 1-2 "gute Fragen" pro Gruppe zum Thema Softwarearchitektur oder APIs. Einfach **als Antwortkommentar auf dieses Workitem**.
+    4. Kurzanleitung für Praxis-Experiment mit Strapi:
+      - in eurem Ordner "gitlab-bfh" führt ihr folgenden Befehl aus: `npx create-strapi-app@latest my-strapi-backend --no-git-init --non-interactive --skip-cloud`
+      - folgt den Anweisungen zum Starten der Software und registriert als Adminuser z.B. admin@abc.de mit einem einfachen Passwort
+      - Der [Quickstart Guide Part B](https://docs.strapi.io/cms/quick-start#part-b-build-your-content-structure-with-the-content-type-builder) zeigt dir wie du eine Datenstruktur erstellst. Danach ab "Part D, Step 8" wie du manuell Daten hinzufügen kannst.
