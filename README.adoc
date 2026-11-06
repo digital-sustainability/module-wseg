@@ -56,7 +56,7 @@ offen für Studierende anderer Studiengänge oder Incoming-Studierende (mit Inte
 
 | Kurzbeschreibung +
 (öffentlich, für IS-A) 
-| Im Modul "Software Engineering" lernen die Studierenden, wie sie in einer Gruppe agil Software entwickeln. Das Modul beinhaltet theoretische Inhalte, sowie ein semesterbegleitendes Praxisprojekt pro Gruppe, an dem die Studierenden das Gelernte anwenden und selbständig vertiefen. Im Praxisprojekt geht es neben der Programmierung und dem Einsatz von standardisierten Webtechnologien darum, gemeinsam ein wertschöpfendes Produkt (bzw. Minimal Viable Product) zu gestalten und DevOps-Praktiken rund um Gitlab kennenzulernen.
+| Im Modul "Software Engineering" lernen die Studierenden, wie sie in einer Gruppe agil Software entwickeln und Fortschritte sowie Ergebnisse präsentieren. Das Modul beinhaltet theoretische Inhalte, sowie ein semesterbegleitendes Praxisprojekt pro Gruppe, an dem die Studierenden das Gelernte anwenden und selbständig vertiefen. Im Praxisprojekt geht es neben der Programmierung und dem Einsatz von standardisierten Webtechnologien darum, gemeinsam ein wertschöpfendes Produkt (bzw. Minimal Viable Product) zu gestalten und DevOps-Praktiken rund um GitLab kennenzulernen.
 
 | Detaillierte Beschreibung 
 | siehe Modulinhalte und Vermittelte Kompetenzen
@@ -74,6 +74,8 @@ Zentrale Inhalte
 - Agile Softwareentwicklung im Team
 - Grundlagen Objektorientierter Programmierung, Verwendung von REST APIs
 - Kennenlernen und Einsatz von Werkzeugen wie z.B. GitLab zur Quellcodeverwaltung/Dokumentation und IDEs wie VSCodium (Visual Studio Code) im Zusammenspiel mit AI-Coding-Agents wie OpenCode
+- Betrieb eines Backends in einem Linux-Container auf BFH-Infrastruktur, CI/CD-Pipelines in GitLab
+- Präsentationen via BigBlueButton im Webbrowser durchführen
 
 Methoden
 Lesen, Verstehen und Besprechen von Lehrbuchtexten, Fachartikeln und Softwaredokumentationen
@@ -109,7 +111,7 @@ a| +++Fachkompetenzen:+++ Die Studierenden können...
 - Grundbegriffe und Herausforderungen des modernen Software Engineerings im Bereich „Webtechnologien“ erklären und Phasen und Aktivitäten in der Entwicklung von Softwareprodukten beschreiben.
 - auf dem eigenen Arbeitsgerät eine lokale Entwicklungsumgebung einrichten und Werkzeuge zur arbeitsteiligen Entwicklung von Softwareprodukten einsetzen (Quellcodeverwaltung mit Git).
 - die Prinzipien agiler Arbeitsweisen praktisch umsetzen und deren Ergebnisse (Review, Planning, Retrospective) in regelmässigen Kurzpräsentationen demonstrieren. 
-- die Dokumentationen eingesetzter Webtechnologien und -frameworks konsultieren und Probleme per Internetrecherche oder durch Einsatz von Large Language Models lösen.
+- die Dokumentationen eingesetzter Webtechnologien und -frameworks konsultieren und Probleme per Internetrecherche oder durch Einsatz von Large Language Models und Coding-Agents lösen.
 - funktionale und nichtfunktionale Qualitätsmerkmale von Softwareprodukten beschreiben und Techniken zur Komplexitätsreduktion einer Software erklären.
 - Projektdokumentation und -artefakte in einem Git-Repository ablegen und dazu eine Continous-Integration-Automatisierung einrichten welche diese für Aussenstehende sichtbar publiziert.
 
@@ -123,7 +125,7 @@ Kollaboration (verwandt: Sozialkompetenzen): Die Studierenden...
 
 - erleben und reflektieren die Voraussetzungen für eine erfolgreiche, effiziente und effektive Zusammenarbeit.
 - bringen ihre persönlichen Ressourcen in Teams ein.
-- kommunizieren als Team mit Aussenstehenden durch Präsentationen und schriftliche Beiträge
+- kommunizieren als Team mit Aussenstehenden durch Präsentationen (vor Ort oder online) und schriftliche Beiträge
 
 Selbstmanagement (verwandt: Selbstkompetenzen): Die Studierenden...
 
@@ -141,9 +143,10 @@ Umgang mit Komplexität: Die Studierenden...
 (zuführende, parallele, weiterführende)
 a| baut auf folgenden Pflichtmodulen auf
 
-- https://github.com/digital-sustainability/module-wsen[WSEN] Softwareentwicklung, Grundlagen Programmieren
-- WDDA Data Management & Data Analysis, Datenmodelle
+- https://github.com/digital-sustainability/module-wsen[WSDV] Software Development, Grundlagen Programmieren
+- WDTD From Data to Decision, Datenmodelle
 - WREQ Requirements Engineering, RE & UML
+- WBAI Basics of Artificial Intelligence
 
 Wahlpflichtmodule mit Beispiel
 
@@ -153,10 +156,14 @@ Wahlpflichtmodule mit Beispiel
 Management, Softwarelizenzen/Git
 - EUID Hands-on UI Design, UX/UI Design
 - ECYS Cybersecurity, Authentifikation
+- EAAI Applied Artificial Intelligence, Machine Learning
 
 Vertiefung
 
 - SDA1,2,3,4 Software Design & Architecture
+- SPM1,2,3 Project Management & Agility
+- SBD1,2,3 Business Data Analytics
+- SAI1,2,3 Applied Artificial Intelligence
 
 | Präsenzpflicht
 | keine Präsenzpflicht
@@ -180,7 +187,7 @@ Die Teilkompetenznachweise werden auf halbe Noten gerundet.
 
 Hilfsmittel bei schriftlicher Prüfung
 
-- Open Book, erweitert durch digitale Dokumente hochgeladen auf CAMPLA
+- Open Book, erweitert durch digitale Dokumente hochgeladen auf CAMPLA bzw. Moodle
 - Wörterbuch Muttersprache - Sprache Kompetenznachweis
 - BFH-Taschenrechner
 
