@@ -1,4 +1,4 @@
-link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/2/25/Berner_Fachhochschule_Logo_small.svg[Logo BFH - Bern University of Applied Sciences]]
+link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.svg[image:https://upload.wikimedia.org/wikipedia/commons/2/25/Berner_Fachhochschule_Logo_small.svg[Logo BFH - Bern University of Applied Sciences,125,80]]
 
 = Modulkonzept
 
@@ -6,9 +6,9 @@ link:https://commons.wikimedia.org/wiki/File:Berner_Fachhochschule_Logo_small.sv
 
 === Autor: Jörg Berkel
 
-=== link:https://semver.org[Version]: 1.0.6
+=== link:https://semver.org[Version]: 1.0.7
 
-=== Gültig ab: HS 2026 (1.8.2026)
+=== Gültig ab: FS 2027 (1.2.2027)
 
 == Formale Beschreibung
 
