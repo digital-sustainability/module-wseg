@@ -94,7 +94,7 @@
 - praktisch das Format Markdown als Auszeichnungssprache für Dokumentationen in Gitlab verwenden
 - praktisch in Git einen Branch für einen Merge-Request eröffnen und diesen nach dem _Code Review_ durch die Dozierenden selbständig zusammenführen
 
-## Termin 6 [Strapi + Vue 🛠️ / TypeScript, OOP ⌨](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/06-api-ts/01.md) (JB)
+## Termin 6 [Strapi + Vue 🛠️ / Agentic AI 🤖](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/06-api-agents/01.md) (JB)
 
 - Anbindung Vue an Strapi
 - Node.js Erläuterung
@@ -106,9 +106,12 @@
 
 ### Lernziele
 
-- grundlegende Eigenschaften der Objektorientierten Programmierung (Begriffe Objekt, Instanz, Klasse, Attribut) und OOP-Konzepte (Abstraktion, Enkapsulation, Vererbung) erklären
-- die Unterschiede zwischen TypeScript und JavaScript erläutern
-- die Bedeutung von Node.js für den Einsatz in Web-Applikationen erläutern
+- nutzen zur Problemlösung verschiedene Inferenz-Dienste
+- verstehen aus Anwendersicht die Softwarearchitektur rund um "generative KI"-Services
+- richten praktisch einen Coding Agenten ein
+- können erläutern wozu RAG und MCP dienen
+- setzen sich mit ethischen Fragestellungen auseinander
+
 - praktisch einen Testdatensatz für ihr Projekt selbst herstellen und statisch im Programmcode verwenden
 - praktisch per JavaScript eine _Public API_ des Backends aufrufen und die Rückantwort auf der Entwicklerkonsole ausgeben
 
@@ -119,15 +122,15 @@
 - praktisch mit Strapi-Relationen experimentieren und Abfragen durch Parameter wie `populate` erweitern
 - praktisch Datenmodell im Frontend an das Datenmodell der Strapi-Antwort anpassen
 
-## Termin 7 [(Lokale) LLMs & Agentic AI 🤖](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/07-llm-agents/01.md) (JB)
+## Termin 7 [strapi container-hosting / TypeScript, OOP ⌨](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/07-hosting-ts/01.md) (JB)
 
 ### Lernziele
 
-- nutzen zur Problemlösung verschiedene Inferenz-Dienste
-- verstehen aus Anwendersicht die Softwarearchitektur rund um "generative KI"-Services
-- richten praktisch einen Coding Agenten ein
-- können erläutern wozu RAG und MCP dienen
-- setzen sich mit ethischen Fragestellungen auseinander
+- per SSH in einen Linux Container eingloggen
+- im Container strapi mit node.js betreiben
+- grundlegende Eigenschaften der Objektorientierten Programmierung (Begriffe Objekt, Instanz, Klasse, Attribut) und OOP-Konzepte (Abstraktion, Enkapsulation, Vererbung) erklären
+- die Unterschiede zwischen TypeScript und JavaScript erläutern
+- die Bedeutung von Node.js für den Einsatz in Web-Applikationen erläutern
 
 ## Termin 8 [Software Testing ✅](https://github.com/digital-sustainability/module-wseg/blob/26/hs/docs/slides/content/08-testing/) (MT)
 
