@@ -82,3 +82,69 @@
       - in eurem Ordner "gitlab-bfh" führt ihr folgenden Befehl aus: `npx create-strapi-app@latest my-strapi-backend --no-git-init --non-interactive --skip-cloud`
       - folgt den Anweisungen zum Starten der Software und registriert als Adminuser z.B. admin@abc.de mit einem einfachen Passwort
       - Der [Quickstart Guide Part B](https://docs.strapi.io/cms/quick-start#part-b-build-your-content-structure-with-the-content-type-builder) zeigt dir wie du eine Datenstruktur erstellst. Danach ab "Part D, Step 8" wie du manuell Daten hinzufügen kannst.
+5:
+  title: "Vorbereitungsauftrag zu Termin 5: Agiles Arbeiten"
+  text: |
+    Liebe Studierende,
+
+    Montag steigen wir in das Thema "Agiles Arbeiten" ein. Bitte erledigt folgende Vorbereitungsaufgaben bis zum Ende des Vortages unseres nächsten Treffens:
+
+    1. Lest bitte den Vorbereitungsauftrag ["Sommerville: Agiles Software-Engineering 2.3 bis 2.3.1"](https://moodle.bfh.ch/mod/resource/view.php?id=2823872). 
+    2. Stellt bitte sicher, dass ihr das Strapi-Backend lokal starten könnt und installiert euch das Tool [Bruno](https://www.usebruno.com/) lokal auf eurem Rechner.
+
+    Wir starten wie immer pünktlich in den gemeinsamen Nachmittag.
+
+    Merci und bis bald,
+    Markus & Jörg
+6:
+  title: "Vorbereitungsauftrag zu Termin 6: Objektorientierte Programmierung / Coding-Agents"
+  text: |
+    Liebe Studierende,
+
+    informiert euch bitte als Vorbereitung zur folgenden Veranstaltung durch folgende kurze Videos:
+
+    * 4 pillars of OOP (engl. 7min): <https://www.youtube.com/watch?v=pTB0EiLXUC8>
+    * Typescript in 4 Minuten: <https://www.youtube.com/watch?v=ouzj1nHx2pg>
+    * Bitte installiert OpenCode (<https://github.com/anomalyco/opencode/>) als Coding-Agenten (oder bleibt bei einem ggf. vorhandenem):
+      * Windows: `npm i -g @opencode/cli@latest`
+      * Mac: `brew install anomalyco/tap/opencode`
+
+    Fragen zur Thematik _dürft_ ihr hier gerne als Antwort schreiben.
+
+    Gruss,
+
+    Jörg
+8:
+  title: "Vorbereitungsauftrag zu Termin 8: Software Verifikation und Validierung"
+  text: |
+    Liebe Studierende
+
+    Informiert euch bitte selbständig zum Thema "Software Verifikation und Validierung".
+    Lest dazu die Kapitel:
+    * 9.1 “Functional Testing“, 
+    * 9.2 “Test Automation”, 
+    * 9.3 “Test-driven Development” und 
+    * 9.5 "Code Review"
+    im Buch „Modernes Software-Engineering“ (PDF) von Ian Sommerville. Den Code in den Kapiteln müsst ihr nicht im Detail anschauen / verstehen. 
+
+    Stellt im Anschluss pro Gruppe "eine gute Frage" (dürfen auch zwei sein) als Kommentar auf diesem Issue.
+
+    Liebe Grüsse,
+
+    Markus
+9:
+  title: "Vorbereitungsauftrag zu Termin 9: DevOps kennenlernen"
+  text: |
+    Liebe Studierende,
+
+    Bitte bereitet für die nächste Veranstaltung "DevOps kennenlernen" folgendes vor:
+
+    1. Schaut das [Einführungsvideo über Continous Integration in Gitlab](https://www.youtube.com/watch?v=AudhxsIb7hI) (5min, englisch mit Akzent)
+    1. Schaut [Getting started with Gitlab CI/CD](https://mediaspace.bfh.ch/media/Getting+started+with+GitLab+CI%E2%A7%B8CD+%28edited%29/0_bvuef284) (auf 6min gekürzt mit Beispiel)
+    1. Lektüre: Lest das kurze erläuternde Kapitel [10.2 "DevOps-Automatisierung"](https://moodle.bfh.ch/mod/resource/view.php?id=2823874) (Anmerkung: die "Problemverfolgung" ist in GitLab schon durch Issues/Workitems integriert)
+
+    Stellt im Anschluss pro Gruppe "eine gute Frage" (dürfen auch zwei sein) als Kommentar auf diesem Issue.
+
+    Merci und Gruss,
+
+    Jörg

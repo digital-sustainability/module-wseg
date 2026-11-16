@@ -128,7 +128,7 @@ glab issue create \
  --title "Deliverable 2: Blogbeitrag und Datenmodell mit Merge-Request" \
  --description " \
  `echo "\
-Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-Up 2** einen kurzen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. (_Stand MVP_: Wahrscheinlich habt ihr zu diesem Zeitpunkt eine erste Anbindung des Frontends ans Backend durch Nutzerregistrierung und/oder Loginfunktionalität geschafft) \n \
+Als Dozierende des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-Up 2** einen kurzen Blogbeitrag im Repository vorfinden. Dieser sollte einen Rückblick über den aktuellen Stand und die Herausforderungen geben. (_Stand MVP_: Wahrscheinlich habt ihr zu diesem Zeitpunkt eine erste Anbindung des Frontends ans Backend durch Nutzerregistrierung und/oder Loginfunktionalität geschafft) \n \
 - [ ] Blogbeitrag im Markdown-Format, idealerweise im docs-Ordner, \n \
   - [ ] mindestens eine Bilddatei (z.B. Logo, Screenshot o.ä.) aus Repository eingebettet \n \
   - [ ] Link zu einer [Bruno-Collection](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/-/tree/main/backend/bruno?ref_type=heads), die aufzeigt wie euer erstes, grundlegendes Datenmodell über die API abgefragt werden kann und wie Einträge per POST erstellt werden können
@@ -148,7 +148,7 @@ Inhalt: Folgende Fragen sollte der Blogbeitrag beantworten:\n \
 \n \
 **Due date:** Der Blog-Beitrag und die Bruno-Collection sollen im Merge-Request bis spätestens zum oben angegebenen Wrap-Up bis 23:59 Uhr im Repository ersichtlich sein.\n \
 \n \
-**Git-Aufgabe Merge-Request**: Aus dieser vorbereiteten Issue &quot;Deliverable 2&quot; eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git einen **Branch &quot;123-deliverable-2...&quot;** eures Repositories, welcher zum Hinzufügen aller benötigten Dateien verwendet werden soll. Sobald vollständig gebt ihr **@tem1 und @bkj1 als Reviewer** für den MR an. (… Nach Ablauf der Frist geben die Reviewer ihr &quot;Approval&quot; und danach führt ihr selbständig den MR mit dem Branch &quot;main&quot; zusammen.\n \
+**Git-Aufgabe Merge-Request**: Aus dieser vorbereiteten Issue &quot;Deliverable 2&quot; eröffnet ihr einen **Merge-Request**. Dieser erstellt in Git einen **Branch &quot;123-deliverable-2...&quot;** eures Repositories, welcher zum Hinzufügen aller benötigten Dateien verwendet werden soll. Sobald vollständig gebt ihr **&commat;tem1 und &commat;bkj1 als Reviewer** für den MR an. (… Nach Ablauf der Frist geben die Reviewer ihr &quot;Approval&quot; und danach führt ihr selbständig den MR mit dem Branch &quot;main&quot; zusammen.\n \
 Als Referenz dient: https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/?tab=Merge+request+and+branch#from-an-issue )\
 "`"  --label important --no-editor -R https://gitlab.ti.bfh.ch/w-wseg/26-hs/$group \
 ; done
@@ -162,8 +162,8 @@ glab issue create \
  --title "Deliverable 3: Gitlab Page per CI Pipeline" \
  --description " \
  `echo "\
- Als Dozenten (@bkj1, @tem1) des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/) für euer Gruppenrepository. \n \
-- [ ] Deaktiviert die Funktion &apos;Use unique domain&apos;, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-fs/repository-name/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite \n \
+ Als Dozierende des Kurses WSEG möchten wir im Rahmen des **Iteration Wrap-up 3** euren vorherigen Blogbeitrag als Gitlab-Page vorfinden. Dazu verwendet ihr das CI-Beispiel aus der [Sandbox](https://gitlab.ti.bfh.ch/w-wseg/26-hs/sandbox/) für euer Gruppenrepository. \n \
+- [ ] Deaktiviert die Funktion &apos;Use unique domain&apos;, damit das Ergebnis unter https://w-wseg.pages.ti.bfh.ch/26-hs/repository-slug/ (für authentifizierte User) sichtbar ist und platziert die URL für das Wrap-up auf euer Wikiseite \n \
   - [ ] Eure README.md sollte wie im Beispiel selbst als _index.html_ fungieren und ebenfalls einen funktionierenden, relativen Link zum Blogpost enthalten \n \
   - [ ] Bilder, welche im Markdown-Blogbeitrag verlinkt wurden, müssen im Build-Job z.B. nach public/docs kopiert werden \n \
 - [ ] Richtet in der Pipeline eine weitere Stage vor der Textkonvertierung ein, in der zuerst eure [Markdown-Dateien gelintet](https://gitlab.ti.bfh.ch/w-wseg/module/-/blob/26/hs/docs/slides/content/09-devops-ci/01.md?ref_type=heads&plain=1#L317) werden. Dieser Job darf fehlschlagen und dient nur zur Information.
